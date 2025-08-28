@@ -9,35 +9,21 @@ public class TestdataProvider {
                 {"Time Complexity"}
         };
     }
-    @DataProvider(name = "inputCodeForTopicsInDS")
-    public Object[][] inputCodeForDSTopics()
+    
+    @DataProvider(name ="Queuetopics")
+    public Object[][] queuetopics()
     {
-        return new Object[][] {
-                {"Time Complexity","ValidCode"},
-                {"Time Complexity","InvalidCode"}
-        };
-
+    	return new Object[][]
+    			{
+    		{"Implementation of Queue in python"},
+    		{"Implementation using collections deque"},
+    		{"Implementation using Array"},
+    		{"Queue operations"}
+    			};
     }
-    @DataProvider(name = "inputCodeForTopicsInTree")
-    public Object[][] inputCodeForTreeTopics()
-    {
-        return new Object[][] {
-                {"Overview of Trees"              ,   "ValidCode"  },
-                {"Terminologies"                  ,   "InvalidCode"},
-                {"Types of Trees"                 ,   "AlphaNumeric"},
-                {"Tree Traversals"                ,   "Numeric"     },
-                {"Traversals-Illustration"        ,   "ValidCode"   },
-                {"Binary Trees"                   ,   "InvalidCode" },
-                {"Types of Binary Trees"          ,   "AlphaNumeric"},
-                {"Implementation in Python"       ,   "Numeric"     },
-                {"Binary Tree Traversals"         ,   "ValidCode"   },
-                {"Implementation of Binary Trees" ,   "InvalidCode" },
-                {"Applications of Binary trees"   ,   "AlphaNumeric"},
-                {"Binary Search Trees"            ,   "Numeric"     },
-                {"Implementation Of BST"          ,   "ValidCode"   }
-        };
-
-    }
-
-
+    
+    
+    
 }
+
+
