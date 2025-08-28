@@ -1,8 +1,5 @@
 package nn.dsalgo.pages;
-
-
 import nn.dsalgo.utilities.BaseLogger;
-import nn.dsalgo.utilities.ConfigReader;
 import nn.dsalgo.utilities.ElementsUtil;
 import nn.dsalgo.utilities.ExcelReader;
 import org.openqa.selenium.*;
@@ -44,7 +41,6 @@ public class Stackpage extends BaseLogger {
         this.elementsUtil = new ElementsUtil(driver);
     } 
     
-
     public String getStackpagetitle()
     {
        return driver.findElement(stackpagetitle).getText();
@@ -72,8 +68,7 @@ public class Stackpage extends BaseLogger {
     {
         throw new IllegalArgumentException("Unknown option: " + title);
     }
-
-}
+  }
     public void clickTryHereBtn() {
         log.info("Clicking on the Try Here Button");
         driver.findElement(tryherebtn).click();
