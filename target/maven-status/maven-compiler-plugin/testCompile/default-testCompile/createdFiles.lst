@@ -9,6 +9,7 @@ nn\dsalgo\pages\ArrayPage.class
 nn\dsalgo\utilities\BaseLogger.class
 nn\dsalgo\utilities\ElementsUtil.class
 nn\dsalgo\pages\LoginPage.class
+nn\dsalgo\tests\TreeTest.class
 nn\dsalgo\pages\LandingPage.class
 nn\dsalgo\pagemanager\PageManager.class
 nn\dsalgo\hooks\TestNGHooks.class
