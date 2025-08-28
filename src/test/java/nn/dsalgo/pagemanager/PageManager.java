@@ -29,6 +29,13 @@ public class PageManager extends BaseLogger {
         homePage.clickGetStartedForDS();
         log.info("Landed in Data structures page");
     }
+    
+    public void QueuepageLanding()
+    {
+    	SuccessfulLogin();
+    	homePage.clickGetStartedForQueue();
+    	log.info("Queue page Loaded");
+    }
 
     public String getPythonCodeDataDriven(String sheetName, String inputID)
     {

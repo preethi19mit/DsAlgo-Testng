@@ -9,4 +9,21 @@ public class TestdataProvider {
                 {"Time Complexity"}
         };
     }
+    
+    @DataProvider(name ="Queuetopics")
+    public Object[][] queuetopics()
+    {
+    	return new Object[][]
+    			{
+    		{"Implementation of Queue in python"},
+    		{"Implementation using collections deque"},
+    		{"Implementation using Array"},
+    		{"Queue operations"}
+    			};
+    }
+    
+    
+    
 }
+
+

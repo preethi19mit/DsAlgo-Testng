@@ -11,6 +11,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 import java.util.Map;
+import java.util.NoSuchElementException;
 
 public class Queue extends BaseLogger {
 	
@@ -19,7 +20,7 @@ public class Queue extends BaseLogger {
     private ElementsUtil elementsutil;
     
     private By getTitle_Queue = By.xpath("//div/h4[text()='Queue']");
-    private By Tryhere = By.xpath("//a[text()='Try here>>>']");
+    private By Tryhere = By.cssSelector("a[href='/tryEditor']");
     private By Run = By.xpath("//button[@type='button']");
     private By output = By.xpath("//pre[@id='output']");
     private By ImplementofQueue = By.cssSelector("a[href='implementation-lists']");
@@ -28,6 +29,8 @@ public class Queue extends BaseLogger {
     private By QueueOp = By.cssSelector("a[href='QueueOp']");
     private By tryEditor_text = By.cssSelector(".CodeMirror div.CodeMirror-code");
     private By pq_brokenLink = By.cssSelector(".list-group-item.list-group-item-light.text-info");
+    private By tryEditor = By.xpath("//div[@class='input']");
+    private By outputConsole = By.xpath("//*[@id='output']");
     
     public Queue (WebDriver driver) 
     {
@@ -68,8 +71,40 @@ public class Queue extends BaseLogger {
     
     public void Tryhere()
     {
+    	elementsutil.doClick(Tryhere);
+    	//driver.findElement(Tryhere).click();
     	
-    	driver.findElement(Tryhere).click();
+    }
+    public boolean tryEditorVisible() {
+        try {
+            return elementsutil.isElementDisplayed(tryEditor);
+        } catch (NoSuchElementException e) {
+            return false; // Element(s) not found
+        }
+    }
+    public String getOutputFromConsole()
+    {
+       return elementsutil.doGetText(outputConsole);
+     //   return driver.findElement(outputConsole).getText();
+    }
+    
+    public String processInputAndReturnStatus() {
+		/*
+		 * String alertMessage = elementsutil.getAlertTextSafe(); if (alertMessage !=
+		 * null) { elementsutil.acceptAlertSafe(); log.error("Alert output: " +
+		 * alertMessage); return alertMessage; }
+		 */
+    	
+    	Handlealert();
+        // Otherwise get console output
+        try {
+            String output = getOutputFromConsole();
+            log.info("Console output: " + output);
+            return output;
+        } catch (TimeoutException e) {
+            log.error("Console output not found within timeout.");
+            return null;
+        }
     }
       
     public void enterPythonCode(String input)
