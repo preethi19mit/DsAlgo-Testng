@@ -30,6 +30,12 @@ public class PageManager extends BaseLogger {
         log.info("Landed in Data structures page");
     }
 
+    public void treePageLanding()
+    {
+        SuccessfulLogin();
+        homePage.clickGetStartedForTree();
+        log.info("Landed in Tree page");
+    }
     public String getPythonCodeDataDriven(String sheetName, String inputID)
     {
         Map<String, String> getCode = ExcelReader.getRowByTestCaseId(sheetName,inputID);

@@ -1,7 +1,6 @@
 package nn.dsalgo.pages;
 
 import nn.dsalgo.utilities.BaseLogger;
-import nn.dsalgo.utilities.ConfigReader;
 import nn.dsalgo.utilities.ElementsUtil;
 import nn.dsalgo.utilities.ExcelReader;
 import org.openqa.selenium.By;
@@ -186,13 +185,15 @@ public class DataStructurePage extends BaseLogger {
             log.info("✅ Practice Questions Link Working Fine");
         }
     }
-    public void emptyPage()
+    public boolean emptyPage()
     {
         WebElement container = driver.findElement(By.cssSelector("div.container"));
         if (container.getText().trim().isEmpty()) {
             log.warn("⚠️ The container is empty → no practice content found");
+            return true;
         } else {
             log.info("✅ Container has content: " + container.getText());
+            return false;
         }
 
     }
