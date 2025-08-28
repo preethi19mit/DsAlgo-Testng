@@ -1,0 +1,11 @@
+<suite name="DSAlgoSuite" >
+    <listeners>
+        <listener class-name="nn.dsalgo.listeners.TestListeners"/>
+    </listeners>
+    <test name="DsAlgoTest">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name = "nn.dsalgo.tests.DatastructureTest"/>
+        </classes>
+    </test>
+</suite>

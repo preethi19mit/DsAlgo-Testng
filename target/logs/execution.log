@@ -1,0 +1,47 @@
+2025-08-27 18:38:51 INFO  DatastructureTest:31 - Running tests on: chrome | Thread ID: 1
+2025-08-27 18:38:52 INFO  DatastructureTest:42 - Browser launched: chrome | Thread: 1
+2025-08-27 18:38:52 INFO  DatastructureTest:47 - Starting test: dsPageLanding
+2025-08-27 18:38:52 INFO  DatastructureTest:23 - Entered the testcase
+2025-08-27 18:38:52 INFO  LandingPage:34 - Getting the URL of DSALGO
+2025-08-27 18:38:55 INFO  LandingPage:23 - Clicking the Get Started Button of Landing page
+2025-08-27 18:38:55 INFO  HomePage:227 - Clicking Sign In button from Home Page
+2025-08-27 18:38:55 INFO  LoginPage:55 - Performing Login with TestData from Excel
+2025-08-27 18:38:56 INFO  LoginPage:59 - Entering the Username : Prasanna
+2025-08-27 18:38:56 INFO  LoginPage:61 - Entering the Password : Welcome@01
+2025-08-27 18:38:56 INFO  LoginPage:64 - Clicked Login button
+2025-08-27 18:38:56 INFO  HomePage:66 - successful login
+2025-08-27 18:38:56 INFO  HomePage:78 - Clicking on the Get Started Button of DataStructure from HomePage
+2025-08-27 18:38:57 INFO  PageManager:30 - Landed in Data structures page
+2025-08-27 18:38:57 INFO  DataStructurePage:49 - Getting the title of DataStructure Page
+2025-08-27 18:38:57 INFO  DatastructureTest:42 - Browser launched: chrome | Thread: 1
+2025-08-27 18:38:57 INFO  DatastructureTest:47 - Starting test: navigateToTopicsInDS
+2025-08-27 18:38:57 INFO  DatastructureTest:23 - Entered the testcase
+2025-08-27 18:38:57 INFO  LandingPage:34 - Getting the URL of DSALGO
+2025-08-27 18:39:00 INFO  LandingPage:23 - Clicking the Get Started Button of Landing page
+2025-08-27 18:39:00 INFO  HomePage:227 - Clicking Sign In button from Home Page
+2025-08-27 18:39:00 INFO  LoginPage:55 - Performing Login with TestData from Excel
+2025-08-27 18:39:00 INFO  LoginPage:59 - Entering the Username : Prasanna
+2025-08-27 18:39:01 INFO  LoginPage:61 - Entering the Password : Welcome@01
+2025-08-27 18:39:01 INFO  LoginPage:64 - Clicked Login button
+2025-08-27 18:39:01 INFO  HomePage:66 - successful login
+2025-08-27 18:39:01 INFO  HomePage:78 - Clicking on the Get Started Button of DataStructure from HomePage
+2025-08-27 18:39:01 INFO  PageManager:30 - Landed in Data structures page
+2025-08-27 18:39:01 INFO  DataStructurePage:54 - Clicking on the topic link : Time Complexity
+2025-08-27 18:39:01 INFO  DataStructurePage:75 - Title of the topic page in DSpage is Time Complexity
+2025-08-27 18:39:02 INFO  DatastructureTest:42 - Browser launched: chrome | Thread: 1
+2025-08-27 18:39:02 INFO  DatastructureTest:47 - Starting test: navigateToTryEditorInDS
+2025-08-27 18:39:02 INFO  DatastructureTest:23 - Entered the testcase
+2025-08-27 18:39:02 INFO  LandingPage:34 - Getting the URL of DSALGO
+2025-08-27 18:39:05 INFO  LandingPage:23 - Clicking the Get Started Button of Landing page
+2025-08-27 18:39:06 INFO  HomePage:227 - Clicking Sign In button from Home Page
+2025-08-27 18:39:06 INFO  LoginPage:55 - Performing Login with TestData from Excel
+2025-08-27 18:39:06 INFO  LoginPage:59 - Entering the Username : Prasanna
+2025-08-27 18:39:06 INFO  LoginPage:61 - Entering the Password : Welcome@01
+2025-08-27 18:39:07 INFO  LoginPage:64 - Clicked Login button
+2025-08-27 18:39:07 INFO  HomePage:66 - successful login
+2025-08-27 18:39:07 INFO  HomePage:78 - Clicking on the Get Started Button of DataStructure from HomePage
+2025-08-27 18:39:07 INFO  PageManager:30 - Landed in Data structures page
+2025-08-27 18:39:07 INFO  DataStructurePage:54 - Clicking on the topic link : Time Complexity
+2025-08-27 18:39:07 INFO  DataStructurePage:75 - Title of the topic page in DSpage is Time Complexity
+2025-08-27 18:39:07 INFO  DataStructurePage:80 - Clicking on the Try Here Button
+2025-08-27 18:39:08 INFO  DatastructureTest:52 - >>> After all tests - quitting driver

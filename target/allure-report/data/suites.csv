@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Aug 27 18:39:02 EDT 2025","Wed Aug 27 18:39:08 EDT 2025","5491","Surefire suite","Surefire test","nn.dsalgo.tests.DatastructureTest","nn.dsalgo.tests.DatastructureTest","navigateToTryEditorInDS","navigateToTryEditorInDS",""
+"passed","Wed Aug 27 18:38:52 EDT 2025","Wed Aug 27 18:38:57 EDT 2025","5055","Surefire suite","Surefire test","nn.dsalgo.tests.DatastructureTest","nn.dsalgo.tests.DatastructureTest","dsPageLanding","dsPageLanding",""
+"passed","Wed Aug 27 18:38:57 EDT 2025","Wed Aug 27 18:39:01 EDT 2025","4089","Surefire suite","Surefire test","nn.dsalgo.tests.DatastructureTest","nn.dsalgo.tests.DatastructureTest","navigateToTopicsInDS","navigateToTopicsInDS",""
