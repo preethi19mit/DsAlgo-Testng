@@ -29,6 +29,12 @@ public class PageManager extends BaseLogger {
         homePage.clickGetStartedForDS();
         log.info("Landed in Data structures page");
     }
+    
+    public void StackpageLanding()
+    {
+    	SuccessfulLogin();
+    	homePage.clickGetStartedForStack(); 	
+    }
 
     public String getPythonCodeDataDriven(String sheetName, String inputID)
     {

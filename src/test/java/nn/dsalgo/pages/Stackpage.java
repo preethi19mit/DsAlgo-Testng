@@ -50,35 +50,30 @@ public class Stackpage extends BaseLogger {
        return driver.findElement(stackpagetitle).getText();
     }
     
-    public void getOperationsinstack()
+  public String getStackpageTopicstitle(String title) {
+	
+	if (title.equalsIgnoreCase("Operations in Stack")) {
+         elementsUtil.doClick(OperationLink);    
+	     log.info("The User is on : " + title);
+	     return driver.findElement(Operationspage_title).getText(); 
+	}
+	     else if (title.equalsIgnoreCase("Implementation")) {
+         elementsUtil.doClick(ImplementationLink);    
+         log.info("The User is on : " + title);
+         return driver.findElement(Implementationpage_title).getText();    
+      }  
+	
+    else if (title.equalsIgnoreCase("Applications")) {
+    	 elementsUtil.doClick(ApplicationsLink);  
+    	 log.info("The User is on : " + title);
+         return driver.findElement(Applicationspage_title).getText();
+    } 
+    else 
     {
-    	driver.findElement(OperationLink).click();
-    	
+        throw new IllegalArgumentException("Unknown option: " + title);
     }
-    
-    public String getOperationspagetitle()
-    {
-    	log.info("Getting the title of Operations in Stack");
-    	return driver.findElement(Operationspage_title).getText();
-    }
-    
-    public String StackTopics(String option) {
-        if (option.equalsIgnoreCase("Implementation")) {
-        
-       elementsUtil.doClick(ImplementationLink);    
-       log.info("The User is on : " + option);
-        return driver.findElement(Implementationpage_title).getText();    
-        }     
-        else if (option.equalsIgnoreCase("Applications")) {
-        	elementsUtil.doClick(ApplicationsLink);  
-        	log.info("The User is on : " + option);
-            return driver.findElement(Applicationspage_title).getText();
-        } 
-        else {
-            throw new IllegalArgumentException("Unknown option: " + option);
-        }
-    }
-    
+
+}
     public void clickTryHereBtn() {
         log.info("Clicking on the Try Here Button");
         driver.findElement(tryherebtn).click();
@@ -90,7 +85,7 @@ public class Stackpage extends BaseLogger {
 
     }
        
-    public void Alertmessage()
+    public boolean Alertmessage()
     {
     	try {
     	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
@@ -103,6 +98,8 @@ public class Stackpage extends BaseLogger {
     	} catch (TimeoutException e) {
     	    System.out.println("No alert appeared.");
     	}
+		return true;
+	    	
     } 
    
     public void clickTopicLink(String text) {
@@ -117,6 +114,8 @@ public class Stackpage extends BaseLogger {
         Map<String, By> titleToXPath = new HashMap<>();
         titleToXPath.put("Stack", stackpagetitle);
         titleToXPath.put("Operations in Stack", Operationspage_title);
+        titleToXPath.put("Implementation", Implementationpage_title);
+        titleToXPath.put("Applications", Applicationspage_title);
 
 
         if (!titleToXPath.containsKey(pageTitle)) {
@@ -125,13 +124,13 @@ public class Stackpage extends BaseLogger {
 
         return titleToXPath.get(pageTitle);
     }
-
+    
     public String validateTitle(String title) {
         log.info("Title of the page : " + title);
         By xpath = getTitleXPath(title);
         return driver.findElement(xpath).getText();
     }
-
+    
     public boolean tryEditorVisible() {
         try {
             return elementsUtil.isElementDisplayed(tryEditor_text);
@@ -169,13 +168,6 @@ public class Stackpage extends BaseLogger {
         Map<String, String> getOutput = ExcelReader.getRowByTestCaseId("Stack","ValidCode");
         String output = getOutput.get("Expected Output");
         return output;
-    }
-
-    public String getInvalidCodeDataDriven()
-    {
-        Map<String, String> getCode = ExcelReader.getRowByTestCaseId("Stack","InvalidCode");
-        String codeToInput = getCode.get("Python Code");
-        return codeToInput;
     }
     
     public void ClickPracticeQuestionsLink()
