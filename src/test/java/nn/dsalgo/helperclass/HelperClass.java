@@ -30,18 +30,16 @@ public class HelperClass {
         log.info("Landed in Data structures page");
     }
     
-<<<<<<< HEAD
-    public void StackpageLanding()
-    {
-    	SuccessfulLogin();
-    	homePage.clickGetStartedForStack(); 	
-=======
+    public void StackpageLanding() {
+        SuccessfulLogin();
+        homePage.clickGetStartedForStack();
+    }
+
     public void QueuepageLanding()
     {
     	SuccessfulLogin();
     	homePage.clickGetStartedForQueue();
     	log.info("Queue page Loaded");
->>>>>>> eb6895ccf752b390805167c5b5c5a54313e92eda
     }
 
     public void treePageLanding()
