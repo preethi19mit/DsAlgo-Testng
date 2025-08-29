@@ -9,6 +9,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 
 import java.util.Map;
 
@@ -18,36 +19,65 @@ public class LoginPage extends BaseLogger {
     private ElementsUtil elementsUtil;
 
     //1. By Locators :
-    private By SignInLink = By.xpath("//a[text()='Sign in']");
+    private By SignInLink = By.cssSelector("a[href='/login']");
     private By Username = By.xpath("//input[@name='username']");
     private By Password = By.xpath("//input[@name='password']");
     private By LoginBtn = By.cssSelector("input[value='Login']");
     private By UsrAlert = By.id("id_username");
     private By PwdAlert = By.id("id_password");
-    private By InvalidAlertmsg = By.xpath("//div[@role='alert']");
+    private By Alertmsg = By.xpath("//div[@role='alert']");
+    private By GetStartedBtn = By.cssSelector(".btn");
+    
 
+    String url = ConfigReader.getProperty("baseurl");
+    
     //2. Constructor of the page class :
     public LoginPage(WebDriver driver)
     {
         this.driver=driver;
         this.elementsUtil = new ElementsUtil(driver);
     }
+    public void Loginurl()
+    {
+    	driver.get(url);
+    }
     
     //3. page actions
-    public void enterUserName(String un)
+    
+       
+    public String Loginvalidatetitle()
     {
-        driver.findElement(Username).sendKeys(un);
+    	
+    	elementsUtil.doClick(SignInLink);
+    	String titlelogin = driver.getTitle();
+    	return titlelogin;
+    	
+    }
+    public void navigatetologin()
+    {
+    	driver.get(url);
+    	driver.findElement(GetStartedBtn).click();
+    	elementsUtil.doClick(SignInLink);
     }
 
-    public void enterPassword(String pwd)
+    public void Login()
     {
-        driver.findElement(Password).sendKeys(pwd);
+    	driver.get(url);
+    	driver.findElement(GetStartedBtn).click();
+    	elementsUtil.doClick(SignInLink);
+    	performLoginDataDriven();
     }
-
-    public void clickSignInLink()
+    
+    public String getErrorMessage()
     {
-                
-        elementsUtil.doClick(SignInLink);
+    	String errormsg = driver.findElement(Alertmsg).getText();
+    	return errormsg;
+    }
+    
+    public boolean Loggedinvalidate()
+    {
+    	driver.findElement(Alertmsg).getText();
+    	return true;
     }
 
     public void performLoginDataDriven()
@@ -80,9 +110,8 @@ public class LoginPage extends BaseLogger {
     	driver.findElement(LoginBtn).click();
     	
    }
-    
-  
-    public void Usernamealert()
+      
+    public String Usernamealert()
     {
 		
 		  WebElement Usrfield = driver.findElement(UsrAlert);  
@@ -94,7 +123,7 @@ public class LoginPage extends BaseLogger {
 		   .executeScript("return arguments[0].validationMessage;", Usrfield);
 		   
 		   System.out.println("Username valid? " + Uservalid + " | Message: " + validationMessage);
-		   
+		   return validationMessage;
     	
     }
     
@@ -116,7 +145,7 @@ public class LoginPage extends BaseLogger {
     }
     
     
-    public void Passwordalert()
+    public String Passwordalert()
     {
     	WebElement Pwdfield = driver.findElement(PwdAlert);
     	Boolean Passvalid = (Boolean) ((JavascriptExecutor) driver)
@@ -125,7 +154,7 @@ public class LoginPage extends BaseLogger {
 		String validationMessage1 = (String)((JavascriptExecutor) driver)
 				   .executeScript("return arguments[0].validationMessage;", Pwdfield);
 		System.out.println("Password valid? " + Passvalid + " | Message: " + validationMessage1);
-
+        return validationMessage1;
     }
     
     public void Invalidusername()
@@ -142,7 +171,7 @@ public class LoginPage extends BaseLogger {
         
      	driver.findElement(LoginBtn).click();
      	
-     	elementsUtil.doGetText(InvalidAlertmsg);
+     	elementsUtil.doGetText(Alertmsg);
     }
     
     public void Invalidpassword()
@@ -159,7 +188,7 @@ public class LoginPage extends BaseLogger {
         
      	driver.findElement(LoginBtn).click();
      	
-     	elementsUtil.doGetText(InvalidAlertmsg);
+     	elementsUtil.doGetText(Alertmsg);
     }
 
 }
