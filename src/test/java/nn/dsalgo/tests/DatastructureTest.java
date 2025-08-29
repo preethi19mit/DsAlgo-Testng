@@ -4,7 +4,7 @@ import nn.dsalgo.dataprovider.TestdataProvider;
 import nn.dsalgo.factory.DriverFactory;
 import nn.dsalgo.hooks.TestNGHooks;
 import nn.dsalgo.listeners.TestListeners;
-import nn.dsalgo.pagemanager.PageManager;
+import nn.dsalgo.helperclass.HelperClass;
 import nn.dsalgo.pages.DataStructurePage;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -13,12 +13,12 @@ import org.testng.annotations.Test;
 
 @Listeners({TestListeners.class})
 public class DatastructureTest extends TestNGHooks {
-    private PageManager pageManager;
+    private HelperClass helperClass;
     private DataStructurePage dsp;
 
     @BeforeMethod(alwaysRun = true)
     public void setupPagesDS() {
-        pageManager = new PageManager();
+        helperClass = new HelperClass();
         dsp = new DataStructurePage(DriverFactory.getDriver());
         log.info("Entered the DS testcases");
     }
@@ -26,33 +26,30 @@ public class DatastructureTest extends TestNGHooks {
     @Test()
     public void dsPageLanding()
     {
-        pageManager.dsPageLanding();
+        helperClass.dsPageLanding();
         Assert.assertEquals(dsp.getTitleforDSI(),"Data Structures-Introduction");
     }
     @Test(dataProvider = "topicsDS",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"dsPageLanding"})
     public void navigateToTopicsInDS(String topic)
     {
-        pageManager.dsPageLanding();
+        helperClass.dsPageLanding();
         dsp.clickTopicLink(topic);
         Assert.assertEquals(dsp.validateTitle(topic),"Time Complexity");
     }
     @Test(dataProvider = "topicsDS",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"navigateToTopicsInDS"})
     public void navigateToTryEditorInDS(String topic)
     {
-        pageManager.dsPageLanding();
+        helperClass.dsPageLanding();
         dsp.clickTopicLink(topic);
-        Assert.assertEquals(dsp.validateTitle(topic),"Time Complexity");
         dsp.clickTryHereBtn();
         Assert.assertTrue(dsp.tryEditorVisible(),"Try Editor not available");
     }
     @Test(dataProvider = "inputCodeForTopicsInDS",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"navigateToTryEditorInDS"})
     public void generateOutputForInputInDS(String topic, String input)
     {
-        pageManager.dsPageLanding();
+        helperClass.dsPageLanding();
         dsp.clickTopicLink(topic);
-        Assert.assertEquals(dsp.validateTitle(topic),"Time Complexity");
         dsp.clickTryHereBtn();
-        Assert.assertTrue(dsp.tryEditorVisible(),"Try Editor not available");
         String code = dsp.getPythonCodeDataDriven(input);
         dsp.enterPythonCode(code);
         log.info("The code entered in the editor : "+code);
@@ -69,18 +66,17 @@ public class DatastructureTest extends TestNGHooks {
         }
     }
     @Test(dataProvider = "topicsDS",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"dsPageLanding"})
-    public void validateBrokenLinkEmptyPage(String topic)
+    public void validateBrokenLinkEmptyPageInDS(String topic)
     {
-        pageManager.dsPageLanding();
+        helperClass.dsPageLanding();
         dsp.clickTopicLink(topic);
-        Assert.assertEquals(dsp.validateTitle(topic),"Time Complexity");
         dsp.clickOnPQLink();
         Assert.assertTrue(dsp.emptyPage());
     }
     @Test
-    public void getTotalTopicsCount()
+    public void getTotalTopicsCountInDS()
     {
-        pageManager.dsPageLanding();
+        helperClass.dsPageLanding();
         dsp.topicsCoveredSection();
         log.info("Total topics present in this page : "+dsp.getTotalCountofTopicsLink());
         Assert.assertEquals(dsp.getTotalCountofTopicsLink(),1);

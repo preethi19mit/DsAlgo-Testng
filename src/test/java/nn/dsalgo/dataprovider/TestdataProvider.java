@@ -19,6 +19,25 @@ public class TestdataProvider {
         };
 
     }
+    @DataProvider(name = "topicsTree")
+    public Object[][] topicsProviderTree()
+    {
+        return new Object[][] {
+                {"Overview of Trees"},
+                {"Terminologies"},
+                {"Types of Trees"},
+                {"Tree Traversals"},
+                {"Traversals-Illustration"},
+                {"Binary Trees"},
+                {"Types of Binary Trees"},
+                {"Implementation in Python"},
+                {"Binary Tree Traversals"},
+                {"Implementation of Binary Trees"},
+                {"Applications of Binary trees"},
+                {"Binary Search Trees"},
+                {"Implementation Of BST"}
+        };
+    }
     @DataProvider(name = "inputCodeForTopicsInTree")
     public Object[][] inputCodeForTreeTopics()
     {

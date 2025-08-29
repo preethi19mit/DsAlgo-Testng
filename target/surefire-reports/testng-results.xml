@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+<testng-results ignored="5" total="18" passed="13" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-28T16:25:41 EDT" name="Surefire suite" finished-at="2025-08-28T16:27:47 EDT" duration-ms="126736">
+  <suite started-at="2025-08-28T22:11:22 EDT" name="Surefire suite" finished-at="2025-08-28T22:13:34 EDT" duration-ms="131596">
     <groups>
     </groups>
-    <test started-at="2025-08-28T16:25:41 EDT" name="Surefire test" finished-at="2025-08-28T16:27:47 EDT" duration-ms="126736">
+    <test started-at="2025-08-28T22:11:22 EDT" name="Surefire test" finished-at="2025-08-28T22:13:34 EDT" duration-ms="131596">
       <class name="nn.dsalgo.tests.TreeTest">
-        <test-method is-config="true" signature="getProperty()[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:25:41 EDT" name="getProperty" finished-at="2025-08-28T16:25:41 EDT" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="getProperty()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:11:22 EDT" name="getProperty" finished-at="2025-08-28T22:11:22 EDT" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getProperty -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:25:41 EDT" name="setBrowser" finished-at="2025-08-28T16:25:41 EDT" duration-ms="11" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:11:22 EDT" name="setBrowser" finished-at="2025-08-28T22:11:22 EDT" duration-ms="25" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,38 +22,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:25:41 EDT" name="launchBrowser" finished-at="2025-08-28T16:25:42 EDT" duration-ms="1056" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:11:22 EDT" name="launchBrowser" finished-at="2025-08-28T22:11:26 EDT" duration-ms="3271" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:25:42 EDT" name="logTestStart" finished-at="2025-08-28T16:25:42 EDT" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void nn.dsalgo.tests.TreeTest.treePageLanding()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logTestStart -->
-        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:25:42 EDT" name="setupPagesTree" finished-at="2025-08-28T16:25:42 EDT" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupPagesTree -->
-        <test-method signature="treePageLanding()[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:25:42 EDT" name="treePageLanding" finished-at="2025-08-28T16:25:47 EDT" duration-ms="4950" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- treePageLanding -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:25:47 EDT" name="tearDown" finished-at="2025-08-28T16:25:47 EDT" duration-ms="134" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:25:47 EDT" name="launchBrowser" finished-at="2025-08-28T16:25:48 EDT" duration-ms="796" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:25:48 EDT" name="logTestStart" finished-at="2025-08-28T16:25:48 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:11:26 EDT" name="logTestStart" finished-at="2025-08-28T22:11:26 EDT" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -64,11 +37,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestStart -->
-        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:25:48 EDT" name="setupPagesTree" finished-at="2025-08-28T16:25:48 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:11:26 EDT" name="setupPagesTree" finished-at="2025-08-28T22:11:26 EDT" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPagesTree -->
-        <test-method signature="generateOutputForInputInTree(java.lang.String,java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:25:48 EDT" name="generateOutputForInputInTree" data-provider="inputCodeForTopicsInTree" finished-at="2025-08-28T16:25:59 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.treePageLanding" duration-ms="11211" status="PASS">
+        <test-method signature="generateOutputForInputInTree(java.lang.String,java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:11:26 EDT" name="generateOutputForInputInTree" data-provider="inputCodeForTopicsInTree" finished-at="2025-08-28T22:11:38 EDT" duration-ms="12305" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -84,15 +57,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateOutputForInputInTree -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:25:59 EDT" name="tearDown" finished-at="2025-08-28T16:25:59 EDT" duration-ms="152" status="PASS">
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:11:38 EDT" name="browserclose" finished-at="2025-08-28T22:11:38 EDT" duration-ms="368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:11:38 EDT" name="tearDown" finished-at="2025-08-28T22:11:38 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:25:59 EDT" name="launchBrowser" finished-at="2025-08-28T16:26:00 EDT" duration-ms="761" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:11:38 EDT" name="launchBrowser" finished-at="2025-08-28T22:11:39 EDT" duration-ms="1088" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:26:00 EDT" name="logTestStart" finished-at="2025-08-28T16:26:00 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:11:39 EDT" name="logTestStart" finished-at="2025-08-28T22:11:39 EDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -103,11 +80,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestStart -->
-        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:26:00 EDT" name="setupPagesTree" finished-at="2025-08-28T16:26:00 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:11:39 EDT" name="setupPagesTree" finished-at="2025-08-28T22:11:39 EDT" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPagesTree -->
-        <test-method signature="generateOutputForInputInTree(java.lang.String,java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:26:00 EDT" name="generateOutputForInputInTree" data-provider="inputCodeForTopicsInTree" finished-at="2025-08-28T16:26:05 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.treePageLanding" duration-ms="5334" status="PASS">
+        <test-method signature="generateOutputForInputInTree(java.lang.String,java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:11:39 EDT" name="generateOutputForInputInTree" data-provider="inputCodeForTopicsInTree" finished-at="2025-08-28T22:11:45 EDT" duration-ms="5854" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -123,15 +100,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateOutputForInputInTree -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:26:05 EDT" name="tearDown" finished-at="2025-08-28T16:26:05 EDT" duration-ms="171" status="PASS">
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:11:45 EDT" name="browserclose" finished-at="2025-08-28T22:11:46 EDT" duration-ms="231" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:26:05 EDT" name="launchBrowser" finished-at="2025-08-28T16:26:06 EDT" duration-ms="794" status="PASS">
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:11:46 EDT" name="launchBrowser" finished-at="2025-08-28T22:11:46 EDT" duration-ms="882" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:26:06 EDT" name="logTestStart" finished-at="2025-08-28T16:26:06 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:11:46 EDT" name="tearDown" finished-at="2025-08-28T22:11:46 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:11:46 EDT" name="logTestStart" finished-at="2025-08-28T22:11:46 EDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -142,11 +123,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestStart -->
-        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:26:06 EDT" name="setupPagesTree" finished-at="2025-08-28T16:26:06 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:11:46 EDT" name="setupPagesTree" finished-at="2025-08-28T22:11:46 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPagesTree -->
-        <test-method signature="generateOutputForInputInTree(java.lang.String,java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:26:06 EDT" name="generateOutputForInputInTree" data-provider="inputCodeForTopicsInTree" finished-at="2025-08-28T16:26:12 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.treePageLanding" duration-ms="6057" status="PASS">
+        <test-method signature="generateOutputForInputInTree(java.lang.String,java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:11:46 EDT" name="generateOutputForInputInTree" data-provider="inputCodeForTopicsInTree" finished-at="2025-08-28T22:11:53 EDT" duration-ms="6276" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -162,15 +143,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateOutputForInputInTree -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:26:12 EDT" name="tearDown" finished-at="2025-08-28T16:26:12 EDT" duration-ms="147" status="PASS">
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:11:53 EDT" name="browserclose" finished-at="2025-08-28T22:11:53 EDT" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:11:53 EDT" name="tearDown" finished-at="2025-08-28T22:11:53 EDT" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:26:12 EDT" name="launchBrowser" finished-at="2025-08-28T16:26:13 EDT" duration-ms="727" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:11:53 EDT" name="launchBrowser" finished-at="2025-08-28T22:11:54 EDT" duration-ms="857" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:26:13 EDT" name="logTestStart" finished-at="2025-08-28T16:26:13 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:11:54 EDT" name="logTestStart" finished-at="2025-08-28T22:11:54 EDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -181,11 +166,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestStart -->
-        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:26:13 EDT" name="setupPagesTree" finished-at="2025-08-28T16:26:13 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:11:54 EDT" name="setupPagesTree" finished-at="2025-08-28T22:11:54 EDT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPagesTree -->
-        <test-method signature="generateOutputForInputInTree(java.lang.String,java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:26:13 EDT" name="generateOutputForInputInTree" data-provider="inputCodeForTopicsInTree" finished-at="2025-08-28T16:26:23 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.treePageLanding" duration-ms="10210" status="PASS">
+        <test-method signature="generateOutputForInputInTree(java.lang.String,java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:11:54 EDT" name="generateOutputForInputInTree" data-provider="inputCodeForTopicsInTree" finished-at="2025-08-28T22:12:04 EDT" duration-ms="10685" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -201,15 +186,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateOutputForInputInTree -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:26:23 EDT" name="tearDown" finished-at="2025-08-28T16:26:24 EDT" duration-ms="170" status="PASS">
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:12:04 EDT" name="browserclose" finished-at="2025-08-28T22:12:05 EDT" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:12:05 EDT" name="tearDown" finished-at="2025-08-28T22:12:05 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:26:24 EDT" name="launchBrowser" finished-at="2025-08-28T16:26:24 EDT" duration-ms="766" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:12:05 EDT" name="launchBrowser" finished-at="2025-08-28T22:12:06 EDT" duration-ms="964" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:26:24 EDT" name="logTestStart" finished-at="2025-08-28T16:26:24 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:12:06 EDT" name="logTestStart" finished-at="2025-08-28T22:12:06 EDT" duration-ms="8" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -220,11 +209,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestStart -->
-        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:26:24 EDT" name="setupPagesTree" finished-at="2025-08-28T16:26:24 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:12:06 EDT" name="setupPagesTree" finished-at="2025-08-28T22:12:06 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPagesTree -->
-        <test-method signature="generateOutputForInputInTree(java.lang.String,java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:26:24 EDT" name="generateOutputForInputInTree" data-provider="inputCodeForTopicsInTree" finished-at="2025-08-28T16:26:35 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.treePageLanding" duration-ms="10683" status="PASS">
+        <test-method signature="generateOutputForInputInTree(java.lang.String,java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:12:06 EDT" name="generateOutputForInputInTree" data-provider="inputCodeForTopicsInTree" finished-at="2025-08-28T22:12:17 EDT" duration-ms="10875" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -240,15 +229,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateOutputForInputInTree -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:26:35 EDT" name="tearDown" finished-at="2025-08-28T16:26:35 EDT" duration-ms="170" status="PASS">
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:12:17 EDT" name="browserclose" finished-at="2025-08-28T22:12:17 EDT" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:12:17 EDT" name="tearDown" finished-at="2025-08-28T22:12:17 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:26:35 EDT" name="launchBrowser" finished-at="2025-08-28T16:26:36 EDT" duration-ms="703" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:12:17 EDT" name="launchBrowser" finished-at="2025-08-28T22:12:18 EDT" duration-ms="844" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:26:36 EDT" name="logTestStart" finished-at="2025-08-28T16:26:36 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:12:18 EDT" name="logTestStart" finished-at="2025-08-28T22:12:18 EDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -259,11 +252,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestStart -->
-        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:26:36 EDT" name="setupPagesTree" finished-at="2025-08-28T16:26:36 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:12:18 EDT" name="setupPagesTree" finished-at="2025-08-28T22:12:18 EDT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPagesTree -->
-        <test-method signature="generateOutputForInputInTree(java.lang.String,java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:26:36 EDT" name="generateOutputForInputInTree" data-provider="inputCodeForTopicsInTree" finished-at="2025-08-28T16:26:41 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.treePageLanding" duration-ms="5219" status="PASS">
+        <test-method signature="generateOutputForInputInTree(java.lang.String,java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:12:18 EDT" name="generateOutputForInputInTree" data-provider="inputCodeForTopicsInTree" finished-at="2025-08-28T22:12:23 EDT" duration-ms="5775" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -279,15 +272,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateOutputForInputInTree -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:26:41 EDT" name="tearDown" finished-at="2025-08-28T16:26:41 EDT" duration-ms="141" status="PASS">
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:12:23 EDT" name="browserclose" finished-at="2025-08-28T22:12:24 EDT" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:12:24 EDT" name="tearDown" finished-at="2025-08-28T22:12:24 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:26:41 EDT" name="launchBrowser" finished-at="2025-08-28T16:26:42 EDT" duration-ms="730" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:12:24 EDT" name="launchBrowser" finished-at="2025-08-28T22:12:25 EDT" duration-ms="883" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:26:42 EDT" name="logTestStart" finished-at="2025-08-28T16:26:42 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:12:25 EDT" name="logTestStart" finished-at="2025-08-28T22:12:25 EDT" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -298,11 +295,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestStart -->
-        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:26:42 EDT" name="setupPagesTree" finished-at="2025-08-28T16:26:42 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:12:25 EDT" name="setupPagesTree" finished-at="2025-08-28T22:12:25 EDT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPagesTree -->
-        <test-method signature="generateOutputForInputInTree(java.lang.String,java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:26:42 EDT" name="generateOutputForInputInTree" data-provider="inputCodeForTopicsInTree" finished-at="2025-08-28T16:26:47 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.treePageLanding" duration-ms="5478" status="PASS">
+        <test-method signature="generateOutputForInputInTree(java.lang.String,java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:12:25 EDT" name="generateOutputForInputInTree" data-provider="inputCodeForTopicsInTree" finished-at="2025-08-28T22:12:31 EDT" duration-ms="6221" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -318,15 +315,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateOutputForInputInTree -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:26:47 EDT" name="tearDown" finished-at="2025-08-28T16:26:48 EDT" duration-ms="129" status="PASS">
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:12:31 EDT" name="browserclose" finished-at="2025-08-28T22:12:31 EDT" duration-ms="206" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:26:48 EDT" name="launchBrowser" finished-at="2025-08-28T16:26:48 EDT" duration-ms="755" status="PASS">
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:12:31 EDT" name="launchBrowser" finished-at="2025-08-28T22:12:32 EDT" duration-ms="871" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:26:48 EDT" name="logTestStart" finished-at="2025-08-28T16:26:48 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:12:31 EDT" name="tearDown" finished-at="2025-08-28T22:12:31 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:12:32 EDT" name="logTestStart" finished-at="2025-08-28T22:12:32 EDT" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -337,11 +338,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestStart -->
-        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:26:48 EDT" name="setupPagesTree" finished-at="2025-08-28T16:26:48 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:12:32 EDT" name="setupPagesTree" finished-at="2025-08-28T22:12:32 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPagesTree -->
-        <test-method signature="generateOutputForInputInTree(java.lang.String,java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:26:48 EDT" name="generateOutputForInputInTree" data-provider="inputCodeForTopicsInTree" finished-at="2025-08-28T16:26:59 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.treePageLanding" duration-ms="10789" status="PASS">
+        <test-method signature="generateOutputForInputInTree(java.lang.String,java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:12:32 EDT" name="generateOutputForInputInTree" data-provider="inputCodeForTopicsInTree" finished-at="2025-08-28T22:12:43 EDT" duration-ms="10737" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -357,15 +358,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateOutputForInputInTree -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:26:59 EDT" name="tearDown" finished-at="2025-08-28T16:26:59 EDT" duration-ms="138" status="PASS">
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:12:43 EDT" name="browserclose" finished-at="2025-08-28T22:12:43 EDT" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:12:43 EDT" name="tearDown" finished-at="2025-08-28T22:12:43 EDT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:26:59 EDT" name="launchBrowser" finished-at="2025-08-28T16:27:00 EDT" duration-ms="720" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:12:43 EDT" name="launchBrowser" finished-at="2025-08-28T22:12:44 EDT" duration-ms="889" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:27:00 EDT" name="logTestStart" finished-at="2025-08-28T16:27:00 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:12:44 EDT" name="logTestStart" finished-at="2025-08-28T22:12:44 EDT" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -376,11 +381,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestStart -->
-        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:27:00 EDT" name="setupPagesTree" finished-at="2025-08-28T16:27:00 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:12:44 EDT" name="setupPagesTree" finished-at="2025-08-28T22:12:44 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPagesTree -->
-        <test-method signature="generateOutputForInputInTree(java.lang.String,java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:27:00 EDT" name="generateOutputForInputInTree" data-provider="inputCodeForTopicsInTree" finished-at="2025-08-28T16:27:10 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.treePageLanding" duration-ms="10452" status="PASS">
+        <test-method signature="generateOutputForInputInTree(java.lang.String,java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:12:44 EDT" name="generateOutputForInputInTree" data-provider="inputCodeForTopicsInTree" finished-at="2025-08-28T22:12:56 EDT" duration-ms="11846" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -396,15 +401,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateOutputForInputInTree -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:27:10 EDT" name="tearDown" finished-at="2025-08-28T16:27:11 EDT" duration-ms="148" status="PASS">
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:12:56 EDT" name="browserclose" finished-at="2025-08-28T22:12:56 EDT" duration-ms="200" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:27:11 EDT" name="launchBrowser" finished-at="2025-08-28T16:27:11 EDT" duration-ms="751" status="PASS">
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:12:56 EDT" name="launchBrowser" finished-at="2025-08-28T22:12:57 EDT" duration-ms="995" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:27:11 EDT" name="logTestStart" finished-at="2025-08-28T16:27:11 EDT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:12:56 EDT" name="tearDown" finished-at="2025-08-28T22:12:56 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:12:57 EDT" name="logTestStart" finished-at="2025-08-28T22:12:57 EDT" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -415,11 +424,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestStart -->
-        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:27:11 EDT" name="setupPagesTree" finished-at="2025-08-28T16:27:11 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:12:57 EDT" name="setupPagesTree" finished-at="2025-08-28T22:12:57 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPagesTree -->
-        <test-method signature="generateOutputForInputInTree(java.lang.String,java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:27:11 EDT" name="generateOutputForInputInTree" data-provider="inputCodeForTopicsInTree" finished-at="2025-08-28T16:27:16 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.treePageLanding" duration-ms="5121" status="PASS">
+        <test-method signature="generateOutputForInputInTree(java.lang.String,java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:12:57 EDT" name="generateOutputForInputInTree" data-provider="inputCodeForTopicsInTree" finished-at="2025-08-28T22:13:02 EDT" duration-ms="5367" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -435,15 +444,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateOutputForInputInTree -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:27:16 EDT" name="tearDown" finished-at="2025-08-28T16:27:17 EDT" duration-ms="136" status="PASS">
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:13:02 EDT" name="browserclose" finished-at="2025-08-28T22:13:02 EDT" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:13:02 EDT" name="tearDown" finished-at="2025-08-28T22:13:02 EDT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:27:17 EDT" name="launchBrowser" finished-at="2025-08-28T16:27:17 EDT" duration-ms="719" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:13:02 EDT" name="launchBrowser" finished-at="2025-08-28T22:13:03 EDT" duration-ms="867" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:27:17 EDT" name="logTestStart" finished-at="2025-08-28T16:27:17 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:13:03 EDT" name="logTestStart" finished-at="2025-08-28T22:13:03 EDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -454,11 +467,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestStart -->
-        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:27:17 EDT" name="setupPagesTree" finished-at="2025-08-28T16:27:17 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:13:03 EDT" name="setupPagesTree" finished-at="2025-08-28T22:13:03 EDT" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPagesTree -->
-        <test-method signature="generateOutputForInputInTree(java.lang.String,java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:27:17 EDT" name="generateOutputForInputInTree" data-provider="inputCodeForTopicsInTree" finished-at="2025-08-28T16:27:22 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.treePageLanding" duration-ms="5115" status="PASS">
+        <test-method signature="generateOutputForInputInTree(java.lang.String,java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:13:03 EDT" name="generateOutputForInputInTree" data-provider="inputCodeForTopicsInTree" finished-at="2025-08-28T22:13:09 EDT" duration-ms="5642" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -474,15 +487,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateOutputForInputInTree -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:27:22 EDT" name="tearDown" finished-at="2025-08-28T16:27:23 EDT" duration-ms="153" status="PASS">
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:13:09 EDT" name="browserclose" finished-at="2025-08-28T22:13:09 EDT" duration-ms="182" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:27:23 EDT" name="launchBrowser" finished-at="2025-08-28T16:27:23 EDT" duration-ms="685" status="PASS">
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:13:09 EDT" name="launchBrowser" finished-at="2025-08-28T22:13:10 EDT" duration-ms="878" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:27:23 EDT" name="logTestStart" finished-at="2025-08-28T16:27:23 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:13:09 EDT" name="tearDown" finished-at="2025-08-28T22:13:09 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:13:10 EDT" name="logTestStart" finished-at="2025-08-28T22:13:10 EDT" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -493,11 +510,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestStart -->
-        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:27:23 EDT" name="setupPagesTree" finished-at="2025-08-28T16:27:23 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:13:10 EDT" name="setupPagesTree" finished-at="2025-08-28T22:13:10 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPagesTree -->
-        <test-method signature="generateOutputForInputInTree(java.lang.String,java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:27:23 EDT" name="generateOutputForInputInTree" data-provider="inputCodeForTopicsInTree" finished-at="2025-08-28T16:27:35 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.treePageLanding" duration-ms="11963" status="PASS">
+        <test-method signature="generateOutputForInputInTree(java.lang.String,java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:13:10 EDT" name="generateOutputForInputInTree" data-provider="inputCodeForTopicsInTree" finished-at="2025-08-28T22:13:22 EDT" duration-ms="11686" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -513,15 +530,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateOutputForInputInTree -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:27:35 EDT" name="tearDown" finished-at="2025-08-28T16:27:36 EDT" duration-ms="267" status="PASS">
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:13:22 EDT" name="browserclose" finished-at="2025-08-28T22:13:22 EDT" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:13:22 EDT" name="tearDown" finished-at="2025-08-28T22:13:22 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:27:36 EDT" name="launchBrowser" finished-at="2025-08-28T16:27:36 EDT" duration-ms="724" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:13:22 EDT" name="launchBrowser" finished-at="2025-08-28T22:13:23 EDT" duration-ms="810" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:27:36 EDT" name="logTestStart" finished-at="2025-08-28T16:27:36 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:13:23 EDT" name="logTestStart" finished-at="2025-08-28T22:13:23 EDT" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -532,11 +553,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestStart -->
-        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:27:36 EDT" name="setupPagesTree" finished-at="2025-08-28T16:27:36 EDT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:13:23 EDT" name="setupPagesTree" finished-at="2025-08-28T22:13:23 EDT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPagesTree -->
-        <test-method signature="generateOutputForInputInTree(java.lang.String,java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:27:36 EDT" name="generateOutputForInputInTree" data-provider="inputCodeForTopicsInTree" finished-at="2025-08-28T16:27:47 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.treePageLanding" duration-ms="10924" status="PASS">
+        <test-method signature="generateOutputForInputInTree(java.lang.String,java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:13:23 EDT" name="generateOutputForInputInTree" data-provider="inputCodeForTopicsInTree" finished-at="2025-08-28T22:13:34 EDT" duration-ms="10910" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -552,7 +573,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateOutputForInputInTree -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@3d484181]" started-at="2025-08-28T16:27:47 EDT" name="tearDown" finished-at="2025-08-28T16:27:47 EDT" duration-ms="221" status="PASS">
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:13:34 EDT" name="browserclose" finished-at="2025-08-28T22:13:34 EDT" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@630cb4a4]" started-at="2025-08-28T22:13:34 EDT" name="tearDown" finished-at="2025-08-28T22:13:34 EDT" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

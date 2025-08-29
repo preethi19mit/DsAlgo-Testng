@@ -87,15 +87,17 @@ public class TreePage extends BaseLogger {
             return false; // Element(s) not found
         }
     }
-    public void tryEditorPageWithRunBtn()
+    public boolean tryEditorPageWithRunBtn()
     {
         if(tryEditorVisible() && runBtnVisible())
         {
             log.info("you are in the Try Editor Page with Editor and Run Button");
+            return true;
         }
         else
         {
             log.info("Try Editor or Run button is not present in this page");
+            return false;
         }
     }
     public void enterPythonCode(String input)
@@ -175,13 +177,15 @@ public class TreePage extends BaseLogger {
             log.info("✅ Practice Questions Link Working Fine");
         }
     }
-    public void emptyPage()
+    public boolean emptyPage()
     {
         WebElement container = driver.findElement(By.cssSelector("div.container"));
         if (container.getText().trim().isEmpty()) {
             log.warn("⚠️ The container is empty → no practice content found");
+            return true;
         } else {
             log.info("✅ Container has content: " + container.getText());
+            return false;
         }
 
     }
