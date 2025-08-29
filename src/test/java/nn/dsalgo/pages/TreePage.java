@@ -1,7 +1,6 @@
 package nn.dsalgo.pages;
 
 import nn.dsalgo.utilities.BaseLogger;
-import nn.dsalgo.utilities.ConfigReader;
 import nn.dsalgo.utilities.ElementsUtil;
 import nn.dsalgo.utilities.ExcelReader;
 import org.openqa.selenium.By;
@@ -48,16 +47,18 @@ public class TreePage extends BaseLogger {
 
     }
 
-    public void validateTitleforTopics(String topic)
+    public boolean validateTitleforTopics(String topic)
     {
         String topicsPageTitle = driver.findElement(getTitle_topic).getText();
         if(topicsPageTitle.equalsIgnoreCase(topic))
         {
             log.info ("The user is in the correct topic page as expected : "+topicsPageTitle);
+            return true;
 
         }
         else {
             log.info ("The user is in the topics page "+topicsPageTitle+" but expected to be in "+topic);
+            return false;
         }
 
     }

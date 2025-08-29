@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>DsAlgo-Testng</name>
+=======
+	<name>NN_DSALGO</name>
+>>>>>>> eb6895ccf752b390805167c5b5c5a54313e92eda
 	<comment></comment>
 	<projects>
 	</projects>

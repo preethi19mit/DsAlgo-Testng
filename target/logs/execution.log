@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2025-08-27 18:38:51 INFO  DatastructureTest:31 - Running tests on: chrome | Thread ID: 1
 2025-08-27 18:38:52 INFO  DatastructureTest:42 - Browser launched: chrome | Thread: 1
 2025-08-27 18:38:52 INFO  DatastructureTest:47 - Starting test: dsPageLanding
@@ -5266,3 +5267,346 @@ java.nio.file.FileAlreadyExistsException: target\screenshots\getInValidPythonCod
 2025-08-28 18:44:50 INFO  StackTest:63 - Actual Output in the console : hello
 2025-08-28 18:44:50 INFO  StackTest:65 - Expected Output : hello
 2025-08-28 18:44:50 INFO  StackTest:52 - >>> After all tests - quitting driver
+=======
+2025-08-28 16:25:41 INFO  TreeTest:31 - Running tests on: chrome | Thread ID: 1
+2025-08-28 16:25:42 INFO  TreeTest:42 - Browser launched: chrome | Thread: 1
+2025-08-28 16:25:42 INFO  TreeTest:47 - Starting test: treePageLanding
+2025-08-28 16:25:42 INFO  TreeTest:23 - Entered the Tree testcases
+2025-08-28 16:25:42 INFO  LandingPage:34 - Getting the URL of DSALGO
+2025-08-28 16:25:45 INFO  LandingPage:23 - Clicking the Get Started Button of Landing page
+2025-08-28 16:25:45 INFO  HomePage:227 - Clicking Sign In button from Home Page
+2025-08-28 16:25:45 INFO  LoginPage:55 - Performing Login with TestData from Excel
+2025-08-28 16:25:46 INFO  LoginPage:59 - Entering the Username : Prasanna
+2025-08-28 16:25:46 INFO  LoginPage:61 - Entering the Password : Welcome@01
+2025-08-28 16:25:46 INFO  LoginPage:64 - Clicked Login button
+2025-08-28 16:25:47 INFO  HomePage:66 - successful login
+2025-08-28 16:25:47 INFO  HomePage:83 - Clicking on the Get Started Button of Tree from HomePage
+2025-08-28 16:25:47 INFO  PageManager:37 - Landed in Tree page
+2025-08-28 16:25:47 INFO  TreePage:41 - Getting the title of Tree Page
+2025-08-28 16:25:47 INFO  TreeTest:52 - >>> After all tests - quitting driver
+2025-08-28 16:25:48 INFO  TreeTest:42 - Browser launched: chrome | Thread: 1
+2025-08-28 16:25:48 INFO  TreeTest:47 - Starting test: generateOutputForInputInTree
+2025-08-28 16:25:48 INFO  TreeTest:23 - Entered the Tree testcases
+2025-08-28 16:25:48 INFO  LandingPage:34 - Getting the URL of DSALGO
+2025-08-28 16:25:51 INFO  LandingPage:23 - Clicking the Get Started Button of Landing page
+2025-08-28 16:25:51 INFO  HomePage:227 - Clicking Sign In button from Home Page
+2025-08-28 16:25:51 INFO  LoginPage:55 - Performing Login with TestData from Excel
+2025-08-28 16:25:52 INFO  LoginPage:59 - Entering the Username : Prasanna
+2025-08-28 16:25:52 INFO  LoginPage:61 - Entering the Password : Welcome@01
+2025-08-28 16:25:52 INFO  LoginPage:64 - Clicked Login button
+2025-08-28 16:25:52 INFO  HomePage:66 - successful login
+2025-08-28 16:25:52 INFO  HomePage:83 - Clicking on the Get Started Button of Tree from HomePage
+2025-08-28 16:25:52 INFO  PageManager:37 - Landed in Tree page
+2025-08-28 16:25:52 INFO  TreePage:41 - Getting the title of Tree Page
+2025-08-28 16:25:52 INFO  TreePage:45 - Clicking on the topic link : Overview of Trees
+2025-08-28 16:25:53 INFO  TreePage:55 - The user is in the correct topic page as expected : Overview of Trees
+2025-08-28 16:25:53 INFO  TreePage:70 - Clicking on the Try Here Button of Overview of Trees
+2025-08-28 16:25:53 INFO  TreeTest:40 - Checking the try editor code block is available
+2025-08-28 16:25:53 INFO  TreeTest:42 - Checking the Run button is available
+2025-08-28 16:25:54 INFO  TreeTest:46 - The code entered in the editor : print("hello");
+2025-08-28 16:25:54 INFO  TreeTest:48 - Run button clicked
+2025-08-28 16:25:59 INFO  TreePage:140 - Console output: hello
+2025-08-28 16:25:59 INFO  TreeTest:52 - Expected Output: hello
+2025-08-28 16:25:59 INFO  TreeTest:54 - ? Actual Output matched with the Expected Output
+2025-08-28 16:25:59 INFO  TreeTest:52 - >>> After all tests - quitting driver
+2025-08-28 16:26:00 INFO  TreeTest:42 - Browser launched: chrome | Thread: 1
+2025-08-28 16:26:00 INFO  TreeTest:47 - Starting test: generateOutputForInputInTree
+2025-08-28 16:26:00 INFO  TreeTest:23 - Entered the Tree testcases
+2025-08-28 16:26:00 INFO  LandingPage:34 - Getting the URL of DSALGO
+2025-08-28 16:26:02 INFO  LandingPage:23 - Clicking the Get Started Button of Landing page
+2025-08-28 16:26:03 INFO  HomePage:227 - Clicking Sign In button from Home Page
+2025-08-28 16:26:03 INFO  LoginPage:55 - Performing Login with TestData from Excel
+2025-08-28 16:26:03 INFO  LoginPage:59 - Entering the Username : Prasanna
+2025-08-28 16:26:03 INFO  LoginPage:61 - Entering the Password : Welcome@01
+2025-08-28 16:26:04 INFO  LoginPage:64 - Clicked Login button
+2025-08-28 16:26:04 INFO  HomePage:66 - successful login
+2025-08-28 16:26:04 INFO  HomePage:83 - Clicking on the Get Started Button of Tree from HomePage
+2025-08-28 16:26:04 INFO  PageManager:37 - Landed in Tree page
+2025-08-28 16:26:04 INFO  TreePage:41 - Getting the title of Tree Page
+2025-08-28 16:26:04 INFO  TreePage:45 - Clicking on the topic link : Terminologies
+2025-08-28 16:26:04 INFO  TreePage:55 - The user is in the correct topic page as expected : Terminologies
+2025-08-28 16:26:04 INFO  TreePage:70 - Clicking on the Try Here Button of Terminologies
+2025-08-28 16:26:05 INFO  TreeTest:40 - Checking the try editor code block is available
+2025-08-28 16:26:05 INFO  TreeTest:42 - Checking the Run button is available
+2025-08-28 16:26:05 INFO  TreeTest:46 - The code entered in the editor : xyz
+2025-08-28 16:26:05 INFO  TreeTest:48 - Run button clicked
+2025-08-28 16:26:05 ERROR TreePage:133 - Alert output: NameError: name 'xyz' is not defined on line 1
+2025-08-28 16:26:05 INFO  TreeTest:52 - Expected Output: NameError: name 'xyz' is not defined on line 1
+2025-08-28 16:26:05 INFO  TreeTest:54 - ? Actual Output matched with the Expected Output
+2025-08-28 16:26:05 INFO  TreeTest:52 - >>> After all tests - quitting driver
+2025-08-28 16:26:06 INFO  TreeTest:42 - Browser launched: chrome | Thread: 1
+2025-08-28 16:26:06 INFO  TreeTest:47 - Starting test: generateOutputForInputInTree
+2025-08-28 16:26:06 INFO  TreeTest:23 - Entered the Tree testcases
+2025-08-28 16:26:06 INFO  LandingPage:34 - Getting the URL of DSALGO
+2025-08-28 16:26:09 INFO  LandingPage:23 - Clicking the Get Started Button of Landing page
+2025-08-28 16:26:10 INFO  HomePage:227 - Clicking Sign In button from Home Page
+2025-08-28 16:26:10 INFO  LoginPage:55 - Performing Login with TestData from Excel
+2025-08-28 16:26:10 INFO  LoginPage:59 - Entering the Username : Prasanna
+2025-08-28 16:26:10 INFO  LoginPage:61 - Entering the Password : Welcome@01
+2025-08-28 16:26:11 INFO  LoginPage:64 - Clicked Login button
+2025-08-28 16:26:11 INFO  HomePage:66 - successful login
+2025-08-28 16:26:11 INFO  HomePage:83 - Clicking on the Get Started Button of Tree from HomePage
+2025-08-28 16:26:11 INFO  PageManager:37 - Landed in Tree page
+2025-08-28 16:26:11 INFO  TreePage:41 - Getting the title of Tree Page
+2025-08-28 16:26:11 INFO  TreePage:45 - Clicking on the topic link : Types of Trees
+2025-08-28 16:26:11 INFO  TreePage:55 - The user is in the correct topic page as expected : Types of Trees
+2025-08-28 16:26:11 INFO  TreePage:70 - Clicking on the Try Here Button of Types of Trees
+2025-08-28 16:26:12 INFO  TreeTest:40 - Checking the try editor code block is available
+2025-08-28 16:26:12 INFO  TreeTest:42 - Checking the Run button is available
+2025-08-28 16:26:12 INFO  TreeTest:46 - The code entered in the editor : 123abc
+2025-08-28 16:26:12 INFO  TreeTest:48 - Run button clicked
+2025-08-28 16:26:12 ERROR TreePage:133 - Alert output: SyntaxError: bad input on line 1
+2025-08-28 16:26:12 INFO  TreeTest:52 - Expected Output: SyntaxError: bad input on line 1
+2025-08-28 16:26:12 INFO  TreeTest:54 - ? Actual Output matched with the Expected Output
+2025-08-28 16:26:12 INFO  TreeTest:52 - >>> After all tests - quitting driver
+2025-08-28 16:26:13 INFO  TreeTest:42 - Browser launched: chrome | Thread: 1
+2025-08-28 16:26:13 INFO  TreeTest:47 - Starting test: generateOutputForInputInTree
+2025-08-28 16:26:13 INFO  TreeTest:23 - Entered the Tree testcases
+2025-08-28 16:26:13 INFO  LandingPage:34 - Getting the URL of DSALGO
+2025-08-28 16:26:15 INFO  LandingPage:23 - Clicking the Get Started Button of Landing page
+2025-08-28 16:26:16 INFO  HomePage:227 - Clicking Sign In button from Home Page
+2025-08-28 16:26:16 INFO  LoginPage:55 - Performing Login with TestData from Excel
+2025-08-28 16:26:16 INFO  LoginPage:59 - Entering the Username : Prasanna
+2025-08-28 16:26:16 INFO  LoginPage:61 - Entering the Password : Welcome@01
+2025-08-28 16:26:17 INFO  LoginPage:64 - Clicked Login button
+2025-08-28 16:26:17 INFO  HomePage:66 - successful login
+2025-08-28 16:26:17 INFO  HomePage:83 - Clicking on the Get Started Button of Tree from HomePage
+2025-08-28 16:26:17 INFO  PageManager:37 - Landed in Tree page
+2025-08-28 16:26:17 INFO  TreePage:41 - Getting the title of Tree Page
+2025-08-28 16:26:17 INFO  TreePage:45 - Clicking on the topic link : Tree Traversals
+2025-08-28 16:26:17 INFO  TreePage:55 - The user is in the correct topic page as expected : Tree Traversals
+2025-08-28 16:26:17 INFO  TreePage:70 - Clicking on the Try Here Button of Tree Traversals
+2025-08-28 16:26:18 INFO  TreeTest:40 - Checking the try editor code block is available
+2025-08-28 16:26:18 INFO  TreeTest:42 - Checking the Run button is available
+2025-08-28 16:26:18 INFO  TreeTest:46 - The code entered in the editor : 321.0
+2025-08-28 16:26:18 INFO  TreeTest:48 - Run button clicked
+2025-08-28 16:26:23 INFO  TreePage:140 - Console output: 
+2025-08-28 16:26:23 INFO  TreeTest:52 - Expected Output: 
+2025-08-28 16:26:23 INFO  TreeTest:54 - ? Actual Output matched with the Expected Output
+2025-08-28 16:26:23 INFO  TreeTest:52 - >>> After all tests - quitting driver
+2025-08-28 16:26:24 INFO  TreeTest:42 - Browser launched: chrome | Thread: 1
+2025-08-28 16:26:24 INFO  TreeTest:47 - Starting test: generateOutputForInputInTree
+2025-08-28 16:26:24 INFO  TreeTest:23 - Entered the Tree testcases
+2025-08-28 16:26:24 INFO  LandingPage:34 - Getting the URL of DSALGO
+2025-08-28 16:26:27 INFO  LandingPage:23 - Clicking the Get Started Button of Landing page
+2025-08-28 16:26:27 INFO  HomePage:227 - Clicking Sign In button from Home Page
+2025-08-28 16:26:27 INFO  LoginPage:55 - Performing Login with TestData from Excel
+2025-08-28 16:26:27 INFO  LoginPage:59 - Entering the Username : Prasanna
+2025-08-28 16:26:27 INFO  LoginPage:61 - Entering the Password : Welcome@01
+2025-08-28 16:26:28 INFO  LoginPage:64 - Clicked Login button
+2025-08-28 16:26:28 INFO  HomePage:66 - successful login
+2025-08-28 16:26:28 INFO  HomePage:83 - Clicking on the Get Started Button of Tree from HomePage
+2025-08-28 16:26:28 INFO  PageManager:37 - Landed in Tree page
+2025-08-28 16:26:28 INFO  TreePage:41 - Getting the title of Tree Page
+2025-08-28 16:26:28 INFO  TreePage:45 - Clicking on the topic link : Traversals-Illustration
+2025-08-28 16:26:29 INFO  TreePage:55 - The user is in the correct topic page as expected : Traversals-Illustration
+2025-08-28 16:26:29 INFO  TreePage:70 - Clicking on the Try Here Button of Traversals-Illustration
+2025-08-28 16:26:30 INFO  TreeTest:40 - Checking the try editor code block is available
+2025-08-28 16:26:30 INFO  TreeTest:42 - Checking the Run button is available
+2025-08-28 16:26:30 INFO  TreeTest:46 - The code entered in the editor : print("hello");
+2025-08-28 16:26:30 INFO  TreeTest:48 - Run button clicked
+2025-08-28 16:26:35 INFO  TreePage:140 - Console output: hello
+2025-08-28 16:26:35 INFO  TreeTest:52 - Expected Output: hello
+2025-08-28 16:26:35 INFO  TreeTest:54 - ? Actual Output matched with the Expected Output
+2025-08-28 16:26:35 INFO  TreeTest:52 - >>> After all tests - quitting driver
+2025-08-28 16:26:36 INFO  TreeTest:42 - Browser launched: chrome | Thread: 1
+2025-08-28 16:26:36 INFO  TreeTest:47 - Starting test: generateOutputForInputInTree
+2025-08-28 16:26:36 INFO  TreeTest:23 - Entered the Tree testcases
+2025-08-28 16:26:36 INFO  LandingPage:34 - Getting the URL of DSALGO
+2025-08-28 16:26:38 INFO  LandingPage:23 - Clicking the Get Started Button of Landing page
+2025-08-28 16:26:39 INFO  HomePage:227 - Clicking Sign In button from Home Page
+2025-08-28 16:26:39 INFO  LoginPage:55 - Performing Login with TestData from Excel
+2025-08-28 16:26:39 INFO  LoginPage:59 - Entering the Username : Prasanna
+2025-08-28 16:26:39 INFO  LoginPage:61 - Entering the Password : Welcome@01
+2025-08-28 16:26:39 INFO  LoginPage:64 - Clicked Login button
+2025-08-28 16:26:40 INFO  HomePage:66 - successful login
+2025-08-28 16:26:40 INFO  HomePage:83 - Clicking on the Get Started Button of Tree from HomePage
+2025-08-28 16:26:40 INFO  PageManager:37 - Landed in Tree page
+2025-08-28 16:26:40 INFO  TreePage:41 - Getting the title of Tree Page
+2025-08-28 16:26:40 INFO  TreePage:45 - Clicking on the topic link : Binary Trees
+2025-08-28 16:26:40 INFO  TreePage:55 - The user is in the correct topic page as expected : Binary Trees
+2025-08-28 16:26:40 INFO  TreePage:70 - Clicking on the Try Here Button of Binary Trees
+2025-08-28 16:26:41 INFO  TreeTest:40 - Checking the try editor code block is available
+2025-08-28 16:26:41 INFO  TreeTest:42 - Checking the Run button is available
+2025-08-28 16:26:41 INFO  TreeTest:46 - The code entered in the editor : xyz
+2025-08-28 16:26:41 INFO  TreeTest:48 - Run button clicked
+2025-08-28 16:26:41 ERROR TreePage:133 - Alert output: NameError: name 'xyz' is not defined on line 1
+2025-08-28 16:26:41 INFO  TreeTest:52 - Expected Output: NameError: name 'xyz' is not defined on line 1
+2025-08-28 16:26:41 INFO  TreeTest:54 - ? Actual Output matched with the Expected Output
+2025-08-28 16:26:41 INFO  TreeTest:52 - >>> After all tests - quitting driver
+2025-08-28 16:26:42 INFO  TreeTest:42 - Browser launched: chrome | Thread: 1
+2025-08-28 16:26:42 INFO  TreeTest:47 - Starting test: generateOutputForInputInTree
+2025-08-28 16:26:42 INFO  TreeTest:23 - Entered the Tree testcases
+2025-08-28 16:26:42 INFO  LandingPage:34 - Getting the URL of DSALGO
+2025-08-28 16:26:44 INFO  LandingPage:23 - Clicking the Get Started Button of Landing page
+2025-08-28 16:26:45 INFO  HomePage:227 - Clicking Sign In button from Home Page
+2025-08-28 16:26:45 INFO  LoginPage:55 - Performing Login with TestData from Excel
+2025-08-28 16:26:45 INFO  LoginPage:59 - Entering the Username : Prasanna
+2025-08-28 16:26:45 INFO  LoginPage:61 - Entering the Password : Welcome@01
+2025-08-28 16:26:46 INFO  LoginPage:64 - Clicked Login button
+2025-08-28 16:26:46 INFO  HomePage:66 - successful login
+2025-08-28 16:26:46 INFO  HomePage:83 - Clicking on the Get Started Button of Tree from HomePage
+2025-08-28 16:26:46 INFO  PageManager:37 - Landed in Tree page
+2025-08-28 16:26:46 INFO  TreePage:41 - Getting the title of Tree Page
+2025-08-28 16:26:46 INFO  TreePage:45 - Clicking on the topic link : Types of Binary Trees
+2025-08-28 16:26:46 INFO  TreePage:55 - The user is in the correct topic page as expected : Types of Binary Trees
+2025-08-28 16:26:46 INFO  TreePage:70 - Clicking on the Try Here Button of Types of Binary Trees
+2025-08-28 16:26:47 INFO  TreeTest:40 - Checking the try editor code block is available
+2025-08-28 16:26:47 INFO  TreeTest:42 - Checking the Run button is available
+2025-08-28 16:26:47 INFO  TreeTest:46 - The code entered in the editor : 123abc
+2025-08-28 16:26:47 INFO  TreeTest:48 - Run button clicked
+2025-08-28 16:26:47 ERROR TreePage:133 - Alert output: SyntaxError: bad input on line 1
+2025-08-28 16:26:47 INFO  TreeTest:52 - Expected Output: SyntaxError: bad input on line 1
+2025-08-28 16:26:47 INFO  TreeTest:54 - ? Actual Output matched with the Expected Output
+2025-08-28 16:26:47 INFO  TreeTest:52 - >>> After all tests - quitting driver
+2025-08-28 16:26:48 INFO  TreeTest:42 - Browser launched: chrome | Thread: 1
+2025-08-28 16:26:48 INFO  TreeTest:47 - Starting test: generateOutputForInputInTree
+2025-08-28 16:26:48 INFO  TreeTest:23 - Entered the Tree testcases
+2025-08-28 16:26:48 INFO  LandingPage:34 - Getting the URL of DSALGO
+2025-08-28 16:26:51 INFO  LandingPage:23 - Clicking the Get Started Button of Landing page
+2025-08-28 16:26:52 INFO  HomePage:227 - Clicking Sign In button from Home Page
+2025-08-28 16:26:52 INFO  LoginPage:55 - Performing Login with TestData from Excel
+2025-08-28 16:26:52 INFO  LoginPage:59 - Entering the Username : Prasanna
+2025-08-28 16:26:52 INFO  LoginPage:61 - Entering the Password : Welcome@01
+2025-08-28 16:26:53 INFO  LoginPage:64 - Clicked Login button
+2025-08-28 16:26:53 INFO  HomePage:66 - successful login
+2025-08-28 16:26:53 INFO  HomePage:83 - Clicking on the Get Started Button of Tree from HomePage
+2025-08-28 16:26:53 INFO  PageManager:37 - Landed in Tree page
+2025-08-28 16:26:53 INFO  TreePage:41 - Getting the title of Tree Page
+2025-08-28 16:26:53 INFO  TreePage:45 - Clicking on the topic link : Implementation in Python
+2025-08-28 16:26:53 INFO  TreePage:55 - The user is in the correct topic page as expected : Implementation in Python
+2025-08-28 16:26:53 INFO  TreePage:70 - Clicking on the Try Here Button of Implementation in Python
+2025-08-28 16:26:54 INFO  TreeTest:40 - Checking the try editor code block is available
+2025-08-28 16:26:54 INFO  TreeTest:42 - Checking the Run button is available
+2025-08-28 16:26:54 INFO  TreeTest:46 - The code entered in the editor : 321.0
+2025-08-28 16:26:54 INFO  TreeTest:48 - Run button clicked
+2025-08-28 16:26:59 INFO  TreePage:140 - Console output: 
+2025-08-28 16:26:59 INFO  TreeTest:52 - Expected Output: 
+2025-08-28 16:26:59 INFO  TreeTest:54 - ? Actual Output matched with the Expected Output
+2025-08-28 16:26:59 INFO  TreeTest:52 - >>> After all tests - quitting driver
+2025-08-28 16:27:00 INFO  TreeTest:42 - Browser launched: chrome | Thread: 1
+2025-08-28 16:27:00 INFO  TreeTest:47 - Starting test: generateOutputForInputInTree
+2025-08-28 16:27:00 INFO  TreeTest:23 - Entered the Tree testcases
+2025-08-28 16:27:00 INFO  LandingPage:34 - Getting the URL of DSALGO
+2025-08-28 16:27:02 INFO  LandingPage:23 - Clicking the Get Started Button of Landing page
+2025-08-28 16:27:03 INFO  HomePage:227 - Clicking Sign In button from Home Page
+2025-08-28 16:27:03 INFO  LoginPage:55 - Performing Login with TestData from Excel
+2025-08-28 16:27:03 INFO  LoginPage:59 - Entering the Username : Prasanna
+2025-08-28 16:27:03 INFO  LoginPage:61 - Entering the Password : Welcome@01
+2025-08-28 16:27:03 INFO  LoginPage:64 - Clicked Login button
+2025-08-28 16:27:04 INFO  HomePage:66 - successful login
+2025-08-28 16:27:04 INFO  HomePage:83 - Clicking on the Get Started Button of Tree from HomePage
+2025-08-28 16:27:04 INFO  PageManager:37 - Landed in Tree page
+2025-08-28 16:27:04 INFO  TreePage:41 - Getting the title of Tree Page
+2025-08-28 16:27:04 INFO  TreePage:45 - Clicking on the topic link : Binary Tree Traversals
+2025-08-28 16:27:04 INFO  TreePage:55 - The user is in the correct topic page as expected : Binary Tree Traversals
+2025-08-28 16:27:04 INFO  TreePage:70 - Clicking on the Try Here Button of Binary Tree Traversals
+2025-08-28 16:27:05 INFO  TreeTest:40 - Checking the try editor code block is available
+2025-08-28 16:27:05 INFO  TreeTest:42 - Checking the Run button is available
+2025-08-28 16:27:05 INFO  TreeTest:46 - The code entered in the editor : print("hello");
+2025-08-28 16:27:05 INFO  TreeTest:48 - Run button clicked
+2025-08-28 16:27:10 INFO  TreePage:140 - Console output: hello
+2025-08-28 16:27:10 INFO  TreeTest:52 - Expected Output: hello
+2025-08-28 16:27:10 INFO  TreeTest:54 - ? Actual Output matched with the Expected Output
+2025-08-28 16:27:10 INFO  TreeTest:52 - >>> After all tests - quitting driver
+2025-08-28 16:27:11 INFO  TreeTest:42 - Browser launched: chrome | Thread: 1
+2025-08-28 16:27:11 INFO  TreeTest:47 - Starting test: generateOutputForInputInTree
+2025-08-28 16:27:11 INFO  TreeTest:23 - Entered the Tree testcases
+2025-08-28 16:27:11 INFO  LandingPage:34 - Getting the URL of DSALGO
+2025-08-28 16:27:14 INFO  LandingPage:23 - Clicking the Get Started Button of Landing page
+2025-08-28 16:27:14 INFO  HomePage:227 - Clicking Sign In button from Home Page
+2025-08-28 16:27:14 INFO  LoginPage:55 - Performing Login with TestData from Excel
+2025-08-28 16:27:14 INFO  LoginPage:59 - Entering the Username : Prasanna
+2025-08-28 16:27:14 INFO  LoginPage:61 - Entering the Password : Welcome@01
+2025-08-28 16:27:14 INFO  LoginPage:64 - Clicked Login button
+2025-08-28 16:27:15 INFO  HomePage:66 - successful login
+2025-08-28 16:27:15 INFO  HomePage:83 - Clicking on the Get Started Button of Tree from HomePage
+2025-08-28 16:27:15 INFO  PageManager:37 - Landed in Tree page
+2025-08-28 16:27:15 INFO  TreePage:41 - Getting the title of Tree Page
+2025-08-28 16:27:15 INFO  TreePage:45 - Clicking on the topic link : Implementation of Binary Trees
+2025-08-28 16:27:15 INFO  TreePage:55 - The user is in the correct topic page as expected : Implementation of Binary Trees
+2025-08-28 16:27:15 INFO  TreePage:70 - Clicking on the Try Here Button of Implementation of Binary Trees
+2025-08-28 16:27:16 INFO  TreeTest:40 - Checking the try editor code block is available
+2025-08-28 16:27:16 INFO  TreeTest:42 - Checking the Run button is available
+2025-08-28 16:27:16 INFO  TreeTest:46 - The code entered in the editor : xyz
+2025-08-28 16:27:16 INFO  TreeTest:48 - Run button clicked
+2025-08-28 16:27:16 ERROR TreePage:133 - Alert output: NameError: name 'xyz' is not defined on line 1
+2025-08-28 16:27:16 INFO  TreeTest:52 - Expected Output: NameError: name 'xyz' is not defined on line 1
+2025-08-28 16:27:16 INFO  TreeTest:54 - ? Actual Output matched with the Expected Output
+2025-08-28 16:27:16 INFO  TreeTest:52 - >>> After all tests - quitting driver
+2025-08-28 16:27:17 INFO  TreeTest:42 - Browser launched: chrome | Thread: 1
+2025-08-28 16:27:17 INFO  TreeTest:47 - Starting test: generateOutputForInputInTree
+2025-08-28 16:27:17 INFO  TreeTest:23 - Entered the Tree testcases
+2025-08-28 16:27:17 INFO  LandingPage:34 - Getting the URL of DSALGO
+2025-08-28 16:27:20 INFO  LandingPage:23 - Clicking the Get Started Button of Landing page
+2025-08-28 16:27:20 INFO  HomePage:227 - Clicking Sign In button from Home Page
+2025-08-28 16:27:20 INFO  LoginPage:55 - Performing Login with TestData from Excel
+2025-08-28 16:27:20 INFO  LoginPage:59 - Entering the Username : Prasanna
+2025-08-28 16:27:20 INFO  LoginPage:61 - Entering the Password : Welcome@01
+2025-08-28 16:27:21 INFO  LoginPage:64 - Clicked Login button
+2025-08-28 16:27:21 INFO  HomePage:66 - successful login
+2025-08-28 16:27:21 INFO  HomePage:83 - Clicking on the Get Started Button of Tree from HomePage
+2025-08-28 16:27:21 INFO  PageManager:37 - Landed in Tree page
+2025-08-28 16:27:21 INFO  TreePage:41 - Getting the title of Tree Page
+2025-08-28 16:27:21 INFO  TreePage:45 - Clicking on the topic link : Applications of Binary trees
+2025-08-28 16:27:21 INFO  TreePage:55 - The user is in the correct topic page as expected : Applications of Binary trees
+2025-08-28 16:27:21 INFO  TreePage:70 - Clicking on the Try Here Button of Applications of Binary trees
+2025-08-28 16:27:22 INFO  TreeTest:40 - Checking the try editor code block is available
+2025-08-28 16:27:22 INFO  TreeTest:42 - Checking the Run button is available
+2025-08-28 16:27:22 INFO  TreeTest:46 - The code entered in the editor : 123abc
+2025-08-28 16:27:22 INFO  TreeTest:48 - Run button clicked
+2025-08-28 16:27:22 ERROR TreePage:133 - Alert output: SyntaxError: bad input on line 1
+2025-08-28 16:27:22 INFO  TreeTest:52 - Expected Output: SyntaxError: bad input on line 1
+2025-08-28 16:27:22 INFO  TreeTest:54 - ? Actual Output matched with the Expected Output
+2025-08-28 16:27:22 INFO  TreeTest:52 - >>> After all tests - quitting driver
+2025-08-28 16:27:23 INFO  TreeTest:42 - Browser launched: chrome | Thread: 1
+2025-08-28 16:27:23 INFO  TreeTest:47 - Starting test: generateOutputForInputInTree
+2025-08-28 16:27:23 INFO  TreeTest:23 - Entered the Tree testcases
+2025-08-28 16:27:23 INFO  LandingPage:34 - Getting the URL of DSALGO
+2025-08-28 16:27:27 INFO  LandingPage:23 - Clicking the Get Started Button of Landing page
+2025-08-28 16:27:27 INFO  HomePage:227 - Clicking Sign In button from Home Page
+2025-08-28 16:27:27 INFO  LoginPage:55 - Performing Login with TestData from Excel
+2025-08-28 16:27:27 INFO  LoginPage:59 - Entering the Username : Prasanna
+2025-08-28 16:27:27 INFO  LoginPage:61 - Entering the Password : Welcome@01
+2025-08-28 16:27:28 INFO  LoginPage:64 - Clicked Login button
+2025-08-28 16:27:28 INFO  HomePage:66 - successful login
+2025-08-28 16:27:28 INFO  HomePage:83 - Clicking on the Get Started Button of Tree from HomePage
+2025-08-28 16:27:28 INFO  PageManager:37 - Landed in Tree page
+2025-08-28 16:27:28 INFO  TreePage:41 - Getting the title of Tree Page
+2025-08-28 16:27:28 INFO  TreePage:45 - Clicking on the topic link : Binary Search Trees
+2025-08-28 16:27:29 INFO  TreePage:55 - The user is in the correct topic page as expected : Binary Search Trees
+2025-08-28 16:27:29 INFO  TreePage:70 - Clicking on the Try Here Button of Binary Search Trees
+2025-08-28 16:27:30 INFO  TreeTest:40 - Checking the try editor code block is available
+2025-08-28 16:27:30 INFO  TreeTest:42 - Checking the Run button is available
+2025-08-28 16:27:30 INFO  TreeTest:46 - The code entered in the editor : 321.0
+2025-08-28 16:27:30 INFO  TreeTest:48 - Run button clicked
+2025-08-28 16:27:35 INFO  TreePage:140 - Console output: 
+2025-08-28 16:27:35 INFO  TreeTest:52 - Expected Output: 
+2025-08-28 16:27:35 INFO  TreeTest:54 - ? Actual Output matched with the Expected Output
+2025-08-28 16:27:35 INFO  TreeTest:52 - >>> After all tests - quitting driver
+2025-08-28 16:27:36 INFO  TreeTest:42 - Browser launched: chrome | Thread: 1
+2025-08-28 16:27:36 INFO  TreeTest:47 - Starting test: generateOutputForInputInTree
+2025-08-28 16:27:36 INFO  TreeTest:23 - Entered the Tree testcases
+2025-08-28 16:27:36 INFO  LandingPage:34 - Getting the URL of DSALGO
+2025-08-28 16:27:39 INFO  LandingPage:23 - Clicking the Get Started Button of Landing page
+2025-08-28 16:27:39 INFO  HomePage:227 - Clicking Sign In button from Home Page
+2025-08-28 16:27:39 INFO  LoginPage:55 - Performing Login with TestData from Excel
+2025-08-28 16:27:39 INFO  LoginPage:59 - Entering the Username : Prasanna
+2025-08-28 16:27:40 INFO  LoginPage:61 - Entering the Password : Welcome@01
+2025-08-28 16:27:40 INFO  LoginPage:64 - Clicked Login button
+2025-08-28 16:27:40 INFO  HomePage:66 - successful login
+2025-08-28 16:27:40 INFO  HomePage:83 - Clicking on the Get Started Button of Tree from HomePage
+2025-08-28 16:27:40 INFO  PageManager:37 - Landed in Tree page
+2025-08-28 16:27:40 INFO  TreePage:41 - Getting the title of Tree Page
+2025-08-28 16:27:40 INFO  TreePage:45 - Clicking on the topic link : Implementation Of BST
+2025-08-28 16:27:41 INFO  TreePage:55 - The user is in the correct topic page as expected : Implementation Of BST
+2025-08-28 16:27:41 INFO  TreePage:70 - Clicking on the Try Here Button of Implementation Of BST
+2025-08-28 16:27:42 INFO  TreeTest:40 - Checking the try editor code block is available
+2025-08-28 16:27:42 INFO  TreeTest:42 - Checking the Run button is available
+2025-08-28 16:27:42 INFO  TreeTest:46 - The code entered in the editor : print("hello");
+2025-08-28 16:27:42 INFO  TreeTest:48 - Run button clicked
+2025-08-28 16:27:47 INFO  TreePage:140 - Console output: hello
+2025-08-28 16:27:47 INFO  TreeTest:52 - Expected Output: hello
+2025-08-28 16:27:47 INFO  TreeTest:54 - ? Actual Output matched with the Expected Output
+2025-08-28 16:27:47 INFO  TreeTest:52 - >>> After all tests - quitting driver
+>>>>>>> eb6895ccf752b390805167c5b5c5a54313e92eda
