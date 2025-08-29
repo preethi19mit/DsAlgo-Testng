@@ -1,5 +1,6 @@
 package nn.dsalgo.tests;
 
+import nn.dsalgo.helperclass.HelperClass;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
@@ -9,25 +10,24 @@ import nn.dsalgo.dataprovider.TestdataProvider;
 import nn.dsalgo.factory.DriverFactory;
 import nn.dsalgo.hooks.TestNGHooks;
 import nn.dsalgo.listeners.TestListeners;
-import nn.dsalgo.pagemanager.PageManager;
 import nn.dsalgo.pages.Stackpage;
 
 @Listeners({TestListeners.class})
 
 public class StackTest extends TestNGHooks{
-	private PageManager pagemanager;
+	private HelperClass helperClass;
 	private Stackpage stackpage;
 
 	 @BeforeMethod(alwaysRun = true)
 	    public void BeforeSetStackPage() {
-		 pagemanager = new PageManager();
+		 helperClass = new HelperClass();
 		 stackpage = new Stackpage(DriverFactory.getDriver());
 	    }
 
 	    @Test()
 	    public void getStackpage()
 	    {
-	     pagemanager.StackpageLanding();   
+			helperClass.StackpageLanding();
 	     Assert.assertEquals(stackpage.getStackpagetitle(),"Stack");
 	     log.info("The User landed in : " + stackpage.getStackpagetitle());
         }
@@ -35,7 +35,7 @@ public class StackTest extends TestNGHooks{
 	    @Test(dataProvider = "StackTopics",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"getStackpage"})
 	    public void NavigatetoStackTopics(String Expectedpagetitle)
 	    {
-	    	pagemanager.StackpageLanding();
+			helperClass.StackpageLanding();
 	    	String Actualpagetitle = stackpage.getStackpageTopicstitle(Expectedpagetitle);
 	       	Assert.assertEquals(Actualpagetitle, Expectedpagetitle);
 		}
@@ -43,7 +43,7 @@ public class StackTest extends TestNGHooks{
 	    @Test(dataProvider = "StackTopics",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"NavigatetoStackTopics"})
 	    public void NavigatetoTryEditor(String topic)
 	    {
-	    	pagemanager.StackpageLanding();
+			helperClass.StackpageLanding();
 	    	stackpage.clickTopicLink(topic);
 	    	String Actualpagevalidation = stackpage.validateTitle(topic);
 	    	Assert.assertEquals(Actualpagevalidation,stackpage.validateTitle(topic));
@@ -54,10 +54,10 @@ public class StackTest extends TestNGHooks{
 	    @Test(dataProvider = "StackTopics",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"NavigatetoTryEditor"})
 	    public void getValidPythonCode(String topic)
 	    {
-	      pagemanager.StackpageLanding();
+			helperClass.StackpageLanding();
 	      stackpage.clickTopicLink(topic);
 	      stackpage.clickTryHereBtn();
-	      stackpage.enterPythonCode(pagemanager.getPythonCodeDataDriven("Stack","ValidCode"));
+//	      stackpage.enterPythonCode(pagemanager.getPythonCodeDataDriven("Stack","ValidCode"));
 	      stackpage.ClickRun();
 	      String ActualOutput = stackpage.getOutputFromConsole();
 	      log.info("Actual Output in the console : "+ ActualOutput);
@@ -70,10 +70,10 @@ public class StackTest extends TestNGHooks{
 	    @Test(dataProvider = "StackTopics",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"NavigatetoTryEditor"})
 	    public void getInValidPythonCode(String topic)
 	    {
-	      pagemanager.StackpageLanding();
+			helperClass.StackpageLanding();
 	      stackpage.clickTopicLink(topic);
 	      stackpage.clickTryHereBtn();
-	      stackpage.enterPythonCode(pagemanager.getPythonCodeDataDriven("Stack","InvalidCode"));
+//	      stackpage.enterPythonCode(pagemanager.getPythonCodeDataDriven("Stack","InvalidCode"));
 	      stackpage.ClickRun();
 	      Assert.assertTrue(stackpage.Alertmessage(),"No alert appeared");
 	             

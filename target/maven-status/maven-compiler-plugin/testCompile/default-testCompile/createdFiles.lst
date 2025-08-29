@@ -1,5 +1,6 @@
 nn\dsalgo\factory\DriverFactory.class
 nn\dsalgo\listeners\TestListeners.class
+nn\dsalgo\listeners\AnnotationTransformer.class
 nn\dsalgo\dataprovider\TestdataProvider.class
 nn\dsalgo\tests\DatastructureTest.class
 nn\dsalgo\pages\RegisterPage.class
@@ -9,6 +10,7 @@ nn\dsalgo\pages\ArrayPage.class
 nn\dsalgo\utilities\BaseLogger.class
 nn\dsalgo\utilities\ElementsUtil.class
 nn\dsalgo\pages\LoginPage.class
+nn\dsalgo\listeners\RetryAnalyzer.class
 nn\dsalgo\tests\TreeTest.class
 nn\dsalgo\tests\QueueTest.class
 nn\dsalgo\pages\LandingPage.class
@@ -17,6 +19,7 @@ nn\dsalgo\tests\LoginTest.class
 nn\dsalgo\pages\Graph.class
 nn\dsalgo\pages\DataStructurePage.class
 nn\dsalgo\pages\HomePage.class
+nn\dsalgo\tests\StackTest.class
 nn\dsalgo\pages\LinkedListPage.class
 nn\dsalgo\pages\Queue.class
 nn\dsalgo\pages\Stackpage.class
