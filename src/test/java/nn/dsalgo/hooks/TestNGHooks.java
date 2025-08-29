@@ -46,12 +46,6 @@ public class TestNGHooks extends BaseLogger {
     public void logTestStart(Method method) {
         log.info("Starting test: " + method.getName());
     }
-    
-    @AfterMethod(alwaysRun = true)
-    public void browserclose()
-    {
-    	DriverFactory.quitDriver();
-    }
 
     @AfterMethod(alwaysRun = true)
     public void tearDown() {
