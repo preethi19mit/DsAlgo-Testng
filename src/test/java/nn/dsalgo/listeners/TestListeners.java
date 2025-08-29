@@ -1,5 +1,8 @@
 package nn.dsalgo.listeners;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
 import io.qameta.allure.Attachment;
 import nn.dsalgo.factory.DriverFactory;
 import nn.dsalgo.utilities.LoggerHelper;
@@ -7,6 +10,7 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
@@ -18,10 +22,30 @@ import java.nio.file.Paths;
 public class TestListeners implements ITestListener {
     private Logger log = LoggerHelper.getLogger(TestListeners.class);
     private static final String LOG_FILE_PATH = "target/logs/execution.log";
+    private static ExtentReports extent = ExtentManager.getInstance();
+    private static ThreadLocal<ExtentTest> test = new ThreadLocal<>();
+    @Override
+    public void onTestStart(ITestResult result) {
+        ExtentTest extentTest = extent.createTest(result.getMethod().getMethodName());
+        test.set(extentTest);
+    }
+    @Override
+    public void onTestSuccess(ITestResult result) {
+        test.get().log(Status.PASS, "Test Passed");
+    }
 
+    @Override
+    public void onTestSkipped(ITestResult result) {
+        test.get().log(Status.SKIP, "Test Skipped: " + result.getThrowable());
+    }
+    @Override
+    public void onFinish(ITestContext context) {
+        extent.flush();
+    }
     @Override
     public void onTestFailure(ITestResult result) {
         log.error("Test failed: " + result.getName());
+        test.get().log(Status.FAIL, "Test Failed: " + result.getThrowable());
 
         WebDriver driver = DriverFactory.getDriver(); // ThreadLocal driver
 
@@ -36,6 +60,9 @@ public class TestListeners implements ITestListener {
                 File destFile = new File(destDir, fileName);
                 Files.copy(srcFile.toPath(), destFile.toPath());
                 log.info("✅ Screenshot saved at: " + destFile.getAbsolutePath());
+
+                // Attach screenshot to extent report
+                test.get().addScreenCaptureFromPath(destFile.getAbsolutePath());
 
                 // Attach screenshot to Allure
                 attachScreenshotToAllure(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES));

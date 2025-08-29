@@ -3,6 +3,7 @@ C:\Users\anand\IdeaProjects\NN_DSALGO_TestNG\src\test\java\nn\dsalgo\factory\Dri
 C:\Users\anand\IdeaProjects\NN_DSALGO_TestNG\src\test\java\nn\dsalgo\helperclass\HelperClass.java
 C:\Users\anand\IdeaProjects\NN_DSALGO_TestNG\src\test\java\nn\dsalgo\hooks\TestNGHooks.java
 C:\Users\anand\IdeaProjects\NN_DSALGO_TestNG\src\test\java\nn\dsalgo\listeners\AnnotationTransformer.java
+C:\Users\anand\IdeaProjects\NN_DSALGO_TestNG\src\test\java\nn\dsalgo\listeners\ExtentManager.java
 C:\Users\anand\IdeaProjects\NN_DSALGO_TestNG\src\test\java\nn\dsalgo\listeners\RetryAnalyzer.java
 C:\Users\anand\IdeaProjects\NN_DSALGO_TestNG\src\test\java\nn\dsalgo\listeners\TestListeners.java
 C:\Users\anand\IdeaProjects\NN_DSALGO_TestNG\src\test\java\nn\dsalgo\pages\ArrayPage.java

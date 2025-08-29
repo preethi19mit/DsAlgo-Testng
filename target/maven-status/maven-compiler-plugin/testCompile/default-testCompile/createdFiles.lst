@@ -19,6 +19,7 @@ nn\dsalgo\tests\LoginTest.class
 nn\dsalgo\pages\Graph.class
 nn\dsalgo\pages\DataStructurePage.class
 nn\dsalgo\pages\HomePage.class
+nn\dsalgo\listeners\ExtentManager.class
 nn\dsalgo\tests\StackTest.class
 nn\dsalgo\pages\LinkedListPage.class
 nn\dsalgo\pages\Queue.class
