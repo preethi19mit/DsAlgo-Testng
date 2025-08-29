@@ -157,6 +157,13 @@ public class Stackpage extends BaseLogger {
         String codeToInput = getCode.get("Python Code");
         return codeToInput;
     }
+    
+    public String getInvalidPythonCodeDataDriven()
+    {
+        Map<String, String> getCode = ExcelReader.getRowByTestCaseId("Stack","InvalidCode");
+        String codeToInput = getCode.get("Python Code");
+        return codeToInput;
+    }
 
     public String getOutputDataDriven()
     {
@@ -178,23 +185,25 @@ public class Stackpage extends BaseLogger {
 	            return false;
 	        }    	
 	}
-	 public void ClickPQLink()
+	 public void PracticeQuestionLink()
 	    {
 	        driver.findElement(pqbrokenLink).click();
 	        String pageSource = driver.getPageSource();
 	        if (pageSource.trim().isEmpty() || pageSource.contains("404") || pageSource.contains("Not Found")) {
-	            log.warn("❌ Broken Link Navigated to Empty/404 Page");
+	            log.warn("Broken Link Navigated to Empty/404 Page");
 	        } else {
-	            log.info("✅ Practice Questions Link Working Fine");
+	            log.info("Practice Questions Link Working Fine");
 	        }
 	    }
-	    public void emptyPage()
+	    public boolean emptyPage()
 	    {
 	        WebElement container = driver.findElement(By.cssSelector("div.container"));
 	        if (container.getText().trim().isEmpty()) {
-	            log.warn("⚠️ The container is empty → no practice content found");
+	            log.warn("The container is empty → no practice content found");
+	            return true;
 	        } else {
-	            log.info("✅ Container has content: " + container.getText());
+	            log.info("The Container has content: " + container.getText());
+	            return false;
 	        }
 	
 	    }

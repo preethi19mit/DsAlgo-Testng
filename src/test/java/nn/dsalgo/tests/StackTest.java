@@ -7,77 +7,97 @@ import org.testng.annotations.Test;
 
 import nn.dsalgo.dataprovider.TestdataProvider;
 import nn.dsalgo.factory.DriverFactory;
+import nn.dsalgo.helperclass.HelperClass;
 import nn.dsalgo.hooks.TestNGHooks;
 import nn.dsalgo.listeners.TestListeners;
-import nn.dsalgo.pagemanager.PageManager;
 import nn.dsalgo.pages.Stackpage;
 
 @Listeners({TestListeners.class})
 
 public class StackTest extends TestNGHooks{
-	private PageManager pagemanager;
+	private HelperClass helperclass;
 	private Stackpage stackpage;
 
 	 @BeforeMethod(alwaysRun = true)
 	    public void BeforeSetStackPage() {
-		 pagemanager = new PageManager();
+		 helperclass = new HelperClass();
 		 stackpage = new Stackpage(DriverFactory.getDriver());
 	    }
 
-	    @Test()
+	  @Test(priority = 1)
 	    public void getStackpage()
 	    {
-	     pagemanager.StackpageLanding();   
+	     helperclass.StackpageLanding();   
 	     Assert.assertEquals(stackpage.getStackpagetitle(),"Stack");
 	     log.info("The User landed in : " + stackpage.getStackpagetitle());
         }
 	    
-	    @Test(dataProvider = "StackTopics",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"getStackpage"})
+	    @Test(priority = 2,dataProvider = "StackTopics",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"getStackpage"})
 	    public void NavigatetoStackTopics(String Expectedpagetitle)
 	    {
-	    	pagemanager.StackpageLanding();
+	    	helperclass.StackpageLanding();
 	    	String Actualpagetitle = stackpage.getStackpageTopicstitle(Expectedpagetitle);
 	       	Assert.assertEquals(Actualpagetitle, Expectedpagetitle);
 		}
 	    
-	    @Test(dataProvider = "StackTopics",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"NavigatetoStackTopics"})
+	    @Test(priority = 3,dataProvider = "StackTopics",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"NavigatetoStackTopics"})
 	    public void NavigatetoTryEditor(String topic)
 	    {
-	    	pagemanager.StackpageLanding();
+	    	helperclass.StackpageLanding();
 	    	stackpage.clickTopicLink(topic);
 	    	String Actualpagevalidation = stackpage.validateTitle(topic);
 	    	Assert.assertEquals(Actualpagevalidation,stackpage.validateTitle(topic));
 	        stackpage.clickTryHereBtn();
 	        Assert.assertTrue(stackpage.tryEditorVisible(),"Try Editor is not available");
-	    }
-	    
-	    @Test(dataProvider = "StackTopics",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"NavigatetoTryEditor"})
-	    public void getValidPythonCode(String topic)
-	    {
-	      pagemanager.StackpageLanding();
-	      stackpage.clickTopicLink(topic);
-	      stackpage.clickTryHereBtn();
-	      stackpage.enterPythonCode(pagemanager.getPythonCodeDataDriven("Stack","ValidCode"));
-	      stackpage.ClickRun();
-	      String ActualOutput = stackpage.getOutputFromConsole();
-	      log.info("Actual Output in the console : "+ ActualOutput);
-	      String ExpectedOutput = stackpage.getOutputDataDriven();
-	      log.info("Expected Output : "+ ExpectedOutput);
-	      Assert.assertEquals(ActualOutput,ExpectedOutput);
 	        
 	    }
 	    
-	    @Test(dataProvider = "StackTopics",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"NavigatetoTryEditor"})
-	    public void getInValidPythonCode(String topic)
+	    @Test(priority = 4,dataProvider = "StackTopics",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"NavigatetoTryEditor"})
+	    public void getValidPythonCode(String topic)
 	    {
-	      pagemanager.StackpageLanding();
+	      helperclass.StackpageLanding();
 	      stackpage.clickTopicLink(topic);
 	      stackpage.clickTryHereBtn();
-	      stackpage.enterPythonCode(pagemanager.getPythonCodeDataDriven("Stack","InvalidCode"));
+	      String code = stackpage.getPythonCodeDataDriven();
+	      stackpage.enterPythonCode(code);
+	      log.info("Entered Code is : " +code);
 	      stackpage.ClickRun();
-	      Assert.assertTrue(stackpage.Alertmessage(),"No alert appeared");
+	      String ActualOutput = stackpage.getOutputFromConsole();
+	      String ExpectedOutput = stackpage.getOutputDataDriven();
+	      log.info("Expected Output: " + ExpectedOutput);
+	      Assert.assertEquals(ActualOutput, ExpectedOutput);      
+	        }
+	    
+	    @Test(priority = 5,dataProvider = "StackTopics",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"NavigatetoTryEditor"})
+	    public void getInValidPythonCode(String topic)
+	    {
+	      helperclass.StackpageLanding();
+	      stackpage.clickTopicLink(topic);
+	      stackpage.clickTryHereBtn();
+	      log.info("The User is in : " + stackpage.tryEditorVisible());
+	      String code = stackpage.getInvalidPythonCodeDataDriven();
+	      stackpage.enterPythonCode(code);
+	      log.info("Entered Code is : " +code);
+	      stackpage.ClickRun();
+	      Assert.assertTrue(stackpage.Alertmessage());
 	             
 	    }
-	    
+	      
+	@Test(priority = 6,dataProvider = "StackTopics",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"getStackpage"})
+	public void NavigatePracticeQuestion(String topic)
+	{
+		helperclass.StackpageLanding();
+		stackpage.clickTopicLink(topic);
+		stackpage.ClickPracticeQuestionsLink();
+		Assert.assertTrue(stackpage.isPracticePageDisplayed());
+	}
 	
+	@Test(priority = 7,dataProvider = "StackTopics",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"getStackpage"})
+	public void PracticeQuestionBrokenLink(String topic)
+	{
+		helperclass.StackpageLanding();
+		stackpage.clickTopicLink(topic);
+		stackpage.PracticeQuestionLink();
+		Assert.assertTrue(stackpage.emptyPage());
+	}
 }
