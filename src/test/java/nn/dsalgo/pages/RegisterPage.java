@@ -41,11 +41,10 @@ public class RegisterPage extends BaseLogger {
     }
     public boolean isRegisterPageDisplayed() {
     	
-        return driver.findElement(Loginpage).isDisplayed();
+       return driver.findElement(Loginpage).isDisplayed();
+    	
     }
-    
-   
-    
+     
     public void getEmptyValues()
     {
     	log.info("Performing Register with TestData from Excel:");
