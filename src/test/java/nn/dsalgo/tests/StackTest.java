@@ -68,7 +68,7 @@ public class StackTest extends TestNGHooks{
 	      Assert.assertEquals(ActualOutput, ExpectedOutput);      
 	        }
 	    
-	    @Test(priority = 5,dataProvider = "StackTopics",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"NavigatetoTryEditor"})
+	    @Test(dataProvider = "StackTopics",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"NavigatetoTryEditor"})
 	    public void getInValidPythonCode(String topic)
 	    {
 	      helperclass.StackpageLanding();
