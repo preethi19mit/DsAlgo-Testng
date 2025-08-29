@@ -24,7 +24,7 @@ public class StackTest extends TestNGHooks{
 		 stackpage = new Stackpage(DriverFactory.getDriver());
 	    }
 
-	  @Test(priority = 1)
+	  @Test()
 	    public void getStackpage()
 	    {
 	     helperclass.StackpageLanding();   
@@ -32,7 +32,7 @@ public class StackTest extends TestNGHooks{
 	     log.info("The User landed in : " + stackpage.getStackpagetitle());
         }
 	    
-	    @Test(priority = 2,dataProvider = "StackTopics",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"getStackpage"})
+	    @Test(dataProvider = "StackTopics",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"getStackpage"})
 	    public void NavigatetoStackTopics(String Expectedpagetitle)
 	    {
 	    	helperclass.StackpageLanding();
@@ -40,7 +40,7 @@ public class StackTest extends TestNGHooks{
 	       	Assert.assertEquals(Actualpagetitle, Expectedpagetitle);
 		}
 	    
-	    @Test(priority = 3,dataProvider = "StackTopics",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"NavigatetoStackTopics"})
+	    @Test(dataProvider = "StackTopics",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"NavigatetoStackTopics"})
 	    public void NavigatetoTryEditor(String topic)
 	    {
 	    	helperclass.StackpageLanding();
@@ -52,7 +52,7 @@ public class StackTest extends TestNGHooks{
 	        
 	    }
 	    
-	    @Test(priority = 4,dataProvider = "StackTopics",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"NavigatetoTryEditor"})
+	    @Test(dataProvider = "StackTopics",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"NavigatetoTryEditor"})
 	    public void getValidPythonCode(String topic)
 	    {
 	      helperclass.StackpageLanding();
@@ -83,7 +83,7 @@ public class StackTest extends TestNGHooks{
 	             
 	    }
 	      
-	@Test(priority = 6,dataProvider = "StackTopics",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"getStackpage"})
+	@Test(dataProvider = "StackTopics",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"getStackpage"})
 	public void NavigatePracticeQuestion(String topic)
 	{
 		helperclass.StackpageLanding();
@@ -92,7 +92,7 @@ public class StackTest extends TestNGHooks{
 		Assert.assertTrue(stackpage.isPracticePageDisplayed());
 	}
 	
-	@Test(priority = 7,dataProvider = "StackTopics",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"getStackpage"})
+	@Test(dataProvider = "StackTopics",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"getStackpage"})
 	public void PracticeQuestionBrokenLink(String topic)
 	{
 		helperclass.StackpageLanding();
