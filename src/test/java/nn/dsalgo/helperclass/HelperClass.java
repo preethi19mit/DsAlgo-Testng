@@ -1,15 +1,15 @@
-package nn.dsalgo.pagemanager;
+package nn.dsalgo.helperclass;
 
 import nn.dsalgo.factory.DriverFactory;
 import nn.dsalgo.pages.HomePage;
 import nn.dsalgo.pages.LandingPage;
 import nn.dsalgo.pages.LoginPage;
-import nn.dsalgo.utilities.BaseLogger;
-import nn.dsalgo.utilities.ExcelReader;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
-import java.util.Map;
 
-public class PageManager extends BaseLogger {
+public class HelperClass {
+    private static final Logger log = LogManager.getLogger(HelperClass.class);
     LandingPage landingPage = new LandingPage(DriverFactory.getDriver());
     HomePage homePage = new HomePage(DriverFactory.getDriver());
     LoginPage loginPage = new LoginPage(DriverFactory.getDriver());
@@ -30,6 +30,11 @@ public class PageManager extends BaseLogger {
         log.info("Landed in Data structures page");
     }
     
+    public void StackpageLanding() {
+        SuccessfulLogin();
+        homePage.clickGetStartedForStack();
+    }
+
     public void QueuepageLanding()
     {
     	SuccessfulLogin();
@@ -37,18 +42,11 @@ public class PageManager extends BaseLogger {
     	log.info("Queue page Loaded");
     }
 
-    public String getPythonCodeDataDriven(String sheetName, String inputID)
+    public void treePageLanding()
     {
-        Map<String, String> getCode = ExcelReader.getRowByTestCaseId(sheetName,inputID);
-        String codeToInput = getCode.get("Python Code");
-        log.info("The code to input is "+codeToInput+" for the scenario "+inputID);
-        return codeToInput;
+        SuccessfulLogin();
+        homePage.clickGetStartedForTree();
+        log.info("Landed in Tree page");
     }
 
-    public String getOutputDataDriven(String sheetName,String inputID)
-    {
-        Map<String, String> getOutput = ExcelReader.getRowByTestCaseId(sheetName,inputID);
-        String output = getOutput.get("Expected Output");
-        return output;
-    }
 }

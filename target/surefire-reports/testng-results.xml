@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="5" total="6" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-27T18:38:51 EDT" name="Surefire suite" finished-at="2025-08-27T18:39:08 EDT" duration-ms="17195">
+  <suite started-at="2025-08-29T12:27:29 EDT" name="Surefire suite" finished-at="2025-08-29T12:27:36 EDT" duration-ms="7512">
     <groups>
     </groups>
-    <test started-at="2025-08-27T18:38:51 EDT" name="Surefire test" finished-at="2025-08-27T18:39:08 EDT" duration-ms="17195">
-      <class name="nn.dsalgo.tests.DatastructureTest">
-        <test-method is-config="true" signature="getProperty()[pri:0, instance:nn.dsalgo.tests.DatastructureTest@295eaa7c]" started-at="2025-08-27T18:38:51 EDT" name="getProperty" finished-at="2025-08-27T18:38:51 EDT" duration-ms="16" status="PASS">
+    <test started-at="2025-08-29T12:27:29 EDT" name="Surefire test" finished-at="2025-08-29T12:27:36 EDT" duration-ms="7512">
+      <class name="nn.dsalgo.tests.TreeTest">
+        <test-method is-config="true" signature="getProperty()[pri:0, instance:nn.dsalgo.tests.TreeTest@56c9bbd8]" started-at="2025-08-29T12:27:29 EDT" name="getProperty" finished-at="2025-08-29T12:27:29 EDT" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getProperty -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:nn.dsalgo.tests.DatastructureTest@295eaa7c]" started-at="2025-08-27T18:38:51 EDT" name="setBrowser" finished-at="2025-08-27T18:38:51 EDT" duration-ms="16" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@56c9bbd8]" started-at="2025-08-29T12:27:29 EDT" name="setBrowser" finished-at="2025-08-29T12:27:29 EDT" duration-ms="17" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,94 +22,34 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.DatastructureTest@295eaa7c]" started-at="2025-08-27T18:38:51 EDT" name="launchBrowser" finished-at="2025-08-27T18:38:52 EDT" duration-ms="912" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@56c9bbd8]" started-at="2025-08-29T12:27:29 EDT" name="launchBrowser" finished-at="2025-08-29T12:27:30 EDT" duration-ms="1440" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.DatastructureTest@295eaa7c]" started-at="2025-08-27T18:38:52 EDT" name="logTestStart" finished-at="2025-08-27T18:38:52 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@56c9bbd8]" started-at="2025-08-29T12:27:30 EDT" name="logTestStart" finished-at="2025-08-29T12:27:30 EDT" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void nn.dsalgo.tests.DatastructureTest.dsPageLanding()]]>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.getTotalsTopicsCountInTree()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestStart -->
-        <test-method is-config="true" signature="setupPages()[pri:0, instance:nn.dsalgo.tests.DatastructureTest@295eaa7c]" started-at="2025-08-27T18:38:52 EDT" name="setupPages" finished-at="2025-08-27T18:38:52 EDT" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@56c9bbd8]" started-at="2025-08-29T12:27:30 EDT" name="setupPagesTree" finished-at="2025-08-29T12:27:30 EDT" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setupPages -->
-        <test-method signature="dsPageLanding()[pri:0, instance:nn.dsalgo.tests.DatastructureTest@295eaa7c]" started-at="2025-08-27T18:38:52 EDT" name="dsPageLanding" finished-at="2025-08-27T18:38:57 EDT" duration-ms="5068" status="PASS">
+        </test-method> <!-- setupPagesTree -->
+        <test-method signature="getTotalsTopicsCountInTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@56c9bbd8]" started-at="2025-08-29T12:27:30 EDT" name="getTotalsTopicsCountInTree" finished-at="2025-08-29T12:27:36 EDT" duration-ms="5717" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dsPageLanding -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.DatastructureTest@295eaa7c]" started-at="2025-08-27T18:38:57 EDT" name="launchBrowser" finished-at="2025-08-27T18:38:57 EDT" duration-ms="646" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="setupPages()[pri:0, instance:nn.dsalgo.tests.DatastructureTest@295eaa7c]" started-at="2025-08-27T18:38:57 EDT" name="setupPages" finished-at="2025-08-27T18:38:57 EDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupPages -->
-        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.DatastructureTest@295eaa7c]" started-at="2025-08-27T18:38:57 EDT" name="logTestStart" finished-at="2025-08-27T18:38:57 EDT" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void nn.dsalgo.tests.DatastructureTest.navigateToTopicsInDS(java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logTestStart -->
-        <test-method signature="navigateToTopicsInDS(java.lang.String)[pri:0, instance:nn.dsalgo.tests.DatastructureTest@295eaa7c]" started-at="2025-08-27T18:38:57 EDT" name="navigateToTopicsInDS" data-provider="topicsDS" finished-at="2025-08-27T18:39:01 EDT" depends-on-methods="nn.dsalgo.tests.DatastructureTest.dsPageLanding" duration-ms="4091" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Time Complexity]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigateToTopicsInDS -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.DatastructureTest@295eaa7c]" started-at="2025-08-27T18:39:01 EDT" name="launchBrowser" finished-at="2025-08-27T18:39:02 EDT" duration-ms="687" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.DatastructureTest@295eaa7c]" started-at="2025-08-27T18:39:02 EDT" name="logTestStart" finished-at="2025-08-27T18:39:02 EDT" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void nn.dsalgo.tests.DatastructureTest.navigateToTryEditorInDS(java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logTestStart -->
-        <test-method is-config="true" signature="setupPages()[pri:0, instance:nn.dsalgo.tests.DatastructureTest@295eaa7c]" started-at="2025-08-27T18:39:02 EDT" name="setupPages" finished-at="2025-08-27T18:39:02 EDT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupPages -->
-        <test-method signature="navigateToTryEditorInDS(java.lang.String)[pri:0, instance:nn.dsalgo.tests.DatastructureTest@295eaa7c]" started-at="2025-08-27T18:39:02 EDT" name="navigateToTryEditorInDS" data-provider="topicsDS" finished-at="2025-08-27T18:39:08 EDT" depends-on-methods="nn.dsalgo.tests.DatastructureTest.navigateToTopicsInDS" duration-ms="5496" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Time Complexity]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigateToTryEditorInDS -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.DatastructureTest@295eaa7c]" started-at="2025-08-27T18:39:08 EDT" name="tearDown" finished-at="2025-08-27T18:39:08 EDT" duration-ms="151" status="PASS">
+        </test-method> <!-- getTotalsTopicsCountInTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@56c9bbd8]" started-at="2025-08-29T12:27:36 EDT" name="tearDown" finished-at="2025-08-29T12:27:36 EDT" duration-ms="171" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- nn.dsalgo.tests.DatastructureTest -->
+      </class> <!-- nn.dsalgo.tests.TreeTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

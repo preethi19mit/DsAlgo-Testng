@@ -9,7 +9,63 @@ public class TestdataProvider {
                 {"Time Complexity"}
         };
     }
-    
+
+        @DataProvider(name = "StackTopics")
+        public Object[][] StackTopicsProvider() {
+        	return new Object[][] {
+        		{"Operations in Stack"},{"Implementation"},{"Applications"}
+        		};
+       }  
+        
+    @DataProvider(name = "inputCodeForTopicsInDS")
+    public Object[][] inputCodeForDSTopics()
+    {
+        return new Object[][] {
+                {"Time Complexity","ValidCode"},
+                {"Time Complexity","InvalidCode"}
+        };
+
+    }
+    @DataProvider(name = "topicsTree")
+    public Object[][] topicsProviderTree()
+    {
+        return new Object[][] {
+                {"Overview of Trees"},
+                {"Terminologies"},
+                {"Types of Trees"},
+                {"Tree Traversals"},
+                {"Traversals-Illustration"},
+                {"Binary Trees"},
+                {"Types of Binary Trees"},
+                {"Implementation in Python"},
+                {"Binary Tree Traversals"},
+                {"Implementation of Binary Trees"},
+                {"Applications of Binary trees"},
+                {"Binary Search Trees"},
+                {"Implementation Of BST"}
+        };
+    }
+    @DataProvider(name = "inputCodeForTopicsInTree")
+    public Object[][] inputCodeForTreeTopics()
+    {
+        return new Object[][] {
+                {"Overview of Trees"              ,   "ValidCode"  },
+                {"Terminologies"                  ,   "InvalidCode"},
+                {"Types of Trees"                 ,   "AlphaNumeric"},
+                {"Tree Traversals"                ,   "Numeric"     },
+                {"Traversals-Illustration"        ,   "ValidCode"   },
+                {"Binary Trees"                   ,   "InvalidCode" },
+                {"Types of Binary Trees"          ,   "AlphaNumeric"},
+                {"Implementation in Python"       ,   "Numeric"     },
+                {"Binary Tree Traversals"         ,   "ValidCode"   },
+                {"Implementation of Binary Trees" ,   "InvalidCode" },
+                {"Applications of Binary trees"   ,   "AlphaNumeric"},
+                {"Binary Search Trees"            ,   "Numeric"     },
+                {"Implementation Of BST"          ,   "ValidCode"   }
+        };
+
+    }
+
     @DataProvider(name ="Queuetopics")
     public Object[][] queuetopics()
     {
@@ -33,7 +89,6 @@ public class TestdataProvider {
     		{"Invalid password"},
     			};
     }
-    
     
     
 }

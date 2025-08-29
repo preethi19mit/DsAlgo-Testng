@@ -39,8 +39,6 @@ public class DriverFactory {
         return tlDriver.get();
     }
 
-
-
     public static void quitDriver() {
         if (tlDriver.get() != null) {
             tlDriver.get().quit();

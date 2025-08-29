@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+=======
+<<<<<<< HEAD
+<testng-results ignored="1" total="11" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-28T18:44:03 EDT" name="Default suite" finished-at="2025-08-28T18:44:51 EDT" duration-ms="47600">
+    <groups>
+    </groups>
+    <test started-at="2025-08-28T18:44:03 EDT" name="Default test" finished-at="2025-08-28T18:44:51 EDT" duration-ms="47600">
+      <class name="nn.dsalgo.tests.StackTest">
+        <test-method is-config="true" signature="getProperty()[pri:0, instance:nn.dsalgo.tests.StackTest@44c79f32]" started-at="2025-08-28T18:44:03 EDT" name="getProperty" finished-at="2025-08-28T18:44:03 EDT" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProperty -->
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:nn.dsalgo.tests.StackTest@44c79f32]" started-at="2025-08-28T18:44:03 EDT" name="setBrowser" finished-at="2025-08-28T18:44:03 EDT" duration-ms="15" status="PASS">
+=======
+<testng-results ignored="1" total="14" passed="9" failed="4" skipped="0">
+>>>>>>> df494052171e23aabc09c9c7c45fa37a06b902f9
   <reporter-output>
   </reporter-output>
   <suite started-at="2025-08-29T14:37:19 EDT" name="Default suite" finished-at="2025-08-29T14:37:35 EDT" duration-ms="16045">
@@ -11,7 +30,12 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getProperty -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:nn.dsalgo.tests.LoginTest@569bf9eb]" started-at="2025-08-29T14:37:19 EDT" name="setBrowser" finished-at="2025-08-29T14:37:19 EDT" duration-ms="15" status="PASS">
+=======
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:49:40 EDT" name="setBrowser" finished-at="2025-08-28T15:49:40 EDT" duration-ms="17" status="PASS">
+>>>>>>> eb6895ccf752b390805167c5b5c5a54313e92eda
+>>>>>>> df494052171e23aabc09c9c7c45fa37a06b902f9
           <params>
             <param index="0">
               <value>
@@ -22,7 +46,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.LoginTest@569bf9eb]" started-at="2025-08-29T14:37:19 EDT" name="launchBrowser" finished-at="2025-08-29T14:37:21 EDT" duration-ms="1415" status="PASS">
+=======
+<<<<<<< HEAD
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.StackTest@44c79f32]" started-at="2025-08-28T18:44:03 EDT" name="launchBrowser" finished-at="2025-08-28T18:44:04 EDT" duration-ms="1143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.StackTest@44c79f32]" started-at="2025-08-28T18:44:04 EDT" name="logTestStart" finished-at="2025-08-28T18:44:04 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.StackTest.getStackpage()]]>
+=======
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:49:40 EDT" name="launchBrowser" finished-at="2025-08-28T15:49:42 EDT" duration-ms="1853" status="PASS">
+>>>>>>> df494052171e23aabc09c9c7c45fa37a06b902f9
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
@@ -30,14 +69,42 @@
           <params>
             <param index="0">
               <value>
+<<<<<<< HEAD
                 <![CDATA[public void nn.dsalgo.tests.LoginTest.loginlandingpage()]]>
+=======
+                <![CDATA[public void nn.dsalgo.tests.QueueTest.queuelandingpage()]]>
+>>>>>>> eb6895ccf752b390805167c5b5c5a54313e92eda
+>>>>>>> df494052171e23aabc09c9c7c45fa37a06b902f9
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestStart -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="setuppage()[pri:0, instance:nn.dsalgo.tests.LoginTest@569bf9eb]" started-at="2025-08-29T14:37:21 EDT" name="setuppage" finished-at="2025-08-29T14:37:21 EDT" duration-ms="6" status="PASS">
+=======
+<<<<<<< HEAD
+        <test-method is-config="true" signature="BeforeSetStackPage()[pri:0, instance:nn.dsalgo.tests.StackTest@44c79f32]" started-at="2025-08-28T18:44:04 EDT" name="BeforeSetStackPage" finished-at="2025-08-28T18:44:04 EDT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSetStackPage -->
+        <test-method signature="getStackpage()[pri:0, instance:nn.dsalgo.tests.StackTest@44c79f32]" started-at="2025-08-28T18:44:04 EDT" name="getStackpage" finished-at="2025-08-28T18:44:07 EDT" duration-ms="2844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStackpage -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.StackTest@44c79f32]" started-at="2025-08-28T18:44:07 EDT" name="launchBrowser" finished-at="2025-08-28T18:44:08 EDT" duration-ms="780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.StackTest@44c79f32]" started-at="2025-08-28T18:44:08 EDT" name="logTestStart" finished-at="2025-08-28T18:44:08 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.StackTest.NavigatetoStackTopics(java.lang.String)]]>
+=======
+        <test-method is-config="true" signature="setuppage()[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:49:42 EDT" name="setuppage" finished-at="2025-08-28T15:49:42 EDT" duration-ms="15" status="PASS">
+>>>>>>> df494052171e23aabc09c9c7c45fa37a06b902f9
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setuppage -->
@@ -57,14 +124,34 @@
           <params>
             <param index="0">
               <value>
+<<<<<<< HEAD
                 <![CDATA[public void nn.dsalgo.tests.LoginTest.performlogin(java.lang.String)]]>
+=======
+                <![CDATA[public void nn.dsalgo.tests.QueueTest.navigatetoQueuetopics(java.lang.String)]]>
+>>>>>>> eb6895ccf752b390805167c5b5c5a54313e92eda
+>>>>>>> df494052171e23aabc09c9c7c45fa37a06b902f9
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestStart -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="setuppage()[pri:0, instance:nn.dsalgo.tests.LoginTest@569bf9eb]" started-at="2025-08-29T14:37:23 EDT" name="setuppage" finished-at="2025-08-29T14:37:23 EDT" duration-ms="2" status="PASS">
+=======
+<<<<<<< HEAD
+        <test-method is-config="true" signature="BeforeSetStackPage()[pri:0, instance:nn.dsalgo.tests.StackTest@44c79f32]" started-at="2025-08-28T18:44:08 EDT" name="BeforeSetStackPage" finished-at="2025-08-28T18:44:08 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSetStackPage -->
+        <test-method signature="NavigatetoStackTopics(java.lang.String)[pri:0, instance:nn.dsalgo.tests.StackTest@44c79f32]" started-at="2025-08-28T18:44:08 EDT" name="NavigatetoStackTopics" data-provider="StackTopics" finished-at="2025-08-28T18:44:11 EDT" depends-on-methods="nn.dsalgo.tests.StackTest.getStackpage" duration-ms="2670" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Operations in Stack]]>
+=======
+        <test-method is-config="true" signature="setuppage()[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:49:47 EDT" name="setuppage" finished-at="2025-08-28T15:49:47 EDT" duration-ms="1" status="PASS">
+>>>>>>> df494052171e23aabc09c9c7c45fa37a06b902f9
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setuppage -->
@@ -72,14 +159,36 @@
           <params>
             <param index="0">
               <value>
+<<<<<<< HEAD
                 <![CDATA[Missing username]]>
+=======
+                <![CDATA[Implementation of Queue in python]]>
+>>>>>>> eb6895ccf752b390805167c5b5c5a54313e92eda
+>>>>>>> df494052171e23aabc09c9c7c45fa37a06b902f9
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
+<<<<<<< HEAD
         </test-method> <!-- performlogin -->
         <test-method is-config="true" signature="browserclose()[pri:0, instance:nn.dsalgo.tests.LoginTest@569bf9eb]" started-at="2025-08-29T14:37:25 EDT" name="browserclose" finished-at="2025-08-29T14:37:25 EDT" duration-ms="187" status="PASS">
+=======
+<<<<<<< HEAD
+        </test-method> <!-- NavigatetoStackTopics -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.StackTest@44c79f32]" started-at="2025-08-28T18:44:11 EDT" name="launchBrowser" finished-at="2025-08-28T18:44:11 EDT" duration-ms="779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.StackTest@44c79f32]" started-at="2025-08-28T18:44:11 EDT" name="logTestStart" finished-at="2025-08-28T18:44:11 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.StackTest.NavigatetoStackTopics(java.lang.String)]]>
+=======
+        </test-method> <!-- navigatetoQueuetopics -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:49:50 EDT" name="browserclose" finished-at="2025-08-28T15:49:50 EDT" duration-ms="183" status="PASS">
+>>>>>>> df494052171e23aabc09c9c7c45fa37a06b902f9
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
@@ -91,14 +200,34 @@
           <params>
             <param index="0">
               <value>
+<<<<<<< HEAD
                 <![CDATA[public void nn.dsalgo.tests.LoginTest.performlogin(java.lang.String)]]>
+=======
+                <![CDATA[public void nn.dsalgo.tests.QueueTest.navigatetoQueuetopics(java.lang.String)]]>
+>>>>>>> eb6895ccf752b390805167c5b5c5a54313e92eda
+>>>>>>> df494052171e23aabc09c9c7c45fa37a06b902f9
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestStart -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="setuppage()[pri:0, instance:nn.dsalgo.tests.LoginTest@569bf9eb]" started-at="2025-08-29T14:37:26 EDT" name="setuppage" finished-at="2025-08-29T14:37:26 EDT" duration-ms="1" status="PASS">
+=======
+<<<<<<< HEAD
+        <test-method is-config="true" signature="BeforeSetStackPage()[pri:0, instance:nn.dsalgo.tests.StackTest@44c79f32]" started-at="2025-08-28T18:44:11 EDT" name="BeforeSetStackPage" finished-at="2025-08-28T18:44:11 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSetStackPage -->
+        <test-method signature="NavigatetoStackTopics(java.lang.String)[pri:0, instance:nn.dsalgo.tests.StackTest@44c79f32]" started-at="2025-08-28T18:44:11 EDT" name="NavigatetoStackTopics" data-provider="StackTopics" finished-at="2025-08-28T18:44:14 EDT" depends-on-methods="nn.dsalgo.tests.StackTest.getStackpage" duration-ms="2587" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Implementation]]>
+=======
+        <test-method is-config="true" signature="setuppage()[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:49:51 EDT" name="setuppage" finished-at="2025-08-28T15:49:51 EDT" duration-ms="1" status="PASS">
+>>>>>>> df494052171e23aabc09c9c7c45fa37a06b902f9
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setuppage -->
@@ -106,14 +235,36 @@
           <params>
             <param index="0">
               <value>
+<<<<<<< HEAD
                 <![CDATA[Missing password]]>
+=======
+                <![CDATA[Implementation using collections deque]]>
+>>>>>>> eb6895ccf752b390805167c5b5c5a54313e92eda
+>>>>>>> df494052171e23aabc09c9c7c45fa37a06b902f9
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
+<<<<<<< HEAD
         </test-method> <!-- performlogin -->
         <test-method is-config="true" signature="browserclose()[pri:0, instance:nn.dsalgo.tests.LoginTest@569bf9eb]" started-at="2025-08-29T14:37:27 EDT" name="browserclose" finished-at="2025-08-29T14:37:27 EDT" duration-ms="199" status="PASS">
+=======
+<<<<<<< HEAD
+        </test-method> <!-- NavigatetoStackTopics -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.StackTest@44c79f32]" started-at="2025-08-28T18:44:14 EDT" name="launchBrowser" finished-at="2025-08-28T18:44:15 EDT" duration-ms="920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.StackTest@44c79f32]" started-at="2025-08-28T18:44:15 EDT" name="logTestStart" finished-at="2025-08-28T18:44:15 EDT" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.StackTest.NavigatetoStackTopics(java.lang.String)]]>
+=======
+        </test-method> <!-- navigatetoQueuetopics -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:49:54 EDT" name="browserclose" finished-at="2025-08-28T15:49:54 EDT" duration-ms="190" status="PASS">
+>>>>>>> df494052171e23aabc09c9c7c45fa37a06b902f9
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
@@ -125,13 +276,19 @@
           <params>
             <param index="0">
               <value>
+<<<<<<< HEAD
                 <![CDATA[public void nn.dsalgo.tests.LoginTest.performlogin(java.lang.String)]]>
+=======
+                <![CDATA[public void nn.dsalgo.tests.QueueTest.navigatetoQueuetopics(java.lang.String)]]>
+>>>>>>> eb6895ccf752b390805167c5b5c5a54313e92eda
+>>>>>>> df494052171e23aabc09c9c7c45fa37a06b902f9
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestStart -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="setuppage()[pri:0, instance:nn.dsalgo.tests.LoginTest@569bf9eb]" started-at="2025-08-29T14:37:28 EDT" name="setuppage" finished-at="2025-08-29T14:37:28 EDT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
@@ -141,13 +298,49 @@
             <param index="0">
               <value>
                 <![CDATA[Invalid username]]>
+=======
+<<<<<<< HEAD
+        <test-method is-config="true" signature="BeforeSetStackPage()[pri:0, instance:nn.dsalgo.tests.StackTest@44c79f32]" started-at="2025-08-28T18:44:15 EDT" name="BeforeSetStackPage" finished-at="2025-08-28T18:44:15 EDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSetStackPage -->
+        <test-method signature="NavigatetoStackTopics(java.lang.String)[pri:0, instance:nn.dsalgo.tests.StackTest@44c79f32]" started-at="2025-08-28T18:44:15 EDT" name="NavigatetoStackTopics" data-provider="StackTopics" finished-at="2025-08-28T18:44:18 EDT" depends-on-methods="nn.dsalgo.tests.StackTest.getStackpage" duration-ms="2891" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Applications]]>
+=======
+        <test-method signature="navigatetoQueuetopics(java.lang.String)[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:49:55 EDT" name="navigatetoQueuetopics" data-provider="Queuetopics" finished-at="2025-08-28T15:49:58 EDT" depends-on-methods="nn.dsalgo.tests.QueueTest.queuelandingpage" duration-ms="2765" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Implementation using Array]]>
+>>>>>>> eb6895ccf752b390805167c5b5c5a54313e92eda
+>>>>>>> df494052171e23aabc09c9c7c45fa37a06b902f9
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
+<<<<<<< HEAD
         </test-method> <!-- performlogin -->
         <test-method is-config="true" signature="browserclose()[pri:0, instance:nn.dsalgo.tests.LoginTest@569bf9eb]" started-at="2025-08-29T14:37:29 EDT" name="browserclose" finished-at="2025-08-29T14:37:29 EDT" duration-ms="194" status="PASS">
+=======
+<<<<<<< HEAD
+        </test-method> <!-- NavigatetoStackTopics -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.StackTest@44c79f32]" started-at="2025-08-28T18:44:18 EDT" name="launchBrowser" finished-at="2025-08-28T18:44:19 EDT" duration-ms="1001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.StackTest@44c79f32]" started-at="2025-08-28T18:44:19 EDT" name="logTestStart" finished-at="2025-08-28T18:44:19 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.StackTest.NavigatetoTryEditor(java.lang.String)]]>
+=======
+        </test-method> <!-- navigatetoQueuetopics -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:49:58 EDT" name="browserclose" finished-at="2025-08-28T15:49:58 EDT" duration-ms="241" status="PASS">
+>>>>>>> df494052171e23aabc09c9c7c45fa37a06b902f9
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
@@ -159,13 +352,19 @@
           <params>
             <param index="0">
               <value>
+<<<<<<< HEAD
                 <![CDATA[public void nn.dsalgo.tests.LoginTest.performlogin(java.lang.String)]]>
+=======
+                <![CDATA[public void nn.dsalgo.tests.QueueTest.navigatetoQueuetopics(java.lang.String)]]>
+>>>>>>> eb6895ccf752b390805167c5b5c5a54313e92eda
+>>>>>>> df494052171e23aabc09c9c7c45fa37a06b902f9
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestStart -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="setuppage()[pri:0, instance:nn.dsalgo.tests.LoginTest@569bf9eb]" started-at="2025-08-29T14:37:30 EDT" name="setuppage" finished-at="2025-08-29T14:37:30 EDT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
@@ -175,13 +374,53 @@
             <param index="0">
               <value>
                 <![CDATA[Invalid password]]>
+=======
+<<<<<<< HEAD
+        <test-method is-config="true" signature="BeforeSetStackPage()[pri:0, instance:nn.dsalgo.tests.StackTest@44c79f32]" started-at="2025-08-28T18:44:19 EDT" name="BeforeSetStackPage" finished-at="2025-08-28T18:44:19 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSetStackPage -->
+        <test-method signature="NavigatetoTryEditor(java.lang.String)[pri:0, instance:nn.dsalgo.tests.StackTest@44c79f32]" started-at="2025-08-28T18:44:19 EDT" name="NavigatetoTryEditor" data-provider="StackTopics" finished-at="2025-08-28T18:44:23 EDT" depends-on-methods="nn.dsalgo.tests.StackTest.NavigatetoStackTopics" duration-ms="4094" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Operations in Stack]]>
+=======
+        <test-method signature="navigatetoQueuetopics(java.lang.String)[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:49:59 EDT" name="navigatetoQueuetopics" data-provider="Queuetopics" finished-at="2025-08-28T15:50:02 EDT" depends-on-methods="nn.dsalgo.tests.QueueTest.queuelandingpage" duration-ms="3321" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Queue operations]]>
+>>>>>>> eb6895ccf752b390805167c5b5c5a54313e92eda
+>>>>>>> df494052171e23aabc09c9c7c45fa37a06b902f9
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
+<<<<<<< HEAD
         </test-method> <!-- performlogin -->
         <test-method is-config="true" signature="browserclose()[pri:0, instance:nn.dsalgo.tests.LoginTest@569bf9eb]" started-at="2025-08-29T14:37:32 EDT" name="browserclose" finished-at="2025-08-29T14:37:32 EDT" duration-ms="196" status="PASS">
+=======
+<<<<<<< HEAD
+        </test-method> <!-- NavigatetoTryEditor -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.StackTest@44c79f32]" started-at="2025-08-28T18:44:23 EDT" name="launchBrowser" finished-at="2025-08-28T18:44:24 EDT" duration-ms="1331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.StackTest@44c79f32]" started-at="2025-08-28T18:44:24 EDT" name="logTestStart" finished-at="2025-08-28T18:44:24 EDT" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.StackTest.NavigatetoTryEditor(java.lang.String)]]>
+=======
+        </test-method> <!-- navigatetoQueuetopics -->
+        <test-method is-config="true" signature="setuppage()[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:49:59 EDT" name="setuppage" finished-at="2025-08-28T15:49:59 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setuppage -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:50:02 EDT" name="browserclose" finished-at="2025-08-28T15:50:02 EDT" duration-ms="212" status="PASS">
+>>>>>>> df494052171e23aabc09c9c7c45fa37a06b902f9
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
@@ -193,13 +432,19 @@
           <params>
             <param index="0">
               <value>
+<<<<<<< HEAD
                 <![CDATA[public void nn.dsalgo.tests.LoginTest.successfullogin()]]>
+=======
+                <![CDATA[public void nn.dsalgo.tests.QueueTest.clicktryhere(java.lang.String)]]>
+>>>>>>> eb6895ccf752b390805167c5b5c5a54313e92eda
+>>>>>>> df494052171e23aabc09c9c7c45fa37a06b902f9
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestStart -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="setuppage()[pri:0, instance:nn.dsalgo.tests.LoginTest@569bf9eb]" started-at="2025-08-29T14:37:33 EDT" name="setuppage" finished-at="2025-08-29T14:37:33 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
@@ -217,6 +462,605 @@
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- nn.dsalgo.tests.LoginTest -->
+=======
+<<<<<<< HEAD
+        <test-method is-config="true" signature="BeforeSetStackPage()[pri:0, instance:nn.dsalgo.tests.StackTest@44c79f32]" started-at="2025-08-28T18:44:24 EDT" name="BeforeSetStackPage" finished-at="2025-08-28T18:44:24 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSetStackPage -->
+        <test-method signature="NavigatetoTryEditor(java.lang.String)[pri:0, instance:nn.dsalgo.tests.StackTest@44c79f32]" started-at="2025-08-28T18:44:24 EDT" name="NavigatetoTryEditor" data-provider="StackTopics" finished-at="2025-08-28T18:44:28 EDT" depends-on-methods="nn.dsalgo.tests.StackTest.NavigatetoStackTopics" duration-ms="4182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Implementation]]>
+=======
+        <test-method is-config="true" signature="setuppage()[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:50:03 EDT" name="setuppage" finished-at="2025-08-28T15:50:03 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setuppage -->
+        <test-method signature="clicktryhere(java.lang.String)[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:50:03 EDT" name="clicktryhere" data-provider="Queuetopics" finished-at="2025-08-28T15:50:06 EDT" depends-on-methods="nn.dsalgo.tests.QueueTest.navigatetoQueuetopics" duration-ms="3240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Implementation of Queue in python]]>
+>>>>>>> eb6895ccf752b390805167c5b5c5a54313e92eda
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+<<<<<<< HEAD
+        </test-method> <!-- NavigatetoTryEditor -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.StackTest@44c79f32]" started-at="2025-08-28T18:44:28 EDT" name="launchBrowser" finished-at="2025-08-28T18:44:30 EDT" duration-ms="1360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.StackTest@44c79f32]" started-at="2025-08-28T18:44:30 EDT" name="logTestStart" finished-at="2025-08-28T18:44:30 EDT" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.StackTest.NavigatetoTryEditor(java.lang.String)]]>
+=======
+        </test-method> <!-- clicktryhere -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:50:06 EDT" name="browserclose" finished-at="2025-08-28T15:50:07 EDT" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:50:07 EDT" name="launchBrowser" finished-at="2025-08-28T15:50:07 EDT" duration-ms="883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="clicktryhere(java.lang.String)[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:50:07 EDT" name="clicktryhere" data-provider="Queuetopics" finished-at="2025-08-28T15:50:11 EDT" depends-on-methods="nn.dsalgo.tests.QueueTest.navigatetoQueuetopics" duration-ms="3422" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Implementation using collections deque]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicktryhere -->
+        <test-method is-config="true" signature="setuppage()[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:50:07 EDT" name="setuppage" finished-at="2025-08-28T15:50:07 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setuppage -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:50:07 EDT" name="logTestStart" finished-at="2025-08-28T15:50:07 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.QueueTest.clicktryhere(java.lang.String)]]>
+>>>>>>> eb6895ccf752b390805167c5b5c5a54313e92eda
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+<<<<<<< HEAD
+        <test-method is-config="true" signature="BeforeSetStackPage()[pri:0, instance:nn.dsalgo.tests.StackTest@44c79f32]" started-at="2025-08-28T18:44:30 EDT" name="BeforeSetStackPage" finished-at="2025-08-28T18:44:30 EDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSetStackPage -->
+        <test-method signature="NavigatetoTryEditor(java.lang.String)[pri:0, instance:nn.dsalgo.tests.StackTest@44c79f32]" started-at="2025-08-28T18:44:30 EDT" name="NavigatetoTryEditor" data-provider="StackTopics" finished-at="2025-08-28T18:44:34 EDT" depends-on-methods="nn.dsalgo.tests.StackTest.NavigatetoStackTopics" duration-ms="3903" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Applications]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigatetoTryEditor -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.StackTest@44c79f32]" started-at="2025-08-28T18:44:34 EDT" name="launchBrowser" finished-at="2025-08-28T18:44:35 EDT" duration-ms="1091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.StackTest@44c79f32]" started-at="2025-08-28T18:44:35 EDT" name="logTestStart" finished-at="2025-08-28T18:44:35 EDT" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.StackTest.getValidPythonCode(java.lang.String)]]>
+=======
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:50:11 EDT" name="browserclose" finished-at="2025-08-28T15:50:11 EDT" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:50:11 EDT" name="launchBrowser" finished-at="2025-08-28T15:50:12 EDT" duration-ms="881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:50:12 EDT" name="logTestStart" finished-at="2025-08-28T15:50:12 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.QueueTest.clicktryhere(java.lang.String)]]>
+>>>>>>> eb6895ccf752b390805167c5b5c5a54313e92eda
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+<<<<<<< HEAD
+        <test-method is-config="true" signature="BeforeSetStackPage()[pri:0, instance:nn.dsalgo.tests.StackTest@44c79f32]" started-at="2025-08-28T18:44:35 EDT" name="BeforeSetStackPage" finished-at="2025-08-28T18:44:35 EDT" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSetStackPage -->
+        <test-method signature="getValidPythonCode(java.lang.String)[pri:0, instance:nn.dsalgo.tests.StackTest@44c79f32]" started-at="2025-08-28T18:44:35 EDT" name="getValidPythonCode" data-provider="StackTopics" finished-at="2025-08-28T18:44:39 EDT" depends-on-methods="nn.dsalgo.tests.StackTest.NavigatetoTryEditor" duration-ms="4351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Operations in Stack]]>
+=======
+        <test-method is-config="true" signature="setuppage()[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:50:12 EDT" name="setuppage" finished-at="2025-08-28T15:50:12 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setuppage -->
+        <test-method signature="clicktryhere(java.lang.String)[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:50:12 EDT" name="clicktryhere" data-provider="Queuetopics" finished-at="2025-08-28T15:50:15 EDT" depends-on-methods="nn.dsalgo.tests.QueueTest.navigatetoQueuetopics" duration-ms="3216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Implementation using Array]]>
+>>>>>>> eb6895ccf752b390805167c5b5c5a54313e92eda
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+<<<<<<< HEAD
+        </test-method> <!-- getValidPythonCode -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.StackTest@44c79f32]" started-at="2025-08-28T18:44:39 EDT" name="launchBrowser" finished-at="2025-08-28T18:44:40 EDT" duration-ms="1044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.StackTest@44c79f32]" started-at="2025-08-28T18:44:40 EDT" name="logTestStart" finished-at="2025-08-28T18:44:40 EDT" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.StackTest.getValidPythonCode(java.lang.String)]]>
+=======
+        </test-method> <!-- clicktryhere -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:50:15 EDT" name="browserclose" finished-at="2025-08-28T15:50:15 EDT" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:50:15 EDT" name="launchBrowser" finished-at="2025-08-28T15:50:16 EDT" duration-ms="830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:50:16 EDT" name="logTestStart" finished-at="2025-08-28T15:50:16 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.QueueTest.clicktryhere(java.lang.String)]]>
+>>>>>>> eb6895ccf752b390805167c5b5c5a54313e92eda
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+<<<<<<< HEAD
+        <test-method is-config="true" signature="BeforeSetStackPage()[pri:0, instance:nn.dsalgo.tests.StackTest@44c79f32]" started-at="2025-08-28T18:44:40 EDT" name="BeforeSetStackPage" finished-at="2025-08-28T18:44:40 EDT" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSetStackPage -->
+        <test-method signature="getValidPythonCode(java.lang.String)[pri:0, instance:nn.dsalgo.tests.StackTest@44c79f32]" started-at="2025-08-28T18:44:40 EDT" name="getValidPythonCode" data-provider="StackTopics" finished-at="2025-08-28T18:44:45 EDT" depends-on-methods="nn.dsalgo.tests.StackTest.NavigatetoTryEditor" duration-ms="4333" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Implementation]]>
+=======
+        <test-method is-config="true" signature="setuppage()[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:50:16 EDT" name="setuppage" finished-at="2025-08-28T15:50:16 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setuppage -->
+        <test-method signature="clicktryhere(java.lang.String)[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:50:16 EDT" name="clicktryhere" data-provider="Queuetopics" finished-at="2025-08-28T15:50:20 EDT" depends-on-methods="nn.dsalgo.tests.QueueTest.navigatetoQueuetopics" duration-ms="3341" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Queue operations]]>
+>>>>>>> eb6895ccf752b390805167c5b5c5a54313e92eda
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+<<<<<<< HEAD
+        </test-method> <!-- getValidPythonCode -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.StackTest@44c79f32]" started-at="2025-08-28T18:44:45 EDT" name="launchBrowser" finished-at="2025-08-28T18:44:46 EDT" duration-ms="1355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.StackTest@44c79f32]" started-at="2025-08-28T18:44:46 EDT" name="logTestStart" finished-at="2025-08-28T18:44:46 EDT" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.StackTest.getValidPythonCode(java.lang.String)]]>
+=======
+        </test-method> <!-- clicktryhere -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:50:20 EDT" name="browserclose" finished-at="2025-08-28T15:50:20 EDT" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:50:20 EDT" name="launchBrowser" finished-at="2025-08-28T15:50:21 EDT" duration-ms="907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="setuppage()[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:50:21 EDT" name="setuppage" finished-at="2025-08-28T15:50:21 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setuppage -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:50:21 EDT" name="logTestStart" finished-at="2025-08-28T15:50:21 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.QueueTest.InvalidPythoncode(java.lang.String)]]>
+>>>>>>> eb6895ccf752b390805167c5b5c5a54313e92eda
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+<<<<<<< HEAD
+        <test-method is-config="true" signature="BeforeSetStackPage()[pri:0, instance:nn.dsalgo.tests.StackTest@44c79f32]" started-at="2025-08-28T18:44:46 EDT" name="BeforeSetStackPage" finished-at="2025-08-28T18:44:46 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSetStackPage -->
+        <test-method signature="getValidPythonCode(java.lang.String)[pri:0, instance:nn.dsalgo.tests.StackTest@44c79f32]" started-at="2025-08-28T18:44:46 EDT" name="getValidPythonCode" data-provider="StackTopics" finished-at="2025-08-28T18:44:50 EDT" depends-on-methods="nn.dsalgo.tests.StackTest.NavigatetoTryEditor" duration-ms="4164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Applications]]>
+=======
+        <test-method signature="InvalidPythoncode(java.lang.String)[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:50:21 EDT" name="InvalidPythoncode" data-provider="Queuetopics" finished-at="2025-08-28T15:50:30 EDT" depends-on-methods="nn.dsalgo.tests.QueueTest.clicktryhere" duration-ms="9070" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Implementation of Queue in python]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id='output'] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.66, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\preet\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52506}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52506/devtoo..., se:cdpVersion: 139.0.7258.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7dffcb13e96894e99b2733cbbefd494a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id='output'] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.66, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\preet\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52506}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52506/devtoo..., se:cdpVersion: 139.0.7258.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7dffcb13e96894e99b2733cbbefd494a
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at nn.dsalgo.utilities.ElementsUtil.waitForElementToBeVisible(ElementsUtil.java:19)
+at nn.dsalgo.utilities.ElementsUtil.doGetText(ElementsUtil.java:26)
+at nn.dsalgo.pages.Queue.getOutputFromConsole(Queue.java:87)
+at nn.dsalgo.tests.QueueTest.InvalidPythoncode(QueueTest.java:120)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidPythoncode -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:50:30 EDT" name="browserclose" finished-at="2025-08-28T15:50:30 EDT" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:50:30 EDT" name="launchBrowser" finished-at="2025-08-28T15:50:31 EDT" duration-ms="875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:50:31 EDT" name="logTestStart" finished-at="2025-08-28T15:50:31 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.QueueTest.InvalidPythoncode(java.lang.String)]]>
+>>>>>>> eb6895ccf752b390805167c5b5c5a54313e92eda
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+<<<<<<< HEAD
+        </test-method> <!-- getValidPythonCode -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.StackTest@44c79f32]" started-at="2025-08-28T18:44:50 EDT" name="tearDown" finished-at="2025-08-28T18:44:51 EDT" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- nn.dsalgo.tests.StackTest -->
+=======
+        </test-method> <!-- logTestStart -->
+        <test-method signature="InvalidPythoncode(java.lang.String)[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:50:31 EDT" name="InvalidPythoncode" data-provider="Queuetopics" finished-at="2025-08-28T15:50:40 EDT" depends-on-methods="nn.dsalgo.tests.QueueTest.clicktryhere" duration-ms="9101" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Implementation using collections deque]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id='output'] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.66, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\preet\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52544}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52544/devtoo..., se:cdpVersion: 139.0.7258.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 97aa11730d5698433c53c4c1997a8003]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id='output'] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.66, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\preet\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52544}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52544/devtoo..., se:cdpVersion: 139.0.7258.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 97aa11730d5698433c53c4c1997a8003
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at nn.dsalgo.utilities.ElementsUtil.waitForElementToBeVisible(ElementsUtil.java:19)
+at nn.dsalgo.utilities.ElementsUtil.doGetText(ElementsUtil.java:26)
+at nn.dsalgo.pages.Queue.getOutputFromConsole(Queue.java:87)
+at nn.dsalgo.tests.QueueTest.InvalidPythoncode(QueueTest.java:120)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidPythoncode -->
+        <test-method is-config="true" signature="setuppage()[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:50:31 EDT" name="setuppage" finished-at="2025-08-28T15:50:31 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setuppage -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:50:41 EDT" name="browserclose" finished-at="2025-08-28T15:50:41 EDT" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:50:41 EDT" name="launchBrowser" finished-at="2025-08-28T15:50:42 EDT" duration-ms="824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:50:42 EDT" name="logTestStart" finished-at="2025-08-28T15:50:42 EDT" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.QueueTest.InvalidPythoncode(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="setuppage()[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:50:42 EDT" name="setuppage" finished-at="2025-08-28T15:50:42 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setuppage -->
+        <test-method signature="InvalidPythoncode(java.lang.String)[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:50:42 EDT" name="InvalidPythoncode" data-provider="Queuetopics" finished-at="2025-08-28T15:50:51 EDT" depends-on-methods="nn.dsalgo.tests.QueueTest.clicktryhere" duration-ms="9422" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Implementation using Array]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id='output'] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.66, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\preet\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52587}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52587/devtoo..., se:cdpVersion: 139.0.7258.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6978d2a74190e27650a49a6d92c67d70]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id='output'] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.66, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\preet\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52587}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52587/devtoo..., se:cdpVersion: 139.0.7258.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6978d2a74190e27650a49a6d92c67d70
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at nn.dsalgo.utilities.ElementsUtil.waitForElementToBeVisible(ElementsUtil.java:19)
+at nn.dsalgo.utilities.ElementsUtil.doGetText(ElementsUtil.java:26)
+at nn.dsalgo.pages.Queue.getOutputFromConsole(Queue.java:87)
+at nn.dsalgo.tests.QueueTest.InvalidPythoncode(QueueTest.java:120)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidPythoncode -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:50:51 EDT" name="browserclose" finished-at="2025-08-28T15:50:51 EDT" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:50:51 EDT" name="launchBrowser" finished-at="2025-08-28T15:50:52 EDT" duration-ms="805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="setuppage()[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:50:52 EDT" name="setuppage" finished-at="2025-08-28T15:50:52 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setuppage -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:50:52 EDT" name="logTestStart" finished-at="2025-08-28T15:50:52 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.QueueTest.InvalidPythoncode(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method signature="InvalidPythoncode(java.lang.String)[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:50:52 EDT" name="InvalidPythoncode" data-provider="Queuetopics" finished-at="2025-08-28T15:51:01 EDT" depends-on-methods="nn.dsalgo.tests.QueueTest.clicktryhere" duration-ms="9044" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Queue operations]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id='output'] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.66, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\preet\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52625}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52625/devtoo..., se:cdpVersion: 139.0.7258.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3d155a58c0dc0687229c41304e7cbce9]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id='output'] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.66, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\preet\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52625}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52625/devtoo..., se:cdpVersion: 139.0.7258.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3d155a58c0dc0687229c41304e7cbce9
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at nn.dsalgo.utilities.ElementsUtil.waitForElementToBeVisible(ElementsUtil.java:19)
+at nn.dsalgo.utilities.ElementsUtil.doGetText(ElementsUtil.java:26)
+at nn.dsalgo.pages.Queue.getOutputFromConsole(Queue.java:87)
+at nn.dsalgo.tests.QueueTest.InvalidPythoncode(QueueTest.java:120)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidPythoncode -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:51:02 EDT" name="browserclose" finished-at="2025-08-28T15:51:02 EDT" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.QueueTest@7e985ce9]" started-at="2025-08-28T15:51:02 EDT" name="tearDown" finished-at="2025-08-28T15:51:02 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- nn.dsalgo.tests.QueueTest -->
+>>>>>>> eb6895ccf752b390805167c5b5c5a54313e92eda
+>>>>>>> df494052171e23aabc09c9c7c45fa37a06b902f9
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

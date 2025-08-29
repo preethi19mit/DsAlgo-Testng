@@ -14,8 +14,9 @@ import nn.dsalgo.dataprovider.TestdataProvider;
 import nn.dsalgo.factory.DriverFactory;
 import nn.dsalgo.hooks.TestNGHooks;
 import nn.dsalgo.listeners.TestListeners;
-import nn.dsalgo.pagemanager.PageManager;
 import nn.dsalgo.pages.QueuePage;
+import nn.dsalgo.helperclass.HelperClass;
+
 
 
 
@@ -25,6 +26,7 @@ public class QueueTest extends TestNGHooks {
 	
 	private HelperClass helperClass;
 	private QueuePage queue;
+
 	
 	@BeforeMethod(alwaysRun = true)
 	public void setuppage()

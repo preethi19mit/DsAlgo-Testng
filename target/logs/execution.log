@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2025-08-27 18:38:51 INFO  DatastructureTest:31 - Running tests on: chrome | Thread ID: 1
 2025-08-27 18:38:52 INFO  DatastructureTest:42 - Browser launched: chrome | Thread: 1
 2025-08-27 18:38:52 INFO  DatastructureTest:47 - Starting test: dsPageLanding
@@ -6750,3 +6751,22 @@ java.nio.file.FileAlreadyExistsException: target\screenshots\performlogin.png
 2025-08-29 14:37:34 INFO  LoginPage:94 - Clicked Login button
 2025-08-29 14:37:34 INFO  LoginTest:87 - <-----Testing info----->
 2025-08-29 14:37:35 INFO  LoginTest:58 - >>> After all tests - quitting driver
+=======
+2025-08-29 12:27:29 INFO  TreeTest:29 - Running tests on: chrome | Thread ID: 1
+2025-08-29 12:27:30 INFO  TreeTest:40 - Browser launched: chrome | Thread: 1
+2025-08-29 12:27:30 INFO  TreeTest:45 - Starting test: getTotalsTopicsCountInTree
+2025-08-29 12:27:30 INFO  TreeTest:23 - Entered the Tree testcases
+2025-08-29 12:27:30 INFO  LandingPage:34 - Getting the URL of DSALGO
+2025-08-29 12:27:33 INFO  LandingPage:23 - Clicking the Get Started Button of Landing page
+2025-08-29 12:27:34 INFO  HomePage:227 - Clicking Sign In button from Home Page
+2025-08-29 12:27:34 INFO  LoginPage:55 - Performing Login with TestData from Excel
+2025-08-29 12:27:35 INFO  LoginPage:59 - Entering the Username : Prasanna
+2025-08-29 12:27:35 INFO  LoginPage:61 - Entering the Password : Welcome@01
+2025-08-29 12:27:35 INFO  LoginPage:64 - Clicked Login button
+2025-08-29 12:27:35 INFO  HomePage:66 - successful login
+2025-08-29 12:27:35 INFO  HomePage:83 - Clicking on the Get Started Button of Tree from HomePage
+2025-08-29 12:27:36 INFO  HelperClass:49 - Landed in Tree page
+2025-08-29 12:27:36 INFO  TreePage:163 - The Page has Topics Covered Section
+2025-08-29 12:27:36 INFO  TreeTest:82 - Total topics present in tree page : 13
+2025-08-29 12:27:36 INFO  TreeTest:50 - >>> After all tests - quitting driver
+>>>>>>> df494052171e23aabc09c9c7c45fa37a06b902f9

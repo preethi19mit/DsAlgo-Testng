@@ -1,7 +1,6 @@
 package nn.dsalgo.pages;
 
 import nn.dsalgo.utilities.BaseLogger;
-import nn.dsalgo.utilities.ConfigReader;
 import nn.dsalgo.utilities.ElementsUtil;
 import nn.dsalgo.utilities.ExcelReader;
 import org.openqa.selenium.By;
@@ -48,16 +47,18 @@ public class TreePage extends BaseLogger {
 
     }
 
-    public void validateTitleforTopics(String topic)
+    public boolean validateTitleforTopics(String topic)
     {
         String topicsPageTitle = driver.findElement(getTitle_topic).getText();
         if(topicsPageTitle.equalsIgnoreCase(topic))
         {
             log.info ("The user is in the correct topic page as expected : "+topicsPageTitle);
+            return true;
 
         }
         else {
             log.info ("The user is in the topics page "+topicsPageTitle+" but expected to be in "+topic);
+            return false;
         }
 
     }
@@ -86,15 +87,17 @@ public class TreePage extends BaseLogger {
             return false; // Element(s) not found
         }
     }
-    public void tryEditorPageWithRunBtn()
+    public boolean tryEditorPageWithRunBtn()
     {
         if(tryEditorVisible() && runBtnVisible())
         {
             log.info("you are in the Try Editor Page with Editor and Run Button");
+            return true;
         }
         else
         {
             log.info("Try Editor or Run button is not present in this page");
+            return false;
         }
     }
     public void enterPythonCode(String input)
@@ -174,13 +177,15 @@ public class TreePage extends BaseLogger {
             log.info("✅ Practice Questions Link Working Fine");
         }
     }
-    public void emptyPage()
+    public boolean emptyPage()
     {
         WebElement container = driver.findElement(By.cssSelector("div.container"));
         if (container.getText().trim().isEmpty()) {
             log.warn("⚠️ The container is empty → no practice content found");
+            return true;
         } else {
             log.info("✅ Container has content: " + container.getText());
+            return false;
         }
 
     }
