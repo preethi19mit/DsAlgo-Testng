@@ -14,8 +14,9 @@ import nn.dsalgo.dataprovider.TestdataProvider;
 import nn.dsalgo.factory.DriverFactory;
 import nn.dsalgo.hooks.TestNGHooks;
 import nn.dsalgo.listeners.TestListeners;
+import nn.dsalgo.pages.QueuePage;
 import nn.dsalgo.helperclass.HelperClass;
-import nn.dsalgo.pages.Queue;
+
 
 
 
@@ -24,13 +25,14 @@ import nn.dsalgo.pages.Queue;
 public class QueueTest extends TestNGHooks {
 	
 	private HelperClass helperClass;
-	private Queue queue;
+	private QueuePage queue;
+
 	
 	@BeforeMethod(alwaysRun = true)
 	public void setuppage()
 	{
 		helperClass = new HelperClass();
-		queue = new Queue(DriverFactory.getDriver());
+		queue = new QueuePage(DriverFactory.getDriver());
 		log.info("Entered the testcase");
 		
 	}
@@ -92,8 +94,12 @@ public class QueueTest extends TestNGHooks {
 			Assert.assertTrue(expected.contains(links),"Invalid option passed: " + links);
 		queue.Tryhere();
 		Assert.assertTrue(queue.tryEditorVisible(), "Try Editor not available");
-//		queue.enterPythonCode(pagemanager.getPythonCodeDataDriven("Queue", "ValidCode"));
+		queue.enterPythonCode(queue.getPythonCodeDataDriven("Queue", "ValidCode"));
 		queue.Run();
+		String ActualOutput = queue.getOutputFromConsole();
+		String ExpectedOutput = queue.getOutputDataDriven();
+	      log.info("Expected Output: " + ActualOutput);
+	      Assert.assertEquals(ActualOutput,ExpectedOutput);
 		
 		
 		
@@ -115,8 +121,9 @@ public class QueueTest extends TestNGHooks {
 			Assert.assertTrue(expected.contains(links),"Invalid option passed: " + links);
 		queue.Tryhere();
 		Assert.assertTrue(queue.tryEditorVisible(), "Try Editor not available");
-//		queue.enterPythonCode(pagemanager.getPythonCodeDataDriven("Queue", "InValidCode"));
+		queue.enterPythonCode(queue.getPythonCodeDataDriven("Queue", "InValidCode"));
 		queue.Run();
-		Assert.assertEquals(queue.getOutputFromConsole(),"Console output did not match");
+		log.error("<----Invalid code--->");
+		Assert.assertTrue(queue.Handlealert());
 }
 }

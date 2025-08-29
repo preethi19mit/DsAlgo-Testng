@@ -13,7 +13,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 import java.util.Map;
 
-public class Graph extends BaseLogger {
+public class GraphPage extends BaseLogger {
 	
 	    private WebDriver driver;
 	    private ElementsUtil elementsutil;
@@ -25,7 +25,7 @@ public class Graph extends BaseLogger {
 	    private By GraphRepLink = By.cssSelector("a[href='graph-representations']");
 	    private By pq_brokenLink = By.cssSelector(".list-group-item.list-group-item-light.text-info");
 
-	    public Graph (WebDriver driver) 
+	    public GraphPage (WebDriver driver) 
 	    {
 	        this.driver = driver;
 	        this.elementsutil = new ElementsUtil(driver);

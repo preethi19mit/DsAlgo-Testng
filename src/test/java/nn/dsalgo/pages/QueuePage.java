@@ -13,7 +13,7 @@ import java.time.Duration;
 import java.util.Map;
 import java.util.NoSuchElementException;
 
-public class Queue extends BaseLogger {
+public class QueuePage extends BaseLogger {
 	
 
     private WebDriver driver;
@@ -32,7 +32,7 @@ public class Queue extends BaseLogger {
     private By tryEditor = By.xpath("//div[@class='input']");
     private By outputConsole = By.xpath("//*[@id='output']");
     
-    public Queue (WebDriver driver) 
+    public QueuePage (WebDriver driver) 
     {
         this.driver = driver;
         this.elementsutil = new ElementsUtil(driver);
@@ -72,7 +72,7 @@ public class Queue extends BaseLogger {
     public void Tryhere()
     {
     	elementsutil.doClick(Tryhere);
-    	//driver.findElement(Tryhere).click();
+    	
     	
     }
     public boolean tryEditorVisible() {
@@ -84,58 +84,45 @@ public class Queue extends BaseLogger {
     }
     public String getOutputFromConsole()
     {
-       return elementsutil.doGetText(outputConsole);
-     //   return driver.findElement(outputConsole).getText();
+       //return elementsutil.doGetText(outputConsole);
+      return driver.findElement(outputConsole).getText();
     }
-    
-    public String processInputAndReturnStatus() {
-		/*
-		 * String alertMessage = elementsutil.getAlertTextSafe(); if (alertMessage !=
-		 * null) { elementsutil.acceptAlertSafe(); log.error("Alert output: " +
-		 * alertMessage); return alertMessage; }
-		 */
-    	
-    	Handlealert();
-        // Otherwise get console output
-        try {
-            String output = getOutputFromConsole();
-            log.info("Console output: " + output);
-            return output;
-        } catch (TimeoutException e) {
-            log.error("Console output not found within timeout.");
-            return null;
-        }
-    }
-      
+          
     public void enterPythonCode(String input)
     {
         WebElement editor = driver.findElement(tryEditor_text);
         Actions actions = new Actions(driver);
         actions.moveToElement(editor).click().sendKeys(input).perform();
     }
-    public String getPythonCodeDataDriven()
+	/*
+	 * public String getPythonCodeDataDriven() { Map<String, String> getCode =
+	 * ExcelReader.getRowByTestCaseId("Queue","ValidCode"); String codeToInput =
+	 * getCode.get("Python Code"); return codeToInput; }
+	 */
+    
+    public String getOutputDataDriven()
     {
-        Map<String, String> getCode = ExcelReader.getRowByTestCaseId("Queue","ValidCode");
-        String codeToInput = getCode.get("Python Code");
-        return codeToInput;
+        Map<String, String> getOutput = ExcelReader.getRowByTestCaseId("Queue","ValidCode");
+        String output = getOutput.get("Expected Output");
+        return output;
     }
-    public String getInvalidCodeDataDriven()
-    {
-        Map<String, String> getCode = ExcelReader.getRowByTestCaseId("Queue","InvalidCode");
-        String codeToInput = getCode.get("Python Code");
-        return codeToInput;
-    }
+
+	/*
+	 * public String getInvalidCodeDataDriven() { Map<String, String> getCode =
+	 * ExcelReader.getRowByTestCaseId("Queue","InvalidCode"); String codeToInput =
+	 * getCode.get("Python Code"); return codeToInput; }
+	 */
     public void Run()
     {
     	
     	driver.findElement(Run).click();
-    	Handlealert();
-    	String Op = driver.findElement(output).getText();
-        System.out.println(Op);
-        driver.navigate().back();
+    	//Handlealert();
+    	//String Op = driver.findElement(output).getText();
+        //System.out.println(Op);
+        //driver.navigate().back();
     }
     
-    public void Handlealert()
+    public boolean Handlealert()
     {
     	try {
     	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
@@ -148,7 +135,23 @@ public class Queue extends BaseLogger {
     	} catch (TimeoutException e) {
     	    System.out.println("No alert appeared.");
     	}
+    	return true;
     } 
+    
+    public String getPythonCodeDataDriven(String sheetName, String inputID)
+    {
+        Map<String, String> getCode = ExcelReader.getRowByTestCaseId(sheetName,inputID);
+        String codeToInput = getCode.get("Python Code");
+        log.info("The code to input is "+codeToInput+" for the scenario "+inputID);
+        return codeToInput;
+    }
+
+    public String getOutputDataDriven(String sheetName,String inputID)
+    {
+        Map<String, String> getOutput = ExcelReader.getRowByTestCaseId(sheetName,inputID);
+        String output = getOutput.get("Expected Output");
+        return output;
+    }
     
     public void clickOnPQLink()
     {

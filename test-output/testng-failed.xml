@@ -4,6 +4,9 @@
   <test thread-count="5" name="Default test(failed)">
     <classes>
 <<<<<<< HEAD
+      <class name="nn.dsalgo.tests.LoginTest">
+=======
+<<<<<<< HEAD
       <class name="nn.dsalgo.tests.StackTest">
         <methods>
           <include name="setBrowser"/>
@@ -20,21 +23,23 @@
       </class> <!-- nn.dsalgo.tests.StackTest -->
 =======
       <class name="nn.dsalgo.tests.QueueTest">
+>>>>>>> df494052171e23aabc09c9c7c45fa37a06b902f9
         <methods>
-          <include name="browserclose"/>
           <include name="setBrowser"/>
-          <include name="InvalidPythoncode" invocation-numbers="0 1 2 3"/>
+          <include name="browserclose"/>
           <include name="tearDown"/>
-          <include name="clicktryhere"/>
+          <include name="performlogin" invocation-numbers="0 1"/>
           <include name="launchBrowser"/>
-          <include name="queuelandingpage"/>
           <include name="getProperty"/>
           <include name="setuppage"/>
-          <include name="navigatetoQueuetopics"/>
           <include name="logTestStart"/>
         </methods>
+<<<<<<< HEAD
+      </class> <!-- nn.dsalgo.tests.LoginTest -->
+=======
       </class> <!-- nn.dsalgo.tests.QueueTest -->
 >>>>>>> eb6895ccf752b390805167c5b5c5a54313e92eda
+>>>>>>> df494052171e23aabc09c9c7c45fa37a06b902f9
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

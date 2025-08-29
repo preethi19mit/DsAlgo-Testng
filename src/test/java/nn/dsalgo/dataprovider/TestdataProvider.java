@@ -78,6 +78,18 @@ public class TestdataProvider {
     			};
     }
     
+    @DataProvider(name="Loginscenario")
+    public Object[][] loginscenario()
+    {
+    	return new Object[][]
+    			{
+    		{"Missing username"},
+    		{"Missing password"},
+    		{"Invalid username"},
+    		{"Invalid password"},
+    			};
+    }
+    
     
 }
 
