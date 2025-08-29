@@ -57,4 +57,11 @@ public class PageManager extends BaseLogger {
         String output = getOutput.get("Expected Output");
         return output;
     }
+
+    public void arrayPageLanding()
+    {
+        SuccessfulLogin();
+        homePage.clickGetStartedForArray();
+        log.info("Landed in Array page");
+    }
 }
