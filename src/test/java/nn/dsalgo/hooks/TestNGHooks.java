@@ -3,8 +3,6 @@ package nn.dsalgo.hooks;
 import nn.dsalgo.factory.DriverFactory;
 import nn.dsalgo.utilities.BaseLogger;
 import nn.dsalgo.utilities.ConfigReader;
-import nn.dsalgo.utilities.LoggerHelper;
-import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.*;
 import java.lang.reflect.Method;

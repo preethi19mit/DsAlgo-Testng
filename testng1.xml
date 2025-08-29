@@ -1,6 +1,7 @@
 <suite name="CrossBrowserSuite" parallel="tests" thread-count="3">
     <listeners>
         <listener class-name="nn.dsalgo.listeners.TestListeners"/>
+        <listener class-name="nn.dsalgo.listeners.AnnotationTransformer"/>
     </listeners>
     <test name="ChromeTest">
         <parameter name="browser" value="chrome"/>
