@@ -9,6 +9,14 @@ public class TestdataProvider {
                 {"Time Complexity"}
         };
     }
+<<<<<<< HEAD
+        @DataProvider(name = "StackTopics")
+        public Object[][] StackTopicsProvider() {
+        	return new Object[][] {{"Operations in Stack"},{"Implementation"},{"Applications"}};
+  
+       }  
+}
+=======
 
     @DataProvider(name = "inputCodeForTopicsInDS")
     public Object[][] inputCodeForDSTopics()
@@ -76,3 +84,4 @@ public class TestdataProvider {
 }
 
 
+>>>>>>> eb6895ccf752b390805167c5b5c5a54313e92eda
