@@ -6,7 +6,7 @@
     <test name="ChromeTest">
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name = "nn.dsalgo.tests.DatastructureTest"/>
+            <class name = "nn.dsalgo.tests.LoginTest"/>
             <class name = "nn.dsalgo.tests.TreeTest"/>
         </classes>
     </test>

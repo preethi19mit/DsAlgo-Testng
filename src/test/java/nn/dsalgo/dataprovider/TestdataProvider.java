@@ -3,6 +3,20 @@ package nn.dsalgo.dataprovider;
 import org.testng.annotations.DataProvider;
 
 public class TestdataProvider {
+	
+    @DataProvider(name="Loginscenario")
+    public Object[][] loginscenario()
+    {
+    	return new Object[][]
+    			{
+    		{"Missing username"},
+    		{"Missing password"},
+    		{"Invalid username"},
+    		{"Invalid password"},
+    			};
+    }
+    
+	
     @DataProvider(name = "topicsDS")
     public Object[][] topicsProviderDS() {
         return new Object[][] {
@@ -78,18 +92,7 @@ public class TestdataProvider {
     			};
     }
     
-    @DataProvider(name="Loginscenario")
-    public Object[][] loginscenario()
-    {
-    	return new Object[][]
-    			{
-    		{"Missing username"},
-    		{"Missing password"},
-    		{"Invalid username"},
-    		{"Invalid password"},
-    			};
-    }
-    
+
     
 }
 

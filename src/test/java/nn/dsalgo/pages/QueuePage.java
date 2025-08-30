@@ -31,6 +31,7 @@ public class QueuePage extends BaseLogger {
     private By pq_brokenLink = By.cssSelector(".list-group-item.list-group-item-light.text-info");
     private By tryEditor = By.xpath("//div[@class='input']");
     private By outputConsole = By.xpath("//*[@id='output']");
+ 
     
     public QueuePage (WebDriver driver) 
     {
@@ -79,12 +80,12 @@ public class QueuePage extends BaseLogger {
         try {
             return elementsutil.isElementDisplayed(tryEditor);
         } catch (NoSuchElementException e) {
-            return false; // Element(s) not found
+            return false; 
         }
     }
     public String getOutputFromConsole()
     {
-       //return elementsutil.doGetText(outputConsole);
+       
       return driver.findElement(outputConsole).getText();
     }
           
@@ -94,11 +95,7 @@ public class QueuePage extends BaseLogger {
         Actions actions = new Actions(driver);
         actions.moveToElement(editor).click().sendKeys(input).perform();
     }
-	/*
-	 * public String getPythonCodeDataDriven() { Map<String, String> getCode =
-	 * ExcelReader.getRowByTestCaseId("Queue","ValidCode"); String codeToInput =
-	 * getCode.get("Python Code"); return codeToInput; }
-	 */
+	
     
     public String getOutputDataDriven()
     {
@@ -107,20 +104,12 @@ public class QueuePage extends BaseLogger {
         return output;
     }
 
-	/*
-	 * public String getInvalidCodeDataDriven() { Map<String, String> getCode =
-	 * ExcelReader.getRowByTestCaseId("Queue","InvalidCode"); String codeToInput =
-	 * getCode.get("Python Code"); return codeToInput; }
-	 */
+    
     public void Run()
     {
     	
     	driver.findElement(Run).click();
-    	//Handlealert();
-    	//String Op = driver.findElement(output).getText();
-        //System.out.println(Op);
-        //driver.navigate().back();
-    }
+     }
     
     public boolean Handlealert()
     {
@@ -146,14 +135,8 @@ public class QueuePage extends BaseLogger {
         return codeToInput;
     }
 
-    public String getOutputDataDriven(String sheetName,String inputID)
-    {
-        Map<String, String> getOutput = ExcelReader.getRowByTestCaseId(sheetName,inputID);
-        String output = getOutput.get("Expected Output");
-        return output;
-    }
-    
-    public void clickOnPQLink()
+       
+    public void PracticeQuestionLink()
     {
         driver.findElement(pq_brokenLink).click();
         String pageSource = driver.getPageSource();
@@ -163,15 +146,17 @@ public class QueuePage extends BaseLogger {
             log.info("✅ Practice Questions Link Working Fine");
         }
     }
-    public void emptyPage()
+    public boolean emptyPage()
     {
         WebElement container = driver.findElement(By.cssSelector("div.container"));
         if (container.getText().trim().isEmpty()) {
             log.warn("⚠️ The container is empty → no practice content found");
+            return true;
         } else {
             log.info("✅ Container has content: " + container.getText());
+            return false;
         }
-        driver.navigate().back();
+       
     }
     
 }

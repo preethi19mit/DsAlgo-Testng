@@ -3,43 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-<<<<<<< HEAD
       <class name="nn.dsalgo.tests.LoginTest">
-=======
-<<<<<<< HEAD
-      <class name="nn.dsalgo.tests.StackTest">
         <methods>
           <include name="setBrowser"/>
-          <include name="NavigatetoStackTopics"/>
           <include name="tearDown"/>
-          <include name="getStackpage"/>
-          <include name="BeforeSetStackPage"/>
-          <include name="launchBrowser"/>
-          <include name="getProperty"/>
-          <include name="getInValidPythonCode" invocation-numbers="0 1 2"/>
-          <include name="NavigatetoTryEditor"/>
-          <include name="logTestStart"/>
-        </methods>
-      </class> <!-- nn.dsalgo.tests.StackTest -->
-=======
-      <class name="nn.dsalgo.tests.QueueTest">
->>>>>>> df494052171e23aabc09c9c7c45fa37a06b902f9
-        <methods>
-          <include name="setBrowser"/>
-          <include name="browserclose"/>
-          <include name="tearDown"/>
-          <include name="performlogin" invocation-numbers="0 1"/>
+          <include name="performlogin" invocation-numbers="0"/>
           <include name="launchBrowser"/>
           <include name="getProperty"/>
           <include name="setuppage"/>
           <include name="logTestStart"/>
         </methods>
-<<<<<<< HEAD
       </class> <!-- nn.dsalgo.tests.LoginTest -->
-=======
-      </class> <!-- nn.dsalgo.tests.QueueTest -->
->>>>>>> eb6895ccf752b390805167c5b5c5a54313e92eda
->>>>>>> df494052171e23aabc09c9c7c45fa37a06b902f9
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -18,8 +18,6 @@ import nn.dsalgo.pages.QueuePage;
 import nn.dsalgo.helperclass.HelperClass;
 
 
-
-
 @Listeners({TestListeners.class})
 
 public class QueueTest extends TestNGHooks {
@@ -126,4 +124,12 @@ public class QueueTest extends TestNGHooks {
 		log.error("<----Invalid code--->");
 		Assert.assertTrue(queue.Handlealert());
 }
+	@Test(dataProvider = "Queuetopics",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"queuelandingpage"})
+	public void PracticeQuestionBrokenLink(String links)
+	{
+		helperClass.QueuepageLanding();
+		queue.QueueTopics(links);
+		queue.PracticeQuestionLink();
+		Assert.assertTrue(queue.emptyPage());
+	}
 }
