@@ -91,11 +91,7 @@ public class TestdataProvider {
     		{"Queue operations"}
     			};
     }
-    
-<<<<<<< HEAD
 
-    
-=======
     @DataProvider(name = "RegisterTestData")
     public Object[][] RegisterTestInputValues() {
     	 return new Object[][] {
@@ -109,6 +105,5 @@ public class TestdataProvider {
              {"PwdNumericValue", "Your password can’t be entirely numeric."}
     	 };
     }
->>>>>>> Prasanna_SDET221-TestNG
 }
 
