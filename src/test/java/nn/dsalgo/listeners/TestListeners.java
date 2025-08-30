@@ -10,16 +10,20 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.testng.IAnnotationTransformer;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
+import org.testng.annotations.ITestAnnotation;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Method;
 
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-public class TestListeners implements ITestListener {
+public class TestListeners implements ITestListener,IAnnotationTransformer {
     private Logger log = LoggerHelper.getLogger(TestListeners.class);
     private static final String LOG_FILE_PATH = "target/logs/execution.log";
     private static ExtentReports extent = ExtentManager.getInstance();
@@ -42,6 +46,7 @@ public class TestListeners implements ITestListener {
     public void onFinish(ITestContext context) {
         extent.flush();
     }
+       
     @Override
     public void onTestFailure(ITestResult result) {
         log.error("Test failed: " + result.getName());
