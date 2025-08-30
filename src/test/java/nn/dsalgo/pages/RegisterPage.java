@@ -41,11 +41,10 @@ public class RegisterPage extends BaseLogger {
     }
     public boolean isRegisterPageDisplayed() {
     	
-        return driver.findElement(Loginpage).isDisplayed();
+       return driver.findElement(Loginpage).isDisplayed();
+    	
     }
-    
-   
-    
+     
     public void getEmptyValues()
     {
     	log.info("Performing Register with TestData from Excel:");
@@ -127,7 +126,7 @@ public class RegisterPage extends BaseLogger {
  		System.out.println("Password Confirmation is: " + Excelpwdconfirmation);
     }
     
-    public String getPwdConfimationValidationMessage()
+    public String getPwdConfirmationValidationMessage()
     {
     	WebElement field = driver.findElement(pwdconfirmation);
         return (String) ((JavascriptExecutor) driver)

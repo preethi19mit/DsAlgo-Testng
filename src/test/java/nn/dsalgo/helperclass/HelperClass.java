@@ -48,5 +48,12 @@ public class HelperClass {
         homePage.clickGetStartedForTree();
         log.info("Landed in Tree page");
     }
+    
+    public void RegisterpageLanding()
+    {
+    	landingPage.getURL();
+        landingPage.clickGetStartedBtn();
+        homePage.clickRegister();
+    }
 
 }
