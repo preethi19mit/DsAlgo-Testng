@@ -55,7 +55,6 @@ public class HelperClass {
     	landingPage.getURL();
         landingPage.clickGetStartedBtn();
         homePage.clickRegister();
-        log.info("The user is on Register Page");
     }
 
 }

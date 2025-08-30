@@ -7,10 +7,10 @@
         <methods>
           <include name="setBrowser"/>
           <include name="tearDown"/>
+          <include name="RegisterScenarios" invocation-numbers="5 6 7"/>
+          <include name="SetupStackPage"/>
           <include name="launchBrowser"/>
           <include name="getProperty"/>
-          <include name="BeforeSetStackPage"/>
-          <include name="getRegisterPage"/>
           <include name="logTestStart"/>
         </methods>
       </class> <!-- nn.dsalgo.tests.RegisterTest -->

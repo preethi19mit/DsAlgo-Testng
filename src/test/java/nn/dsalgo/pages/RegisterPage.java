@@ -126,7 +126,7 @@ public class RegisterPage extends BaseLogger {
  		System.out.println("Password Confirmation is: " + Excelpwdconfirmation);
     }
     
-    public String getPwdConfimationValidationMessage()
+    public String getPwdConfirmationValidationMessage()
     {
     	WebElement field = driver.findElement(pwdconfirmation);
         return (String) ((JavascriptExecutor) driver)

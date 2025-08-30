@@ -78,7 +78,18 @@ public class TestdataProvider {
     			};
     }
     
-    
+    @DataProvider(name = "RegisterTestData")
+    public Object[][] RegisterTestInputValues() {
+    	 return new Object[][] {
+    		 {"EmptyValues", "Please fill out this field."},
+             {"UsernameValues", "Please fill out this field."},
+             {"PasswordValues", "Please fill out this field."},
+             {"NoPasswordConfirmation", "Please fill out this field."},
+             {"MismatchPassword", "password_mismatch:The two password fields didn’t match."},
+             {"ValidCredentials", "New Account Created."},
+             {"InvalidUsername", "Username is not valid"},
+             {"PwdNumericValue", "Your password can’t be entirely numeric."}
+    	 };
+    }
 }
-
 
