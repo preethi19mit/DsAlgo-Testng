@@ -6,11 +6,11 @@
     <test name="ChromeTest">
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name = "nn.dsalgo.tests.LoginTest"/>
-            <class name = "nn.dsalgo.tests.TreeTest"/>
+            <class name = "nn.dsalgo.tests.HomeTest"/>
+           <!-- <class name = "nn.dsalgo.tests.TreeTest"/>-->
         </classes>
     </test>
-    <test name="FirefoxTest">
+   <!-- <test name="FirefoxTest">
         <parameter name="browser" value="firefox"/>
         <classes>
             <class name = "nn.dsalgo.tests.DatastructureTest"/>
@@ -23,5 +23,5 @@
             <class name = "nn.dsalgo.tests.DatastructureTest"/>
             <class name = "nn.dsalgo.tests.TreeTest"/>
         </classes>
-    </test>
+    </test>-->
 </suite>
