@@ -105,5 +105,20 @@ public class TestdataProvider {
              {"PwdNumericValue", "Your password can’t be entirely numeric."}
     	 };
     }
+    
+    @DataProvider(name = "OptionsLL")
+    public Object[][] OptionsProviderLL() {
+        return new Object[][] {
+   
+        	{"Introduction"},
+        	{"Creating Linked LIst"},
+        	{"Types of Linked List"},
+        	{"Implement Linked List in Python"},
+        	{"Traversal"},
+        	{"Insertion"},
+        	{"Deletion"}
+        
+        };
+    }
 }
 

@@ -17,6 +17,7 @@ public class LinkedListPage extends BaseLogger {
 	private WebDriver driver;
     private ElementsUtil elementsUtil;
     private By introductionLink=By.xpath("//a[text()='Introduction']");
+    private By getTitleLinkedList=By.xpath("//h4[text()='Linked List']");
   //  private By creatingLLLink=By.xpath("//a[text()='Creating Linked LIst']");
   //  private By typesOfLLLink=By.xpath("//a[text()='Types of Linked List']");
   //  private By implementLLInPythonLink=By.xpath("//a[text()='Implement Linked List in Python']");
@@ -82,6 +83,7 @@ public class LinkedListPage extends BaseLogger {
         return codeToInput;
     }
     
+    
    public void clickRunButton()
    {
 	   log.info("Clicking the Run button from the try Editor page");
@@ -145,15 +147,22 @@ public class LinkedListPage extends BaseLogger {
 	   }
 	
 	
-	    public void emptyPage()
+	    public boolean emptyPage()
 	    {
 	        WebElement container = driver.findElement(By.cssSelector("div.container"));
 	        if (container.getText().trim().isEmpty()) {
 	            log.warn("⚠️ The container is empty → no practice content found");
+	            return true;
 	        } else {
 	            log.info("✅ Container has content: " + container.getText());
+	            return false;
 	        }
 
+	    }
+	    
+	    public String getTitleforLinkedList() {
+	        log.info("Getting the title of Linked List Page");
+	        return driver.findElement(getTitleLinkedList).getText();
 	    }
 	
    }
