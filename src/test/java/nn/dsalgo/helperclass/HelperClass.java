@@ -62,5 +62,11 @@ public class HelperClass {
     	homePage.clickGetStartedForLinkedList();
         log.info("Landed on Linked List page");
     }
+    public void HomePageLanding()
+    {
+    	 landingPage.getURL();
+         landingPage.clickGetStartedBtn();
+         log.info("Landed on Home Page");
+    }
 
 }

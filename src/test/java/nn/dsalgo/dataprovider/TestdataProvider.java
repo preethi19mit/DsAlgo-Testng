@@ -106,8 +106,8 @@ public class TestdataProvider {
     	 };
     }
     
-    @DataProvider(name = "OptionsLL")
-    public Object[][] OptionsProviderLL() {
+    @DataProvider(name = "OptionsLinkedList")
+    public Object[][] OptionsProviderLinkedList() {
         return new Object[][] {
    
         	{"Introduction"},
@@ -120,5 +120,35 @@ public class TestdataProvider {
         
         };
     }
+    
+    @DataProvider(name = "OptionsHomePage")
+    public Object[][] OptionsProviderHome() {
+        return new Object[][] {
+   
+        	{"Datastructures"},
+        	{"Array"},
+        	{"Linkedlist"},
+        	{"Stack"},
+        	{"Queue"},
+        	{"Tree"},
+        	{"Graph"}
+        };
+    }
+    
+    @DataProvider(name = "OptionsHomeScenario")
+    public Object[][] OptionsHomeScenario() {
+        return new Object[][] {
+   
+        	
+        	{"Array"},
+        	{"Linkedlist"},
+        	{"Stack"},
+        	{"Queue"},
+        	{"Tree"},
+        	{"Graph"}
+        };
+    }
+    
+    
 }
 
