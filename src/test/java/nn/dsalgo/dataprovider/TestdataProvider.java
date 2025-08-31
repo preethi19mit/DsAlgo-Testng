@@ -179,7 +179,14 @@ public class TestdataProvider {
                 {"Applications of Array"         ,   "Squares of  a Sorted Array"  },
         };
     }
-    
+
+    @DataProvider(name = "graphTopics")
+    public Object[][] graphTopics() {
+        return new Object[][] {
+                {"Graph"},
+                {"Graph Representations"}
+        };
+    }
     
 }
 

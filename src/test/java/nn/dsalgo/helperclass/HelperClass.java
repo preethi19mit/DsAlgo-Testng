@@ -74,4 +74,11 @@ public class HelperClass {
         homePage.clickGetStartedForArray();
         log.info("Landed in Array page");
     }
+
+    public void graphPageLanding()
+    {
+        SuccessfulLogin();
+        homePage.clickGetStartedForGraph();
+        log.info("Landed in Graph page");
+    }
 }
