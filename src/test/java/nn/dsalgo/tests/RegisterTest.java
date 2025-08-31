@@ -30,6 +30,7 @@ public class RegisterTest extends TestNGHooks {
 	    {
 		 helperclass.RegisterpageLanding();
 		 String ActualTitle = registerpage.ValidateTitleRegisterPage();
+		 Assert.assertEquals(ActualTitle, "Register");
 	     log.info("The user is on page: " + ActualTitle);
 		 }
 	 
