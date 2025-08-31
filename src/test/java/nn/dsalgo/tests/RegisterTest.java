@@ -9,6 +9,7 @@ import nn.dsalgo.dataprovider.TestdataProvider;
 import nn.dsalgo.factory.DriverFactory;
 import nn.dsalgo.helperclass.HelperClass;
 import nn.dsalgo.hooks.TestNGHooks;
+import nn.dsalgo.listeners.RetryAnalyzer;
 import nn.dsalgo.listeners.TestListeners;
 import nn.dsalgo.pages.RegisterPage;
 
@@ -32,7 +33,7 @@ public class RegisterTest extends TestNGHooks {
 	     log.info("The user is on page: " + ActualTitle);
 		 }
 	 
-	 @Test(dataProvider = "RegisterTestData",dataProviderClass = TestdataProvider.class)
+	 @Test(dataProvider = "RegisterTestData",dataProviderClass = TestdataProvider.class, retryAnalyzer = RetryAnalyzer.class)
 	    public void RegisterScenarios(String Testcondition, String ExpectedMessage) {
 		 
 		 helperclass.RegisterpageLanding(); 
@@ -101,6 +102,7 @@ public class RegisterTest extends TestNGHooks {
 		 log.info("The user landed on Login Page");
 		 Assert.assertTrue(registerpage.isLoginPageDisplayed());
 	 }
+	 
 }
 
 
