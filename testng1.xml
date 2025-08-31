@@ -13,15 +13,8 @@
     <test name="FirefoxTest">
         <parameter name="browser" value="firefox"/>
         <classes>
-            <class name = "nn.dsalgo.tests.DatastructureTest"/>
-            <class name = "nn.dsalgo.tests.TreeTest"/>
-        </classes>
-    </test>
-    <test name="EdgeTest">
-        <parameter name="browser" value="edge"/>
-        <classes>
-            <class name = "nn.dsalgo.tests.DatastructureTest"/>
-            <class name = "nn.dsalgo.tests.TreeTest"/>
+            <class name = "nn.dsalgo.tests.RegisterTest"/>
+            <class name = "nn.dsalgo.tests.StackTest"/>
         </classes>
     </test>
 </suite>
