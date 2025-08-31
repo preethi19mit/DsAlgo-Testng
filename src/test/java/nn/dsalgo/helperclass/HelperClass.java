@@ -68,5 +68,10 @@ public class HelperClass {
          landingPage.clickGetStartedBtn();
          log.info("Landed on Home Page");
     }
-
+    public void arrayPageLanding()
+    {
+        SuccessfulLogin();
+        homePage.clickGetStartedForArray();
+        log.info("Landed in Array page");
+    }
 }

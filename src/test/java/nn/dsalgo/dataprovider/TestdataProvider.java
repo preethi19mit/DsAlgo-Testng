@@ -148,6 +148,37 @@ public class TestdataProvider {
         	{"Graph"}
         };
     }
+    @DataProvider(name = "arrayTopics")
+    public Object[][] arrayTopics() {
+        return new Object[][] {
+                {"Arrays in Python"},
+                {"Arrays Using List"},
+                {"Basic Operations in Lists"},
+                {"Applications of Array"}
+        };
+    }
+
+    @DataProvider(name = "arrayPracticeQuestions")
+    public Object[][] arrayPracticeQuestions() {
+        return new Object[][] {
+                {"Arrays in Python"              ,   "Search the array"  },
+                {"Arrays in Python"              ,   "Max Consecutive Ones"  },
+                {"Arrays in Python"              ,   "Find Numbers with Even Number of Digits"  },
+                {"Arrays in Python"              ,   "Squares of  a Sorted Array"  },
+                {"Arrays Using List"             ,   "Search the array"  },
+                {"Arrays Using List"             ,   "Max Consecutive Ones"  },
+                {"Arrays Using List"             ,   "Find Numbers with Even Number of Digits"  },
+                {"Arrays Using List"             ,   "Squares of  a Sorted Array"  },
+                {"Basic Operations in Lists"     ,   "Search the array"  },
+                {"Basic Operations in Lists"     ,   "Max Consecutive Ones"  },
+                {"Basic Operations in Lists"     ,   "Find Numbers with Even Number of Digits"  },
+                {"Basic Operations in Lists"     ,   "Squares of  a Sorted Array"  },
+                {"Applications of Array"         ,   "Search the array"  },
+                {"Applications of Array"         ,   "Max Consecutive Ones"  },
+                {"Applications of Array"         ,   "Find Numbers with Even Number of Digits"  },
+                {"Applications of Array"         ,   "Squares of  a Sorted Array"  },
+        };
+    }
     
     
 }
