@@ -1,8 +1,5 @@
 package nn.dsalgo.tests;
 
-import java.util.HashMap;
-import java.util.Map;
-
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
@@ -29,7 +26,7 @@ public class LoginTest extends TestNGHooks {
 		
 	}
 
-	@Test
+	@Test(priority = 1,groups= {"smoke"})
 	public void loginlandingpage()
 	{
 		loginpage.navigatetologin();
@@ -39,47 +36,53 @@ public class LoginTest extends TestNGHooks {
 	}
 	
 		
-	@Test(dataProvider = "Loginscenario",dataProviderClass = TestdataProvider.class,retryAnalyzer = RetryAnalyzer.class)
-	public void performlogin(String option)
+	@Test(priority =2,dataProvider = "MissingUsernameandpassword",dataProviderClass = TestdataProvider.class,groups= {"sanity"})
+	public void Missinglogin(String option,String expectedMessage)
 	{
 		loginpage.navigatetologin();
+		String actualMessage = "";
 		switch(option) {
 		case "Missing username" :
 			loginpage.Missingusername();
+			actualMessage = loginpage.Usernamealert();
+			Assert.assertEquals(actualMessage,expectedMessage);
 			break;
 		case "Missing password" :
 			loginpage.Missingpassword();
+			actualMessage = loginpage.Passwordalert(); 
+			Assert.assertEquals(actualMessage,expectedMessage);
 			break;
-		case "Invalid username" :
-			loginpage.Invalidusername();
-			break;
-		case "Invalid password" :
-			loginpage.Invalidpassword();
-			break;
+		
 		}
-			
-		Map<String, String> expectedMessages = new HashMap<>();
-	    expectedMessages.put("Missing username", "Please fill out this field.");
-	    expectedMessages.put("Missing password", "Please fill out this field.");
-	    expectedMessages.put("Invalid username", "Invalid Username and Password");
-	    expectedMessages.put("Invalid password", "Invalid Username and Password");
-
-	    String actualMessage;
-	    if (option.equals("Missing username")) {
-	        actualMessage = loginpage.Usernamealert();
-	    } else if (option.equals("Missing password")) {
-	        actualMessage = loginpage.Passwordalert(); 
-	    } else {
-	        actualMessage = loginpage.getErrorMessage(); 
-	    }
         log.error("<----Testing Error---->");
-	    Assert.assertEquals(actualMessage, expectedMessages.get(option),
-	        "Error message mismatch for option: " + option);
 	    
-		}
+	    }
 	
 	
-	@Test
+	@Test(priority = 3,dataProvider = "InvalidUsernameandpassword",dataProviderClass = TestdataProvider.class,groups= {"sanity"})
+	public void InvalidLogin(String option,String expectedMessage)
+	{
+		loginpage.navigatetologin();
+		String actualMessage= "";
+		switch(option) {
+	case "Invalid username" :
+		loginpage.Invalidusername();
+		actualMessage = loginpage.getErrorMessage(); 
+	    Assert.assertEquals(actualMessage,expectedMessage );
+		break;
+	case "Invalid password" :
+		loginpage.Invalidpassword();
+		actualMessage = loginpage.getErrorMessage(); 
+	    Assert.assertEquals(actualMessage, expectedMessage);
+		break;
+	    }
+		log.error("<----Testing Error---->");
+	     
+    }
+	
+	
+	
+	@Test(priority = 4,groups= {"smoke","sanity"})
 	public void successfullogin()
 	{
 		loginpage.Login();
