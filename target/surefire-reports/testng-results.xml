@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="5" total="6" passed="1" failed="0" skipped="0">
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-29T12:27:29 EDT" name="Surefire suite" finished-at="2025-08-29T12:27:36 EDT" duration-ms="7512">
+  <suite started-at="2025-09-01T12:46:31 EDT" name="Ds-algo" finished-at="2025-09-01T12:46:34 EDT" duration-ms="2974">
     <groups>
+      <group name="smoke">
+        <method signature="LoginTest.loginlandingpage()[pri:1, instance:nn.dsalgo.tests.LoginTest@4d0402b]" name="loginlandingpage" class="nn.dsalgo.tests.LoginTest"/>
+      </group> <!-- smoke -->
     </groups>
-    <test started-at="2025-08-29T12:27:29 EDT" name="Surefire test" finished-at="2025-08-29T12:27:36 EDT" duration-ms="7512">
-      <class name="nn.dsalgo.tests.TreeTest">
-        <test-method is-config="true" signature="getProperty()[pri:0, instance:nn.dsalgo.tests.TreeTest@56c9bbd8]" started-at="2025-08-29T12:27:29 EDT" name="getProperty" finished-at="2025-08-29T12:27:29 EDT" duration-ms="15" status="PASS">
+    <test started-at="2025-09-01T12:46:31 EDT" name="Test" finished-at="2025-09-01T12:46:34 EDT" duration-ms="2974">
+      <class name="nn.dsalgo.tests.LoginTest">
+        <test-method is-config="true" signature="getProperty()[pri:0, instance:nn.dsalgo.tests.LoginTest@4d0402b]" started-at="2025-09-01T12:46:31 EDT" name="getProperty" finished-at="2025-09-01T12:46:31 EDT" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getProperty -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@56c9bbd8]" started-at="2025-08-29T12:27:29 EDT" name="setBrowser" finished-at="2025-08-29T12:27:29 EDT" duration-ms="17" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:nn.dsalgo.tests.LoginTest@4d0402b]" started-at="2025-09-01T12:46:31 EDT" name="setBrowser" finished-at="2025-09-01T12:46:31 EDT" duration-ms="14" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,34 +25,34 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@56c9bbd8]" started-at="2025-08-29T12:27:29 EDT" name="launchBrowser" finished-at="2025-08-29T12:27:30 EDT" duration-ms="1440" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.LoginTest@4d0402b]" started-at="2025-09-01T12:46:31 EDT" name="launchBrowser" finished-at="2025-09-01T12:46:33 EDT" duration-ms="1487" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@56c9bbd8]" started-at="2025-08-29T12:27:30 EDT" name="logTestStart" finished-at="2025-08-29T12:27:30 EDT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.LoginTest@4d0402b]" started-at="2025-09-01T12:46:33 EDT" name="logTestStart" finished-at="2025-09-01T12:46:33 EDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void nn.dsalgo.tests.TreeTest.getTotalsTopicsCountInTree()]]>
+                <![CDATA[public void nn.dsalgo.tests.LoginTest.loginlandingpage()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestStart -->
-        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@56c9bbd8]" started-at="2025-08-29T12:27:30 EDT" name="setupPagesTree" finished-at="2025-08-29T12:27:30 EDT" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="setuppage()[pri:0, instance:nn.dsalgo.tests.LoginTest@4d0402b]" started-at="2025-09-01T12:46:33 EDT" name="setuppage" finished-at="2025-09-01T12:46:33 EDT" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setupPagesTree -->
-        <test-method signature="getTotalsTopicsCountInTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@56c9bbd8]" started-at="2025-08-29T12:27:30 EDT" name="getTotalsTopicsCountInTree" finished-at="2025-08-29T12:27:36 EDT" duration-ms="5717" status="PASS">
+        </test-method> <!-- setuppage -->
+        <test-method signature="loginlandingpage()[pri:1, instance:nn.dsalgo.tests.LoginTest@4d0402b]" started-at="2025-09-01T12:46:33 EDT" name="loginlandingpage" finished-at="2025-09-01T12:46:34 EDT" duration-ms="1177" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getTotalsTopicsCountInTree -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@56c9bbd8]" started-at="2025-08-29T12:27:36 EDT" name="tearDown" finished-at="2025-08-29T12:27:36 EDT" duration-ms="171" status="PASS">
+        </test-method> <!-- loginlandingpage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.LoginTest@4d0402b]" started-at="2025-09-01T12:46:34 EDT" name="tearDown" finished-at="2025-09-01T12:46:34 EDT" duration-ms="165" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- nn.dsalgo.tests.TreeTest -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+      </class> <!-- nn.dsalgo.tests.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Ds-algo -->
 </testng-results>

@@ -7,18 +7,13 @@ import java.util.List;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-
 import nn.dsalgo.dataprovider.TestdataProvider;
 import nn.dsalgo.factory.DriverFactory;
 import nn.dsalgo.hooks.TestNGHooks;
-import nn.dsalgo.listeners.TestListeners;
 import nn.dsalgo.pages.QueuePage;
 import nn.dsalgo.helperclass.HelperClass;
 
-
-@Listeners({TestListeners.class})
 
 public class QueueTest extends TestNGHooks {
 	

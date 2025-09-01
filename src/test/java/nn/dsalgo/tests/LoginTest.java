@@ -2,17 +2,14 @@ package nn.dsalgo.tests;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import nn.dsalgo.dataprovider.TestdataProvider;
 import nn.dsalgo.factory.DriverFactory;
 import nn.dsalgo.hooks.TestNGHooks;
-import nn.dsalgo.listeners.RetryAnalyzer;
-import nn.dsalgo.listeners.TestListeners;
 import nn.dsalgo.pages.LoginPage;
 
-@Listeners({TestListeners.class})
+
 public class LoginTest extends TestNGHooks {
 	
 	
