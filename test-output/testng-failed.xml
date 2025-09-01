@@ -3,31 +3,18 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-<<<<<<< HEAD
       <class name="nn.dsalgo.tests.LoginTest">
         <methods>
           <include name="setBrowser"/>
+          <include name="Missinglogin" invocation-numbers="0"/>
+          <include name="successfullogin"/>
           <include name="tearDown"/>
-          <include name="performlogin" invocation-numbers="0"/>
           <include name="launchBrowser"/>
           <include name="getProperty"/>
           <include name="setuppage"/>
           <include name="logTestStart"/>
         </methods>
       </class> <!-- nn.dsalgo.tests.LoginTest -->
-=======
-      <class name="nn.dsalgo.tests.RegisterTest">
-        <methods>
-          <include name="setBrowser"/>
-          <include name="tearDown"/>
-          <include name="RegisterScenarios" invocation-numbers="5 6 7"/>
-          <include name="SetupStackPage"/>
-          <include name="launchBrowser"/>
-          <include name="getProperty"/>
-          <include name="logTestStart"/>
-        </methods>
-      </class> <!-- nn.dsalgo.tests.RegisterTest -->
->>>>>>> Prasanna_SDET221-TestNG
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
