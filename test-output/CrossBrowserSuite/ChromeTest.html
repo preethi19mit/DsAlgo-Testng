@@ -1,0 +1,380 @@
+<html>
+<head>
+<title>TestNG:  ChromeTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>ChromeTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>60/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Aug 30 18:37:15 EDT 2025</td>
+</tr>
+<tr><td>Total time:</td><td>282 seconds (282229 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.navigateToTryEditorInTree()'><b>navigateToTryEditorInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Implementation in Python</td>
+<td></td>
+<td>3</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.validateBrokenLinkEmptyPageInTree()'><b>validateBrokenLinkEmptyPageInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Terminologies</td>
+<td></td>
+<td>2</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.generateOutputForInputInTree()'><b>generateOutputForInputInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Implementation of Binary Trees, InvalidCode</td>
+<td></td>
+<td>3</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.navigateToTopicsInTree()'><b>navigateToTopicsInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Types of Binary Trees</td>
+<td></td>
+<td>2</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.navigateToTryEditorInTree()'><b>navigateToTryEditorInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Implementation of Binary Trees</td>
+<td></td>
+<td>3</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.navigateToTopicsInTree()'><b>navigateToTopicsInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Types of Trees</td>
+<td></td>
+<td>2</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.navigateToTryEditorInTree()'><b>navigateToTryEditorInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Overview of Trees</td>
+<td></td>
+<td>3</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.validateBrokenLinkEmptyPageInTree()'><b>validateBrokenLinkEmptyPageInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Tree Traversals</td>
+<td></td>
+<td>2</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.generateOutputForInputInTree()'><b>generateOutputForInputInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Implementation in Python, Numeric</td>
+<td></td>
+<td>8</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.navigateToTopicsInTree()'><b>navigateToTopicsInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Applications of Binary trees</td>
+<td></td>
+<td>2</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.generateOutputForInputInTree()'><b>generateOutputForInputInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Implementation Of BST, ValidCode</td>
+<td></td>
+<td>8</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.validateBrokenLinkEmptyPageInTree()'><b>validateBrokenLinkEmptyPageInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Binary Tree Traversals</td>
+<td></td>
+<td>2</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.validateBrokenLinkEmptyPageInTree()'><b>validateBrokenLinkEmptyPageInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Traversals-Illustration</td>
+<td></td>
+<td>2</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.treePageLanding()'><b>treePageLanding</b><br>Test class: nn.dsalgo.tests.TreeTest</td>
+<td></td>
+<td>3</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.validateBrokenLinkEmptyPageInTree()'><b>validateBrokenLinkEmptyPageInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Types of Binary Trees</td>
+<td></td>
+<td>2</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.validateBrokenLinkEmptyPageInTree()'><b>validateBrokenLinkEmptyPageInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Overview of Trees</td>
+<td></td>
+<td>2</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.validateBrokenLinkEmptyPageInTree()'><b>validateBrokenLinkEmptyPageInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Binary Search Trees</td>
+<td></td>
+<td>2</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.navigateToTopicsInTree()'><b>navigateToTopicsInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Binary Trees</td>
+<td></td>
+<td>2</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.generateOutputForInputInTree()'><b>generateOutputForInputInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Traversals-Illustration, ValidCode</td>
+<td></td>
+<td>8</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.generateOutputForInputInTree()'><b>generateOutputForInputInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Binary Tree Traversals, ValidCode</td>
+<td></td>
+<td>9</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.validateBrokenLinkEmptyPageInTree()'><b>validateBrokenLinkEmptyPageInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Implementation Of BST</td>
+<td></td>
+<td>2</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.navigateToTopicsInTree()'><b>navigateToTopicsInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Implementation in Python</td>
+<td></td>
+<td>3</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.navigateToTryEditorInTree()'><b>navigateToTryEditorInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Binary Tree Traversals</td>
+<td></td>
+<td>3</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.generateOutputForInputInTree()'><b>generateOutputForInputInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Applications of Binary trees, AlphaNumeric</td>
+<td></td>
+<td>3</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.navigateToTopicsInTree()'><b>navigateToTopicsInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Implementation Of BST</td>
+<td></td>
+<td>2</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.navigateToTryEditorInTree()'><b>navigateToTryEditorInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Applications of Binary trees</td>
+<td></td>
+<td>3</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.generateOutputForInputInTree()'><b>generateOutputForInputInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Terminologies, InvalidCode</td>
+<td></td>
+<td>4</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.validateBrokenLinkEmptyPageInTree()'><b>validateBrokenLinkEmptyPageInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Implementation in Python</td>
+<td></td>
+<td>2</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.navigateToTopicsInTree()'><b>navigateToTopicsInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Implementation of Binary Trees</td>
+<td></td>
+<td>2</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.navigateToTopicsInTree()'><b>navigateToTopicsInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Binary Search Trees</td>
+<td></td>
+<td>3</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.navigateToTryEditorInTree()'><b>navigateToTryEditorInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Tree Traversals</td>
+<td></td>
+<td>3</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.navigateToTopicsInTree()'><b>navigateToTopicsInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Tree Traversals</td>
+<td></td>
+<td>2</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.validateBrokenLinkEmptyPageInTree()'><b>validateBrokenLinkEmptyPageInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Types of Trees</td>
+<td></td>
+<td>2</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.LoginTest.performlogin()'><b>performlogin</b><br>Test class: nn.dsalgo.tests.LoginTest<br>Parameters: Missing password</td>
+<td></td>
+<td>1</td>
+<td>nn.dsalgo.tests.LoginTest@3b582111</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.generateOutputForInputInTree()'><b>generateOutputForInputInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Overview of Trees, ValidCode</td>
+<td></td>
+<td>8</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.navigateToTryEditorInTree()'><b>navigateToTryEditorInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Types of Trees</td>
+<td></td>
+<td>3</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.navigateToTryEditorInTree()'><b>navigateToTryEditorInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Terminologies</td>
+<td></td>
+<td>3</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.LoginTest.successfullogin()'><b>successfullogin</b><br>Test class: nn.dsalgo.tests.LoginTest</td>
+<td></td>
+<td>1</td>
+<td>nn.dsalgo.tests.LoginTest@3b582111</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.generateOutputForInputInTree()'><b>generateOutputForInputInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Binary Trees, InvalidCode</td>
+<td></td>
+<td>3</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.navigateToTopicsInTree()'><b>navigateToTopicsInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Overview of Trees</td>
+<td></td>
+<td>3</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.generateOutputForInputInTree()'><b>generateOutputForInputInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Binary Search Trees, Numeric</td>
+<td></td>
+<td>8</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.navigateToTopicsInTree()'><b>navigateToTopicsInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Traversals-Illustration</td>
+<td></td>
+<td>2</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.navigateToTopicsInTree()'><b>navigateToTopicsInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Binary Tree Traversals</td>
+<td></td>
+<td>2</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.generateOutputForInputInTree()'><b>generateOutputForInputInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Types of Trees, AlphaNumeric</td>
+<td></td>
+<td>3</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.navigateToTryEditorInTree()'><b>navigateToTryEditorInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Traversals-Illustration</td>
+<td></td>
+<td>3</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.validateBrokenLinkEmptyPageInTree()'><b>validateBrokenLinkEmptyPageInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Binary Trees</td>
+<td></td>
+<td>2</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.generateOutputForInputInTree()'><b>generateOutputForInputInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Types of Binary Trees, AlphaNumeric</td>
+<td></td>
+<td>4</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.navigateToTryEditorInTree()'><b>navigateToTryEditorInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Implementation Of BST</td>
+<td></td>
+<td>3</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.navigateToTopicsInTree()'><b>navigateToTopicsInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Terminologies</td>
+<td></td>
+<td>2</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.LoginTest.performlogin()'><b>performlogin</b><br>Test class: nn.dsalgo.tests.LoginTest<br>Parameters: Invalid username</td>
+<td></td>
+<td>1</td>
+<td>nn.dsalgo.tests.LoginTest@3b582111</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.getTotalsTopicsCountInTree()'><b>getTotalsTopicsCountInTree</b><br>Test class: nn.dsalgo.tests.TreeTest</td>
+<td></td>
+<td>2</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.validateBrokenLinkEmptyPageInTree()'><b>validateBrokenLinkEmptyPageInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Applications of Binary trees</td>
+<td></td>
+<td>2</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.navigateToTryEditorInTree()'><b>navigateToTryEditorInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Types of Binary Trees</td>
+<td></td>
+<td>3</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.LoginTest.performlogin()'><b>performlogin</b><br>Test class: nn.dsalgo.tests.LoginTest<br>Parameters: Invalid password</td>
+<td></td>
+<td>1</td>
+<td>nn.dsalgo.tests.LoginTest@3b582111</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.validateBrokenLinkEmptyPageInTree()'><b>validateBrokenLinkEmptyPageInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Implementation of Binary Trees</td>
+<td></td>
+<td>2</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.generateOutputForInputInTree()'><b>generateOutputForInputInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Tree Traversals, Numeric</td>
+<td></td>
+<td>9</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.LoginTest.loginlandingpage()'><b>loginlandingpage</b><br>Test class: nn.dsalgo.tests.LoginTest</td>
+<td></td>
+<td>1</td>
+<td>nn.dsalgo.tests.LoginTest@3b582111</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.navigateToTryEditorInTree()'><b>navigateToTryEditorInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Binary Search Trees</td>
+<td></td>
+<td>3</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.TreeTest.navigateToTryEditorInTree()'><b>navigateToTryEditorInTree</b><br>Test class: nn.dsalgo.tests.TreeTest<br>Parameters: Binary Trees</td>
+<td></td>
+<td>3</td>
+<td>nn.dsalgo.tests.TreeTest@1162410a</td></tr>
+<tr>
+<td title='nn.dsalgo.tests.LoginTest.performlogin()'><b>performlogin</b><br>Test class: nn.dsalgo.tests.LoginTest<br>Parameters: Missing username</td>
+<td></td>
+<td>2</td>
+<td>nn.dsalgo.tests.LoginTest@3b582111</td></tr>
+</table><p>
+</body>
+</html>

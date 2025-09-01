@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [CrossBrowserSuite]">
+  <listeners>
+    <listener class-name="nn.dsalgo.listeners.TestListeners"/>
+    <listener class-name="nn.dsalgo.listeners.AnnotationTransformer"/>
+  </listeners>
+  <test thread-count="3" parallel="tests" name="FirefoxTest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="nn.dsalgo.tests.RegisterTest">
+        <methods>
+          <include name="setBrowser"/>
+          <include name="tearDown"/>
+          <include name="RegisterScenarios" invocation-numbers="5 6 7"/>
+          <include name="SetupStackPage"/>
+          <include name="launchBrowser"/>
+          <include name="getProperty"/>
+          <include name="logTestStart"/>
+        </methods>
+      </class> <!-- nn.dsalgo.tests.RegisterTest -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [CrossBrowserSuite] -->
