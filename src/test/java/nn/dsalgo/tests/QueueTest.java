@@ -14,11 +14,6 @@ import nn.dsalgo.hooks.TestNGHooks;
 import nn.dsalgo.pages.QueuePage;
 import nn.dsalgo.helperclass.HelperClass;
 
-
-<<<<<<< HEAD
-=======
-
->>>>>>> b71f7dc661e07d945363af1049782ab6bebb9671
 public class QueueTest extends TestNGHooks {
 	
 	private HelperClass helperClass;
