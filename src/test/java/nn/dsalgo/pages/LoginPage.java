@@ -27,6 +27,7 @@ public class LoginPage extends BaseLogger {
     private By PwdAlert = By.id("id_password");
     private By Alertmsg = By.xpath("//div[@role='alert']");
     private By GetStartedBtn = By.cssSelector(".btn");
+    private By NameCheckAfterLogin = By.xpath("//a[contains(text(),'Prasanna')]");
     
 
     String url = ConfigReader.getProperty("baseurl");
@@ -76,8 +77,8 @@ public class LoginPage extends BaseLogger {
     
     public boolean Loggedinvalidate()
     {
-    	driver.findElement(Alertmsg).getText();
-    	return true;
+    	return driver.findElement(NameCheckAfterLogin).isDisplayed();
+    	 
     }
 
     public void performLoginDataDriven()
@@ -94,12 +95,13 @@ public class LoginPage extends BaseLogger {
         log.info("Clicked Login button");
     }
 
-   public void Missingusername()
+   public String Missingusername()
    {
     	Map<String, String> loginData = ExcelReader.getRowByTestCaseId("Login","Missing username");
     	
        String Excelusername = loginData.get("username");
        String Excelpassword = loginData.get("password");
+       String Errormsg = loginData.get("message");
        
        if (Excelusername != null && !Excelusername.trim().isEmpty()) {
            driver.findElement(Username).sendKeys(Excelusername);
@@ -108,6 +110,7 @@ public class LoginPage extends BaseLogger {
        driver.findElement(Password).sendKeys(Excelpassword);
        
     	driver.findElement(LoginBtn).click();
+    	return Errormsg;
     	
    }
       
@@ -127,12 +130,13 @@ public class LoginPage extends BaseLogger {
     	
     }
     
-    public void Missingpassword()
+    public String Missingpassword()
     {
      	Map<String, String> loginData = ExcelReader.getRowByTestCaseId("Login","Missing password");
      	
         String Excelusername = loginData.get("username");
         String Excelpassword = loginData.get("password");
+        String Errormsg = loginData.get("message");
         
         driver.findElement(Username).sendKeys(Excelusername);
         
@@ -141,6 +145,7 @@ public class LoginPage extends BaseLogger {
         }
         
      	driver.findElement(LoginBtn).click();
+     	return Errormsg;
      	
     }
     
@@ -157,13 +162,14 @@ public class LoginPage extends BaseLogger {
         return validationMessage1;
     }
     
-    public void Invalidusername()
+    public String Invalidusername()
     {
     	    	
         Map<String, String> loginData = ExcelReader.getRowByTestCaseId("Login","Invalid username");
      	
         String Excelusername = loginData.get("username");
         String Excelpassword = loginData.get("password");
+        String Errormsg = loginData.get("message");
         
         driver.findElement(Username).sendKeys(Excelusername);
        
@@ -171,16 +177,19 @@ public class LoginPage extends BaseLogger {
         
      	driver.findElement(LoginBtn).click();
      	
-     	elementsUtil.doGetText(Alertmsg);
+     	return elementsUtil.doGetText(Alertmsg);
+     
+     	
     }
     
-    public void Invalidpassword()
+    public String Invalidpassword()
     {
     	    	
         Map<String, String> loginData = ExcelReader.getRowByTestCaseId("Login","Invalid password");
      	
         String Excelusername = loginData.get("username");
         String Excelpassword = loginData.get("password");
+        String Errormsg = loginData.get("message");
         
         driver.findElement(Username).sendKeys(Excelusername);
        
@@ -189,6 +198,8 @@ public class LoginPage extends BaseLogger {
      	driver.findElement(LoginBtn).click();
      	
      	elementsUtil.doGetText(Alertmsg);
+     	return Errormsg;
+     	
     }
 
 }

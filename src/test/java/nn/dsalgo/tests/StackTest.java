@@ -2,17 +2,15 @@ package nn.dsalgo.tests;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Listeners;
+
 import org.testng.annotations.Test;
 
 import nn.dsalgo.dataprovider.TestdataProvider;
 import nn.dsalgo.factory.DriverFactory;
 import nn.dsalgo.helperclass.HelperClass;
 import nn.dsalgo.hooks.TestNGHooks;
-import nn.dsalgo.listeners.TestListeners;
-import nn.dsalgo.pages.Stackpage;
 
-@Listeners({TestListeners.class})
+import nn.dsalgo.pages.Stackpage;
 
 public class StackTest extends TestNGHooks{
 	private HelperClass helperclass;
@@ -24,7 +22,7 @@ public class StackTest extends TestNGHooks{
 		 stackpage = new Stackpage(DriverFactory.getDriver());
 	    }
 
-	  @Test(priority=1,groups= {"smoke","regression"})
+	  @Test(priority=1,groups= {"smoke"})
 	    public void getStackpage()
 	    {
 	     helperclass.StackpageLanding();   
@@ -32,7 +30,7 @@ public class StackTest extends TestNGHooks{
 	     log.info("The User landed in : " + stackpage.getStackpagetitle());
         }
 	    
-	    @Test(priority=2,dataProvider = "StackTopics",dataProviderClass = TestdataProvider.class,groups={"sanity","regression"})
+	    @Test(priority=2,dataProvider = "StackTopics",dataProviderClass = TestdataProvider.class,groups={"regression"})
 	    public void NavigatetoStackTopics(String Expectedpagetitle)
 	    {
 	    	helperclass.StackpageLanding();
@@ -40,7 +38,7 @@ public class StackTest extends TestNGHooks{
 	       	Assert.assertEquals(Actualpagetitle, Expectedpagetitle);
 		}
 	    
-	    @Test(priority=3,dataProvider = "StackTopics",dataProviderClass = TestdataProvider.class,groups={"sanity","regression"})
+	    @Test(priority=3,dataProvider = "StackTopics",dataProviderClass = TestdataProvider.class,groups={"regression"})
 	    public void NavigatetoTryEditor(String topic)
 	    {
 	    	helperclass.StackpageLanding();
@@ -52,7 +50,7 @@ public class StackTest extends TestNGHooks{
 	        
 	    }
 	    
-	    @Test(priority=4,dataProvider = "StackTopics",dataProviderClass = TestdataProvider.class,groups={"sanity","regression"})
+	    @Test(priority=4,dataProvider = "StackTopics",dataProviderClass = TestdataProvider.class,groups={"regression"})
 	    public void getValidPythonCode(String topic)
 	    {
 	      helperclass.StackpageLanding();
@@ -68,7 +66,7 @@ public class StackTest extends TestNGHooks{
 	      Assert.assertEquals(ActualOutput, ExpectedOutput);      
 	        }
 	    
-	    @Test(priority=5,dataProvider = "StackTopics",dataProviderClass = TestdataProvider.class,groups={"sanity","regression"})
+	    @Test(priority=5,dataProvider = "StackTopics",dataProviderClass = TestdataProvider.class,groups={"regression"})
 	    public void getInValidPythonCode(String topic)
 	    {
 	      helperclass.StackpageLanding();
@@ -91,7 +89,7 @@ public class StackTest extends TestNGHooks{
 		Assert.assertTrue(stackpage.isPracticePageDisplayed());
 	   }
 	
-	  @Test(priority=7,dataProvider = "StackTopics",dataProviderClass = TestdataProvider.class,groups= {"smoke","sanity"})
+	  @Test(priority=7,dataProvider = "StackTopics",dataProviderClass = TestdataProvider.class,groups= {"smoke"})
 	  public void PracticeQuestionBrokenLink(String topic)
 	  {
 		helperclass.StackpageLanding();

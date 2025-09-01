@@ -3,18 +3,31 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="nn.dsalgo.tests.StackTest">
         <methods>
           <include name="setBrowser"/>
           <include name="NavigatePracticeQuestion"/>
           <include name="tearDown"/>
           <include name="BeforeSetStackPage"/>
+=======
+      <class name="nn.dsalgo.tests.LoginTest">
+        <methods>
+          <include name="setBrowser"/>
+          <include name="Missinglogin" invocation-numbers="0"/>
+          <include name="successfullogin"/>
+          <include name="tearDown"/>
+>>>>>>> 234ee29e67f88917052681f9f10ec39b9191e4a8
           <include name="launchBrowser"/>
           <include name="getProperty"/>
           <include name="getInValidPythonCode"/>
           <include name="logTestStart"/>
         </methods>
+<<<<<<< HEAD
       </class> <!-- nn.dsalgo.tests.StackTest -->
+=======
+      </class> <!-- nn.dsalgo.tests.LoginTest -->
+>>>>>>> 234ee29e67f88917052681f9f10ec39b9191e4a8
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

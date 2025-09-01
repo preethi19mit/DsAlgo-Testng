@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results ignored="0" total="19" passed="19" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
@@ -31,6 +32,30 @@
           </reporter-output>
         </test-method> <!-- getProperty -->
         <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:nn.dsalgo.tests.StackTest@2c1b9e4b]" started-at="2025-09-01T09:41:15 EDT" name="setBrowser" finished-at="2025-09-01T09:41:15 EDT" duration-ms="18" status="PASS">
+=======
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-31T23:16:56 EDT" name="Default suite" finished-at="2025-08-31T23:17:07 EDT" duration-ms="11057">
+    <groups>
+      <group name="smoke">
+        <method signature="LoginTest.loginlandingpage()[pri:1, instance:nn.dsalgo.tests.LoginTest@7e985ce9]" name="loginlandingpage" class="nn.dsalgo.tests.LoginTest"/>
+        <method signature="LoginTest.successfullogin()[pri:4, instance:nn.dsalgo.tests.LoginTest@7e985ce9]" name="successfullogin" class="nn.dsalgo.tests.LoginTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="LoginTest.Missinglogin(java.lang.String,java.lang.String)[pri:2, instance:nn.dsalgo.tests.LoginTest@7e985ce9]" name="Missinglogin" class="nn.dsalgo.tests.LoginTest"/>
+        <method signature="LoginTest.InvalidLogin(java.lang.String,java.lang.String)[pri:3, instance:nn.dsalgo.tests.LoginTest@7e985ce9]" name="InvalidLogin" class="nn.dsalgo.tests.LoginTest"/>
+        <method signature="LoginTest.successfullogin()[pri:4, instance:nn.dsalgo.tests.LoginTest@7e985ce9]" name="successfullogin" class="nn.dsalgo.tests.LoginTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2025-08-31T23:16:56 EDT" name="Default test" finished-at="2025-08-31T23:17:07 EDT" duration-ms="11057">
+      <class name="nn.dsalgo.tests.LoginTest">
+        <test-method is-config="true" signature="getProperty()[pri:0, instance:nn.dsalgo.tests.LoginTest@7e985ce9]" started-at="2025-08-31T23:16:56 EDT" name="getProperty" finished-at="2025-08-31T23:16:56 EDT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProperty -->
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:nn.dsalgo.tests.LoginTest@7e985ce9]" started-at="2025-08-31T23:16:56 EDT" name="setBrowser" finished-at="2025-08-31T23:16:56 EDT" duration-ms="11" status="PASS">
+>>>>>>> 234ee29e67f88917052681f9f10ec39b9191e4a8
           <params>
             <param index="0">
               <value>
@@ -41,6 +66,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.StackTest@2c1b9e4b]" started-at="2025-09-01T09:41:15 EDT" name="launchBrowser" finished-at="2025-09-01T09:41:16 EDT" duration-ms="1098" status="PASS">
           <reporter-output>
           </reporter-output>
@@ -50,12 +76,24 @@
             <param index="0">
               <value>
                 <![CDATA[public void nn.dsalgo.tests.StackTest.getStackpage()]]>
+=======
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.LoginTest@7e985ce9]" started-at="2025-08-31T23:16:56 EDT" name="launchBrowser" finished-at="2025-08-31T23:16:57 EDT" duration-ms="912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.LoginTest@7e985ce9]" started-at="2025-08-31T23:16:57 EDT" name="logTestStart" finished-at="2025-08-31T23:16:57 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.LoginTest.loginlandingpage()]]>
+>>>>>>> 234ee29e67f88917052681f9f10ec39b9191e4a8
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestStart -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="BeforeSetStackPage()[pri:0, instance:nn.dsalgo.tests.StackTest@2c1b9e4b]" started-at="2025-09-01T09:41:16 EDT" name="BeforeSetStackPage" finished-at="2025-09-01T09:41:16 EDT" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
@@ -77,12 +115,36 @@
             <param index="0">
               <value>
                 <![CDATA[public void nn.dsalgo.tests.StackTest.NavigatetoStackTopics(java.lang.String)]]>
+=======
+        <test-method is-config="true" signature="setuppage()[pri:0, instance:nn.dsalgo.tests.LoginTest@7e985ce9]" started-at="2025-08-31T23:16:57 EDT" name="setuppage" finished-at="2025-08-31T23:16:57 EDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setuppage -->
+        <test-method signature="loginlandingpage()[pri:1, instance:nn.dsalgo.tests.LoginTest@7e985ce9]" started-at="2025-08-31T23:16:57 EDT" name="loginlandingpage" finished-at="2025-08-31T23:16:58 EDT" duration-ms="736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginlandingpage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.LoginTest@7e985ce9]" started-at="2025-08-31T23:16:58 EDT" name="tearDown" finished-at="2025-08-31T23:16:58 EDT" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.LoginTest@7e985ce9]" started-at="2025-08-31T23:16:58 EDT" name="launchBrowser" finished-at="2025-08-31T23:16:59 EDT" duration-ms="599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.LoginTest@7e985ce9]" started-at="2025-08-31T23:16:59 EDT" name="logTestStart" finished-at="2025-08-31T23:16:59 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.LoginTest.Missinglogin(java.lang.String,java.lang.String)]]>
+>>>>>>> 234ee29e67f88917052681f9f10ec39b9191e4a8
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestStart -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="BeforeSetStackPage()[pri:0, instance:nn.dsalgo.tests.StackTest@2c1b9e4b]" started-at="2025-09-01T09:41:20 EDT" name="BeforeSetStackPage" finished-at="2025-09-01T09:41:20 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
@@ -92,11 +154,28 @@
             <param index="0">
               <value>
                 <![CDATA[Operations in Stack]]>
+=======
+        <test-method is-config="true" signature="setuppage()[pri:0, instance:nn.dsalgo.tests.LoginTest@7e985ce9]" started-at="2025-08-31T23:16:59 EDT" name="setuppage" finished-at="2025-08-31T23:16:59 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setuppage -->
+        <test-method signature="Missinglogin(java.lang.String,java.lang.String)[pri:2, instance:nn.dsalgo.tests.LoginTest@7e985ce9]" started-at="2025-08-31T23:16:59 EDT" name="Missinglogin" data-provider="MissingUsernameandpassword" finished-at="2025-08-31T23:17:00 EDT" duration-ms="1212" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Missing username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Please fill out this field.]]>
+>>>>>>> 234ee29e67f88917052681f9f10ec39b9191e4a8
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
+<<<<<<< HEAD
         </test-method> <!-- NavigatetoStackTopics -->
         <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.StackTest@2c1b9e4b]" started-at="2025-09-01T09:41:22 EDT" name="tearDown" finished-at="2025-09-01T09:41:23 EDT" duration-ms="188" status="PASS">
           <reporter-output>
@@ -111,12 +190,29 @@
             <param index="0">
               <value>
                 <![CDATA[public void nn.dsalgo.tests.StackTest.NavigatetoStackTopics(java.lang.String)]]>
+=======
+        </test-method> <!-- Missinglogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.LoginTest@7e985ce9]" started-at="2025-08-31T23:17:00 EDT" name="tearDown" finished-at="2025-08-31T23:17:00 EDT" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.LoginTest@7e985ce9]" started-at="2025-08-31T23:17:00 EDT" name="launchBrowser" finished-at="2025-08-31T23:17:01 EDT" duration-ms="626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.LoginTest@7e985ce9]" started-at="2025-08-31T23:17:01 EDT" name="logTestStart" finished-at="2025-08-31T23:17:01 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.LoginTest.Missinglogin(java.lang.String,java.lang.String)]]>
+>>>>>>> 234ee29e67f88917052681f9f10ec39b9191e4a8
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestStart -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="BeforeSetStackPage()[pri:0, instance:nn.dsalgo.tests.StackTest@2c1b9e4b]" started-at="2025-09-01T09:41:23 EDT" name="BeforeSetStackPage" finished-at="2025-09-01T09:41:23 EDT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
@@ -126,11 +222,28 @@
             <param index="0">
               <value>
                 <![CDATA[Implementation]]>
+=======
+        <test-method is-config="true" signature="setuppage()[pri:0, instance:nn.dsalgo.tests.LoginTest@7e985ce9]" started-at="2025-08-31T23:17:01 EDT" name="setuppage" finished-at="2025-08-31T23:17:01 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setuppage -->
+        <test-method signature="Missinglogin(java.lang.String,java.lang.String)[pri:2, instance:nn.dsalgo.tests.LoginTest@7e985ce9]" started-at="2025-08-31T23:17:01 EDT" name="Missinglogin" data-provider="MissingUsernameandpassword" finished-at="2025-08-31T23:17:01 EDT" duration-ms="790" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Missing password]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Please fill out this field.]]>
+>>>>>>> 234ee29e67f88917052681f9f10ec39b9191e4a8
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
+<<<<<<< HEAD
         </test-method> <!-- NavigatetoStackTopics -->
         <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.StackTest@2c1b9e4b]" started-at="2025-09-01T09:41:26 EDT" name="tearDown" finished-at="2025-09-01T09:41:26 EDT" duration-ms="212" status="PASS">
           <reporter-output>
@@ -145,12 +258,29 @@
             <param index="0">
               <value>
                 <![CDATA[public void nn.dsalgo.tests.StackTest.NavigatetoStackTopics(java.lang.String)]]>
+=======
+        </test-method> <!-- Missinglogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.LoginTest@7e985ce9]" started-at="2025-08-31T23:17:01 EDT" name="tearDown" finished-at="2025-08-31T23:17:02 EDT" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.LoginTest@7e985ce9]" started-at="2025-08-31T23:17:02 EDT" name="launchBrowser" finished-at="2025-08-31T23:17:02 EDT" duration-ms="667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.LoginTest@7e985ce9]" started-at="2025-08-31T23:17:02 EDT" name="logTestStart" finished-at="2025-08-31T23:17:02 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.LoginTest.InvalidLogin(java.lang.String,java.lang.String)]]>
+>>>>>>> 234ee29e67f88917052681f9f10ec39b9191e4a8
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestStart -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="BeforeSetStackPage()[pri:0, instance:nn.dsalgo.tests.StackTest@2c1b9e4b]" started-at="2025-09-01T09:41:27 EDT" name="BeforeSetStackPage" finished-at="2025-09-01T09:41:27 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
@@ -160,11 +290,28 @@
             <param index="0">
               <value>
                 <![CDATA[Applications]]>
+=======
+        <test-method is-config="true" signature="setuppage()[pri:0, instance:nn.dsalgo.tests.LoginTest@7e985ce9]" started-at="2025-08-31T23:17:02 EDT" name="setuppage" finished-at="2025-08-31T23:17:02 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setuppage -->
+        <test-method signature="InvalidLogin(java.lang.String,java.lang.String)[pri:3, instance:nn.dsalgo.tests.LoginTest@7e985ce9]" started-at="2025-08-31T23:17:02 EDT" name="InvalidLogin" data-provider="InvalidUsernameandpassword" finished-at="2025-08-31T23:17:03 EDT" duration-ms="934" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Invalid username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Invalid Username and Password]]>
+>>>>>>> 234ee29e67f88917052681f9f10ec39b9191e4a8
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
+<<<<<<< HEAD
         </test-method> <!-- NavigatetoStackTopics -->
         <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.StackTest@2c1b9e4b]" started-at="2025-09-01T09:41:29 EDT" name="tearDown" finished-at="2025-09-01T09:41:29 EDT" duration-ms="183" status="PASS">
           <reporter-output>
@@ -179,12 +326,29 @@
             <param index="0">
               <value>
                 <![CDATA[public void nn.dsalgo.tests.StackTest.NavigatetoTryEditor(java.lang.String)]]>
+=======
+        </test-method> <!-- InvalidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.LoginTest@7e985ce9]" started-at="2025-08-31T23:17:03 EDT" name="tearDown" finished-at="2025-08-31T23:17:03 EDT" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.LoginTest@7e985ce9]" started-at="2025-08-31T23:17:03 EDT" name="launchBrowser" finished-at="2025-08-31T23:17:04 EDT" duration-ms="611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.LoginTest@7e985ce9]" started-at="2025-08-31T23:17:04 EDT" name="logTestStart" finished-at="2025-08-31T23:17:04 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.LoginTest.InvalidLogin(java.lang.String,java.lang.String)]]>
+>>>>>>> 234ee29e67f88917052681f9f10ec39b9191e4a8
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestStart -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="BeforeSetStackPage()[pri:0, instance:nn.dsalgo.tests.StackTest@2c1b9e4b]" started-at="2025-09-01T09:41:30 EDT" name="BeforeSetStackPage" finished-at="2025-09-01T09:41:30 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
@@ -194,11 +358,28 @@
             <param index="0">
               <value>
                 <![CDATA[Operations in Stack]]>
+=======
+        <test-method is-config="true" signature="setuppage()[pri:0, instance:nn.dsalgo.tests.LoginTest@7e985ce9]" started-at="2025-08-31T23:17:04 EDT" name="setuppage" finished-at="2025-08-31T23:17:04 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setuppage -->
+        <test-method signature="InvalidLogin(java.lang.String,java.lang.String)[pri:3, instance:nn.dsalgo.tests.LoginTest@7e985ce9]" started-at="2025-08-31T23:17:04 EDT" name="InvalidLogin" data-provider="InvalidUsernameandpassword" finished-at="2025-08-31T23:17:05 EDT" duration-ms="953" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Invalid password]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Invalid Username and Password]]>
+>>>>>>> 234ee29e67f88917052681f9f10ec39b9191e4a8
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
+<<<<<<< HEAD
         </test-method> <!-- NavigatetoTryEditor -->
         <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.StackTest@2c1b9e4b]" started-at="2025-09-01T09:41:33 EDT" name="tearDown" finished-at="2025-09-01T09:41:33 EDT" duration-ms="166" status="PASS">
           <reporter-output>
@@ -213,12 +394,29 @@
             <param index="0">
               <value>
                 <![CDATA[public void nn.dsalgo.tests.StackTest.NavigatetoTryEditor(java.lang.String)]]>
+=======
+        </test-method> <!-- InvalidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.LoginTest@7e985ce9]" started-at="2025-08-31T23:17:05 EDT" name="tearDown" finished-at="2025-08-31T23:17:05 EDT" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.LoginTest@7e985ce9]" started-at="2025-08-31T23:17:05 EDT" name="launchBrowser" finished-at="2025-08-31T23:17:06 EDT" duration-ms="747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.LoginTest@7e985ce9]" started-at="2025-08-31T23:17:06 EDT" name="logTestStart" finished-at="2025-08-31T23:17:06 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.LoginTest.successfullogin()]]>
+>>>>>>> 234ee29e67f88917052681f9f10ec39b9191e4a8
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestStart -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="BeforeSetStackPage()[pri:0, instance:nn.dsalgo.tests.StackTest@2c1b9e4b]" started-at="2025-09-01T09:41:34 EDT" name="BeforeSetStackPage" finished-at="2025-09-01T09:41:34 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
@@ -681,6 +879,21 @@
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- nn.dsalgo.tests.StackTest -->
+=======
+        <test-method is-config="true" signature="setuppage()[pri:0, instance:nn.dsalgo.tests.LoginTest@7e985ce9]" started-at="2025-08-31T23:17:06 EDT" name="setuppage" finished-at="2025-08-31T23:17:06 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setuppage -->
+        <test-method signature="successfullogin()[pri:4, instance:nn.dsalgo.tests.LoginTest@7e985ce9]" started-at="2025-08-31T23:17:06 EDT" name="successfullogin" finished-at="2025-08-31T23:17:07 EDT" duration-ms="1404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfullogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.LoginTest@7e985ce9]" started-at="2025-08-31T23:17:07 EDT" name="tearDown" finished-at="2025-08-31T23:17:07 EDT" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- nn.dsalgo.tests.LoginTest -->
+>>>>>>> 234ee29e67f88917052681f9f10ec39b9191e4a8
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

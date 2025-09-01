@@ -7,14 +7,45 @@
         <parameter name="browser" value="chrome"/>
         <classes>
             <class name = "nn.dsalgo.tests.LoginTest"/>
+            <class name = "nn.dsalgo.tests.HomeTest"/>
+            <class name = "nn.dsalgo.tests.RegisterTest"/>
+            <class name = "nn.dsalgo.tests.DatastructureTest"/>
+            <class name = "nn.dsalgo.tests.LinkedListTest"/>
+            <class name = "nn.dsalgo.tests.StackTest"/>
             <class name = "nn.dsalgo.tests.TreeTest"/>
+            <class name = "nn.dsalgo.tests.QueueTest"/>
+            <class name = "nn.dsalgo.tests.ArrayTest"/>
+            <class name = "nn.dsalgo.tests.GraphTest"/>
+        </classes>
+    </test>
+    <test name="EdgeTest">
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name = "nn.dsalgo.tests.LoginTest"/>
+            <class name = "nn.dsalgo.tests.HomeTest"/>
+            <class name = "nn.dsalgo.tests.RegisterTest"/>
+            <class name = "nn.dsalgo.tests.DatastructureTest"/>
+            <class name = "nn.dsalgo.tests.LinkedListTest"/>
+            <class name = "nn.dsalgo.tests.StackTest"/>
+            <class name = "nn.dsalgo.tests.TreeTest"/>
+            <class name = "nn.dsalgo.tests.QueueTest"/>
+            <class name = "nn.dsalgo.tests.ArrayTest"/>
+            <class name = "nn.dsalgo.tests.GraphTest"/>
         </classes>
     </test>
     <test name="FirefoxTest">
         <parameter name="browser" value="firefox"/>
         <classes>
+            <class name = "nn.dsalgo.tests.LoginTest"/>
+            <class name = "nn.dsalgo.tests.HomeTest"/>
             <class name = "nn.dsalgo.tests.RegisterTest"/>
+            <class name = "nn.dsalgo.tests.DatastructureTest"/>
+            <class name = "nn.dsalgo.tests.LinkedListTest"/>
             <class name = "nn.dsalgo.tests.StackTest"/>
+            <class name = "nn.dsalgo.tests.TreeTest"/>
+            <class name = "nn.dsalgo.tests.QueueTest"/>
+            <class name = "nn.dsalgo.tests.ArrayTest"/>
+            <class name = "nn.dsalgo.tests.GraphTest"/>
         </classes>
     </test>
 </suite>
