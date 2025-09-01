@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
   <suite started-at="2025-09-01T12:46:31 EDT" name="Ds-algo" finished-at="2025-09-01T12:46:34 EDT" duration-ms="2974">
+=======
+<testng-results ignored="0" total="54" passed="54" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-31T23:43:25 EDT" name="Surefire suite" finished-at="2025-08-31T23:49:53 EDT" duration-ms="388147">
+>>>>>>> b71f7dc661e07d945363af1049782ab6bebb9671
     <groups>
       <group name="smoke">
         <method signature="LoginTest.loginlandingpage()[pri:1, instance:nn.dsalgo.tests.LoginTest@4d0402b]" name="loginlandingpage" class="nn.dsalgo.tests.LoginTest"/>
       </group> <!-- smoke -->
     </groups>
+<<<<<<< HEAD
     <test started-at="2025-09-01T12:46:31 EDT" name="Test" finished-at="2025-09-01T12:46:34 EDT" duration-ms="2974">
       <class name="nn.dsalgo.tests.LoginTest">
         <test-method is-config="true" signature="getProperty()[pri:0, instance:nn.dsalgo.tests.LoginTest@4d0402b]" started-at="2025-09-01T12:46:31 EDT" name="getProperty" finished-at="2025-09-01T12:46:31 EDT" duration-ms="16" status="PASS">
@@ -15,6 +23,15 @@
           </reporter-output>
         </test-method> <!-- getProperty -->
         <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:nn.dsalgo.tests.LoginTest@4d0402b]" started-at="2025-09-01T12:46:31 EDT" name="setBrowser" finished-at="2025-09-01T12:46:31 EDT" duration-ms="14" status="PASS">
+=======
+    <test started-at="2025-08-31T23:43:25 EDT" name="Surefire test" finished-at="2025-08-31T23:49:53 EDT" duration-ms="388147">
+      <class name="nn.dsalgo.tests.TreeTest">
+        <test-method is-config="true" signature="getProperty()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:43:25 EDT" name="getProperty" finished-at="2025-08-31T23:43:25 EDT" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProperty -->
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:43:25 EDT" name="setBrowser" finished-at="2025-08-31T23:43:25 EDT" duration-ms="20" status="PASS">
+>>>>>>> b71f7dc661e07d945363af1049782ab6bebb9671
           <params>
             <param index="0">
               <value>
@@ -25,11 +42,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.LoginTest@4d0402b]" started-at="2025-09-01T12:46:31 EDT" name="launchBrowser" finished-at="2025-09-01T12:46:33 EDT" duration-ms="1487" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
         <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.LoginTest@4d0402b]" started-at="2025-09-01T12:46:33 EDT" name="logTestStart" finished-at="2025-09-01T12:46:33 EDT" duration-ms="1" status="PASS">
+=======
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:43:25 EDT" name="launchBrowser" finished-at="2025-08-31T23:43:26 EDT" duration-ms="1281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:43:26 EDT" name="logTestStart" finished-at="2025-08-31T23:43:26 EDT" duration-ms="2" status="PASS">
+>>>>>>> b71f7dc661e07d945363af1049782ab6bebb9671
           <params>
             <param index="0">
               <value>
@@ -40,6 +65,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestStart -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="setuppage()[pri:0, instance:nn.dsalgo.tests.LoginTest@4d0402b]" started-at="2025-09-01T12:46:33 EDT" name="setuppage" finished-at="2025-09-01T12:46:33 EDT" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
@@ -49,6 +75,1877 @@
           </reporter-output>
         </test-method> <!-- loginlandingpage -->
         <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.LoginTest@4d0402b]" started-at="2025-09-01T12:46:34 EDT" name="tearDown" finished-at="2025-09-01T12:46:34 EDT" duration-ms="165" status="PASS">
+=======
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:43:26 EDT" name="setupPagesTree" finished-at="2025-08-31T23:43:26 EDT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method signature="getTotalsTopicsCountInTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:43:26 EDT" name="getTotalsTopicsCountInTree" finished-at="2025-08-31T23:43:32 EDT" duration-ms="5694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTotalsTopicsCountInTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:43:32 EDT" name="tearDown" finished-at="2025-08-31T23:43:32 EDT" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:43:32 EDT" name="launchBrowser" finished-at="2025-08-31T23:43:33 EDT" duration-ms="876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:43:33 EDT" name="logTestStart" finished-at="2025-08-31T23:43:33 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.treePageLanding()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:43:33 EDT" name="setupPagesTree" finished-at="2025-08-31T23:43:33 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method signature="treePageLanding()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:43:33 EDT" name="treePageLanding" finished-at="2025-08-31T23:43:38 EDT" duration-ms="5018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- treePageLanding -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:43:38 EDT" name="tearDown" finished-at="2025-08-31T23:43:38 EDT" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:43:38 EDT" name="launchBrowser" finished-at="2025-08-31T23:43:39 EDT" duration-ms="884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:43:39 EDT" name="logTestStart" finished-at="2025-08-31T23:43:39 EDT" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.navigateToTopicsInTree(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:43:39 EDT" name="setupPagesTree" finished-at="2025-08-31T23:43:39 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method signature="navigateToTopicsInTree(java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:43:39 EDT" name="navigateToTopicsInTree" data-provider="topicsTree" finished-at="2025-08-31T23:43:44 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.treePageLanding" duration-ms="5278" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Overview of Trees]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToTopicsInTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:43:44 EDT" name="tearDown" finished-at="2025-08-31T23:43:45 EDT" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:43:45 EDT" name="launchBrowser" finished-at="2025-08-31T23:43:46 EDT" duration-ms="934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:43:46 EDT" name="logTestStart" finished-at="2025-08-31T23:43:46 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.navigateToTopicsInTree(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:43:46 EDT" name="setupPagesTree" finished-at="2025-08-31T23:43:46 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method signature="navigateToTopicsInTree(java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:43:46 EDT" name="navigateToTopicsInTree" data-provider="topicsTree" finished-at="2025-08-31T23:43:51 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.treePageLanding" duration-ms="5336" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Terminologies]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToTopicsInTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:43:51 EDT" name="tearDown" finished-at="2025-08-31T23:43:51 EDT" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:43:51 EDT" name="launchBrowser" finished-at="2025-08-31T23:43:52 EDT" duration-ms="865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:43:52 EDT" name="logTestStart" finished-at="2025-08-31T23:43:52 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.navigateToTopicsInTree(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:43:52 EDT" name="setupPagesTree" finished-at="2025-08-31T23:43:52 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method signature="navigateToTopicsInTree(java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:43:52 EDT" name="navigateToTopicsInTree" data-provider="topicsTree" finished-at="2025-08-31T23:43:56 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.treePageLanding" duration-ms="4519" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Types of Trees]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToTopicsInTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:43:56 EDT" name="tearDown" finished-at="2025-08-31T23:43:57 EDT" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:43:57 EDT" name="launchBrowser" finished-at="2025-08-31T23:43:57 EDT" duration-ms="832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:43:57 EDT" name="logTestStart" finished-at="2025-08-31T23:43:57 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.navigateToTopicsInTree(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:43:57 EDT" name="setupPagesTree" finished-at="2025-08-31T23:43:57 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method signature="navigateToTopicsInTree(java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:43:57 EDT" name="navigateToTopicsInTree" data-provider="topicsTree" finished-at="2025-08-31T23:44:03 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.treePageLanding" duration-ms="5336" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tree Traversals]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToTopicsInTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:03 EDT" name="tearDown" finished-at="2025-08-31T23:44:03 EDT" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:03 EDT" name="launchBrowser" finished-at="2025-08-31T23:44:04 EDT" duration-ms="822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:04 EDT" name="logTestStart" finished-at="2025-08-31T23:44:04 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.navigateToTopicsInTree(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:04 EDT" name="setupPagesTree" finished-at="2025-08-31T23:44:04 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method signature="navigateToTopicsInTree(java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:04 EDT" name="navigateToTopicsInTree" data-provider="topicsTree" finished-at="2025-08-31T23:44:08 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.treePageLanding" duration-ms="4573" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Traversals-Illustration]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToTopicsInTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:08 EDT" name="tearDown" finished-at="2025-08-31T23:44:09 EDT" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:09 EDT" name="launchBrowser" finished-at="2025-08-31T23:44:09 EDT" duration-ms="860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:09 EDT" name="logTestStart" finished-at="2025-08-31T23:44:09 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.navigateToTopicsInTree(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:09 EDT" name="setupPagesTree" finished-at="2025-08-31T23:44:09 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method signature="navigateToTopicsInTree(java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:09 EDT" name="navigateToTopicsInTree" data-provider="topicsTree" finished-at="2025-08-31T23:44:15 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.treePageLanding" duration-ms="5445" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Binary Trees]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToTopicsInTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:15 EDT" name="tearDown" finished-at="2025-08-31T23:44:15 EDT" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:15 EDT" name="launchBrowser" finished-at="2025-08-31T23:44:16 EDT" duration-ms="841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:16 EDT" name="logTestStart" finished-at="2025-08-31T23:44:16 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.navigateToTopicsInTree(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:16 EDT" name="setupPagesTree" finished-at="2025-08-31T23:44:16 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method signature="navigateToTopicsInTree(java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:16 EDT" name="navigateToTopicsInTree" data-provider="topicsTree" finished-at="2025-08-31T23:44:20 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.treePageLanding" duration-ms="4519" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Types of Binary Trees]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToTopicsInTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:20 EDT" name="tearDown" finished-at="2025-08-31T23:44:21 EDT" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:21 EDT" name="launchBrowser" finished-at="2025-08-31T23:44:21 EDT" duration-ms="815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:21 EDT" name="logTestStart" finished-at="2025-08-31T23:44:21 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.navigateToTopicsInTree(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:21 EDT" name="setupPagesTree" finished-at="2025-08-31T23:44:21 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method signature="navigateToTopicsInTree(java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:21 EDT" name="navigateToTopicsInTree" data-provider="topicsTree" finished-at="2025-08-31T23:44:27 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.treePageLanding" duration-ms="5397" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Implementation in Python]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToTopicsInTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:27 EDT" name="tearDown" finished-at="2025-08-31T23:44:27 EDT" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:27 EDT" name="launchBrowser" finished-at="2025-08-31T23:44:28 EDT" duration-ms="847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:28 EDT" name="logTestStart" finished-at="2025-08-31T23:44:28 EDT" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.navigateToTopicsInTree(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:28 EDT" name="setupPagesTree" finished-at="2025-08-31T23:44:28 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method signature="navigateToTopicsInTree(java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:28 EDT" name="navigateToTopicsInTree" data-provider="topicsTree" finished-at="2025-08-31T23:44:33 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.treePageLanding" duration-ms="5329" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Binary Tree Traversals]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToTopicsInTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:33 EDT" name="tearDown" finished-at="2025-08-31T23:44:33 EDT" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:33 EDT" name="launchBrowser" finished-at="2025-08-31T23:44:34 EDT" duration-ms="819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:34 EDT" name="logTestStart" finished-at="2025-08-31T23:44:34 EDT" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.navigateToTopicsInTree(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:34 EDT" name="setupPagesTree" finished-at="2025-08-31T23:44:34 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method signature="navigateToTopicsInTree(java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:34 EDT" name="navigateToTopicsInTree" data-provider="topicsTree" finished-at="2025-08-31T23:44:39 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.treePageLanding" duration-ms="4430" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Implementation of Binary Trees]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToTopicsInTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:39 EDT" name="tearDown" finished-at="2025-08-31T23:44:39 EDT" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:39 EDT" name="launchBrowser" finished-at="2025-08-31T23:44:40 EDT" duration-ms="910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:40 EDT" name="logTestStart" finished-at="2025-08-31T23:44:40 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.navigateToTopicsInTree(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:40 EDT" name="setupPagesTree" finished-at="2025-08-31T23:44:40 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method signature="navigateToTopicsInTree(java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:40 EDT" name="navigateToTopicsInTree" data-provider="topicsTree" finished-at="2025-08-31T23:44:44 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.treePageLanding" duration-ms="4677" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Applications of Binary trees]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToTopicsInTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:44 EDT" name="tearDown" finished-at="2025-08-31T23:44:45 EDT" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:45 EDT" name="launchBrowser" finished-at="2025-08-31T23:44:45 EDT" duration-ms="803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:45 EDT" name="logTestStart" finished-at="2025-08-31T23:44:45 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.navigateToTopicsInTree(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:45 EDT" name="setupPagesTree" finished-at="2025-08-31T23:44:45 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method signature="navigateToTopicsInTree(java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:45 EDT" name="navigateToTopicsInTree" data-provider="topicsTree" finished-at="2025-08-31T23:44:51 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.treePageLanding" duration-ms="5862" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Binary Search Trees]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToTopicsInTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:51 EDT" name="tearDown" finished-at="2025-08-31T23:44:52 EDT" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:52 EDT" name="launchBrowser" finished-at="2025-08-31T23:44:52 EDT" duration-ms="861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:52 EDT" name="logTestStart" finished-at="2025-08-31T23:44:52 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.navigateToTopicsInTree(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:52 EDT" name="setupPagesTree" finished-at="2025-08-31T23:44:52 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method signature="navigateToTopicsInTree(java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:52 EDT" name="navigateToTopicsInTree" data-provider="topicsTree" finished-at="2025-08-31T23:44:58 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.treePageLanding" duration-ms="5365" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Implementation Of BST]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToTopicsInTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:58 EDT" name="tearDown" finished-at="2025-08-31T23:44:58 EDT" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:58 EDT" name="launchBrowser" finished-at="2025-08-31T23:44:59 EDT" duration-ms="819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:59 EDT" name="logTestStart" finished-at="2025-08-31T23:44:59 EDT" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.navigateToTryEditorInTree(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:59 EDT" name="setupPagesTree" finished-at="2025-08-31T23:44:59 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method signature="navigateToTryEditorInTree(java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:44:59 EDT" name="navigateToTryEditorInTree" data-provider="topicsTree" finished-at="2025-08-31T23:45:05 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.navigateToTopicsInTree" duration-ms="6036" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Overview of Trees]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToTryEditorInTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:45:05 EDT" name="tearDown" finished-at="2025-08-31T23:45:05 EDT" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:45:05 EDT" name="launchBrowser" finished-at="2025-08-31T23:45:06 EDT" duration-ms="830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:45:06 EDT" name="logTestStart" finished-at="2025-08-31T23:45:06 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.navigateToTryEditorInTree(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:45:06 EDT" name="setupPagesTree" finished-at="2025-08-31T23:45:06 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method signature="navigateToTryEditorInTree(java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:45:06 EDT" name="navigateToTryEditorInTree" data-provider="topicsTree" finished-at="2025-08-31T23:45:12 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.navigateToTopicsInTree" duration-ms="6018" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Terminologies]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToTryEditorInTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:45:12 EDT" name="tearDown" finished-at="2025-08-31T23:45:12 EDT" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:45:12 EDT" name="launchBrowser" finished-at="2025-08-31T23:45:13 EDT" duration-ms="833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:45:13 EDT" name="logTestStart" finished-at="2025-08-31T23:45:13 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.navigateToTryEditorInTree(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:45:13 EDT" name="setupPagesTree" finished-at="2025-08-31T23:45:13 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method signature="navigateToTryEditorInTree(java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:45:13 EDT" name="navigateToTryEditorInTree" data-provider="topicsTree" finished-at="2025-08-31T23:45:18 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.navigateToTopicsInTree" duration-ms="5196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Types of Trees]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToTryEditorInTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:45:18 EDT" name="tearDown" finished-at="2025-08-31T23:45:18 EDT" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:45:18 EDT" name="launchBrowser" finished-at="2025-08-31T23:45:19 EDT" duration-ms="925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:45:19 EDT" name="logTestStart" finished-at="2025-08-31T23:45:19 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.navigateToTryEditorInTree(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:45:19 EDT" name="setupPagesTree" finished-at="2025-08-31T23:45:19 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method signature="navigateToTryEditorInTree(java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:45:19 EDT" name="navigateToTryEditorInTree" data-provider="topicsTree" finished-at="2025-08-31T23:45:25 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.navigateToTopicsInTree" duration-ms="5926" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tree Traversals]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToTryEditorInTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:45:25 EDT" name="tearDown" finished-at="2025-08-31T23:45:25 EDT" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:45:25 EDT" name="launchBrowser" finished-at="2025-08-31T23:45:26 EDT" duration-ms="841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:45:26 EDT" name="logTestStart" finished-at="2025-08-31T23:45:26 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.navigateToTryEditorInTree(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:45:26 EDT" name="setupPagesTree" finished-at="2025-08-31T23:45:26 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method signature="navigateToTryEditorInTree(java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:45:26 EDT" name="navigateToTryEditorInTree" data-provider="topicsTree" finished-at="2025-08-31T23:45:31 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.navigateToTopicsInTree" duration-ms="5102" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Traversals-Illustration]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToTryEditorInTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:45:31 EDT" name="tearDown" finished-at="2025-08-31T23:45:31 EDT" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:45:31 EDT" name="launchBrowser" finished-at="2025-08-31T23:45:32 EDT" duration-ms="993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:45:32 EDT" name="logTestStart" finished-at="2025-08-31T23:45:32 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.navigateToTryEditorInTree(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:45:32 EDT" name="setupPagesTree" finished-at="2025-08-31T23:45:32 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method signature="navigateToTryEditorInTree(java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:45:32 EDT" name="navigateToTryEditorInTree" data-provider="topicsTree" finished-at="2025-08-31T23:45:39 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.navigateToTopicsInTree" duration-ms="6176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Binary Trees]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToTryEditorInTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:45:39 EDT" name="tearDown" finished-at="2025-08-31T23:45:39 EDT" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:45:39 EDT" name="launchBrowser" finished-at="2025-08-31T23:45:40 EDT" duration-ms="809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:45:40 EDT" name="logTestStart" finished-at="2025-08-31T23:45:40 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.navigateToTryEditorInTree(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:45:40 EDT" name="setupPagesTree" finished-at="2025-08-31T23:45:40 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method signature="navigateToTryEditorInTree(java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:45:40 EDT" name="navigateToTryEditorInTree" data-provider="topicsTree" finished-at="2025-08-31T23:45:45 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.navigateToTopicsInTree" duration-ms="5122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Types of Binary Trees]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToTryEditorInTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:45:45 EDT" name="tearDown" finished-at="2025-08-31T23:45:45 EDT" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:45:45 EDT" name="launchBrowser" finished-at="2025-08-31T23:45:46 EDT" duration-ms="827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:45:46 EDT" name="logTestStart" finished-at="2025-08-31T23:45:46 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.navigateToTryEditorInTree(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:45:46 EDT" name="setupPagesTree" finished-at="2025-08-31T23:45:46 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method signature="navigateToTryEditorInTree(java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:45:46 EDT" name="navigateToTryEditorInTree" data-provider="topicsTree" finished-at="2025-08-31T23:45:51 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.navigateToTopicsInTree" duration-ms="5058" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Implementation in Python]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToTryEditorInTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:45:51 EDT" name="tearDown" finished-at="2025-08-31T23:45:51 EDT" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:45:51 EDT" name="launchBrowser" finished-at="2025-08-31T23:45:52 EDT" duration-ms="865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:45:52 EDT" name="logTestStart" finished-at="2025-08-31T23:45:52 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.navigateToTryEditorInTree(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:45:52 EDT" name="setupPagesTree" finished-at="2025-08-31T23:45:52 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method signature="navigateToTryEditorInTree(java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:45:52 EDT" name="navigateToTryEditorInTree" data-provider="topicsTree" finished-at="2025-08-31T23:45:58 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.navigateToTopicsInTree" duration-ms="5845" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Binary Tree Traversals]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToTryEditorInTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:45:58 EDT" name="tearDown" finished-at="2025-08-31T23:45:58 EDT" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:45:58 EDT" name="launchBrowser" finished-at="2025-08-31T23:45:59 EDT" duration-ms="812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:45:59 EDT" name="logTestStart" finished-at="2025-08-31T23:45:59 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.navigateToTryEditorInTree(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:45:59 EDT" name="setupPagesTree" finished-at="2025-08-31T23:45:59 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method signature="navigateToTryEditorInTree(java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:45:59 EDT" name="navigateToTryEditorInTree" data-provider="topicsTree" finished-at="2025-08-31T23:46:05 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.navigateToTopicsInTree" duration-ms="5876" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Implementation of Binary Trees]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToTryEditorInTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:46:05 EDT" name="tearDown" finished-at="2025-08-31T23:46:05 EDT" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:46:05 EDT" name="launchBrowser" finished-at="2025-08-31T23:46:06 EDT" duration-ms="859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:46:06 EDT" name="logTestStart" finished-at="2025-08-31T23:46:06 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.navigateToTryEditorInTree(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:46:06 EDT" name="setupPagesTree" finished-at="2025-08-31T23:46:06 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method signature="navigateToTryEditorInTree(java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:46:06 EDT" name="navigateToTryEditorInTree" data-provider="topicsTree" finished-at="2025-08-31T23:46:12 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.navigateToTopicsInTree" duration-ms="5924" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Applications of Binary trees]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToTryEditorInTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:46:12 EDT" name="tearDown" finished-at="2025-08-31T23:46:12 EDT" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:46:12 EDT" name="launchBrowser" finished-at="2025-08-31T23:46:13 EDT" duration-ms="904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:46:13 EDT" name="logTestStart" finished-at="2025-08-31T23:46:13 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.navigateToTryEditorInTree(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:46:13 EDT" name="setupPagesTree" finished-at="2025-08-31T23:46:13 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method signature="navigateToTryEditorInTree(java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:46:13 EDT" name="navigateToTryEditorInTree" data-provider="topicsTree" finished-at="2025-08-31T23:46:19 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.navigateToTopicsInTree" duration-ms="5960" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Binary Search Trees]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToTryEditorInTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:46:19 EDT" name="tearDown" finished-at="2025-08-31T23:46:19 EDT" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:46:19 EDT" name="launchBrowser" finished-at="2025-08-31T23:46:20 EDT" duration-ms="796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:46:20 EDT" name="logTestStart" finished-at="2025-08-31T23:46:20 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.navigateToTryEditorInTree(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:46:20 EDT" name="setupPagesTree" finished-at="2025-08-31T23:46:20 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method signature="navigateToTryEditorInTree(java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:46:20 EDT" name="navigateToTryEditorInTree" data-provider="topicsTree" finished-at="2025-08-31T23:46:26 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.navigateToTopicsInTree" duration-ms="6020" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Implementation Of BST]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToTryEditorInTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:46:26 EDT" name="tearDown" finished-at="2025-08-31T23:46:26 EDT" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:46:26 EDT" name="launchBrowser" finished-at="2025-08-31T23:46:27 EDT" duration-ms="898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="generateOutputForInputInTree(java.lang.String,java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:46:27 EDT" name="generateOutputForInputInTree" data-provider="inputCodeForTopicsInTree" finished-at="2025-08-31T23:46:37 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.navigateToTryEditorInTree" duration-ms="10463" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Overview of Trees]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ValidCode]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateOutputForInputInTree -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:46:27 EDT" name="logTestStart" finished-at="2025-08-31T23:46:27 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.generateOutputForInputInTree(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:46:27 EDT" name="setupPagesTree" finished-at="2025-08-31T23:46:27 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:46:37 EDT" name="tearDown" finished-at="2025-08-31T23:46:38 EDT" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:46:38 EDT" name="launchBrowser" finished-at="2025-08-31T23:46:38 EDT" duration-ms="869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="generateOutputForInputInTree(java.lang.String,java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:46:38 EDT" name="generateOutputForInputInTree" data-provider="inputCodeForTopicsInTree" finished-at="2025-08-31T23:46:44 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.navigateToTryEditorInTree" duration-ms="5389" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Terminologies]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[InvalidCode]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateOutputForInputInTree -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:46:38 EDT" name="setupPagesTree" finished-at="2025-08-31T23:46:38 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:46:38 EDT" name="logTestStart" finished-at="2025-08-31T23:46:38 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.generateOutputForInputInTree(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:46:44 EDT" name="tearDown" finished-at="2025-08-31T23:46:44 EDT" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:46:44 EDT" name="launchBrowser" finished-at="2025-08-31T23:46:45 EDT" duration-ms="871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="generateOutputForInputInTree(java.lang.String,java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:46:45 EDT" name="generateOutputForInputInTree" data-provider="inputCodeForTopicsInTree" finished-at="2025-08-31T23:46:51 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.navigateToTryEditorInTree" duration-ms="6048" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Types of Trees]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AlphaNumeric]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateOutputForInputInTree -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:46:45 EDT" name="setupPagesTree" finished-at="2025-08-31T23:46:45 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:46:45 EDT" name="logTestStart" finished-at="2025-08-31T23:46:45 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.generateOutputForInputInTree(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:46:51 EDT" name="tearDown" finished-at="2025-08-31T23:46:51 EDT" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:46:51 EDT" name="launchBrowser" finished-at="2025-08-31T23:46:52 EDT" duration-ms="936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:46:52 EDT" name="logTestStart" finished-at="2025-08-31T23:46:52 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.generateOutputForInputInTree(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:46:52 EDT" name="setupPagesTree" finished-at="2025-08-31T23:46:52 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method signature="generateOutputForInputInTree(java.lang.String,java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:46:52 EDT" name="generateOutputForInputInTree" data-provider="inputCodeForTopicsInTree" finished-at="2025-08-31T23:47:03 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.navigateToTryEditorInTree" duration-ms="11344" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tree Traversals]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Numeric]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateOutputForInputInTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:47:03 EDT" name="tearDown" finished-at="2025-08-31T23:47:04 EDT" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:47:04 EDT" name="launchBrowser" finished-at="2025-08-31T23:47:05 EDT" duration-ms="901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:47:05 EDT" name="logTestStart" finished-at="2025-08-31T23:47:05 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.generateOutputForInputInTree(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:47:05 EDT" name="setupPagesTree" finished-at="2025-08-31T23:47:05 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method signature="generateOutputForInputInTree(java.lang.String,java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:47:05 EDT" name="generateOutputForInputInTree" data-provider="inputCodeForTopicsInTree" finished-at="2025-08-31T23:47:15 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.navigateToTryEditorInTree" duration-ms="10721" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Traversals-Illustration]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ValidCode]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateOutputForInputInTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:47:15 EDT" name="tearDown" finished-at="2025-08-31T23:47:15 EDT" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:47:15 EDT" name="launchBrowser" finished-at="2025-08-31T23:47:16 EDT" duration-ms="914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:47:16 EDT" name="logTestStart" finished-at="2025-08-31T23:47:16 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.generateOutputForInputInTree(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:47:16 EDT" name="setupPagesTree" finished-at="2025-08-31T23:47:16 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method signature="generateOutputForInputInTree(java.lang.String,java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:47:16 EDT" name="generateOutputForInputInTree" data-provider="inputCodeForTopicsInTree" finished-at="2025-08-31T23:47:22 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.navigateToTryEditorInTree" duration-ms="5814" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Binary Trees]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[InvalidCode]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateOutputForInputInTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:47:22 EDT" name="tearDown" finished-at="2025-08-31T23:47:22 EDT" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:47:22 EDT" name="launchBrowser" finished-at="2025-08-31T23:47:23 EDT" duration-ms="852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:47:23 EDT" name="logTestStart" finished-at="2025-08-31T23:47:23 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.generateOutputForInputInTree(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:47:23 EDT" name="setupPagesTree" finished-at="2025-08-31T23:47:23 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method signature="generateOutputForInputInTree(java.lang.String,java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:47:23 EDT" name="generateOutputForInputInTree" data-provider="inputCodeForTopicsInTree" finished-at="2025-08-31T23:47:29 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.navigateToTryEditorInTree" duration-ms="6134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Types of Binary Trees]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AlphaNumeric]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateOutputForInputInTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:47:29 EDT" name="tearDown" finished-at="2025-08-31T23:47:30 EDT" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:47:30 EDT" name="launchBrowser" finished-at="2025-08-31T23:47:31 EDT" duration-ms="1004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:47:31 EDT" name="logTestStart" finished-at="2025-08-31T23:47:31 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.generateOutputForInputInTree(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:47:31 EDT" name="setupPagesTree" finished-at="2025-08-31T23:47:31 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method signature="generateOutputForInputInTree(java.lang.String,java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:47:31 EDT" name="generateOutputForInputInTree" data-provider="inputCodeForTopicsInTree" finished-at="2025-08-31T23:47:41 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.navigateToTryEditorInTree" duration-ms="10444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Implementation in Python]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Numeric]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateOutputForInputInTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:47:41 EDT" name="tearDown" finished-at="2025-08-31T23:47:41 EDT" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:47:41 EDT" name="launchBrowser" finished-at="2025-08-31T23:47:42 EDT" duration-ms="796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:47:42 EDT" name="logTestStart" finished-at="2025-08-31T23:47:42 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.generateOutputForInputInTree(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:47:42 EDT" name="setupPagesTree" finished-at="2025-08-31T23:47:42 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method signature="generateOutputForInputInTree(java.lang.String,java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:47:42 EDT" name="generateOutputForInputInTree" data-provider="inputCodeForTopicsInTree" finished-at="2025-08-31T23:47:53 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.navigateToTryEditorInTree" duration-ms="10659" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Binary Tree Traversals]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ValidCode]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateOutputForInputInTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:47:53 EDT" name="tearDown" finished-at="2025-08-31T23:47:53 EDT" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:47:53 EDT" name="launchBrowser" finished-at="2025-08-31T23:47:54 EDT" duration-ms="958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:47:54 EDT" name="logTestStart" finished-at="2025-08-31T23:47:54 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.generateOutputForInputInTree(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:47:54 EDT" name="setupPagesTree" finished-at="2025-08-31T23:47:54 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method signature="generateOutputForInputInTree(java.lang.String,java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:47:54 EDT" name="generateOutputForInputInTree" data-provider="inputCodeForTopicsInTree" finished-at="2025-08-31T23:47:59 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.navigateToTryEditorInTree" duration-ms="5222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Implementation of Binary Trees]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[InvalidCode]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateOutputForInputInTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:47:59 EDT" name="tearDown" finished-at="2025-08-31T23:47:59 EDT" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:47:59 EDT" name="launchBrowser" finished-at="2025-08-31T23:48:00 EDT" duration-ms="815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:48:00 EDT" name="setupPagesTree" finished-at="2025-08-31T23:48:00 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:48:00 EDT" name="logTestStart" finished-at="2025-08-31T23:48:00 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.generateOutputForInputInTree(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method signature="generateOutputForInputInTree(java.lang.String,java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:48:00 EDT" name="generateOutputForInputInTree" data-provider="inputCodeForTopicsInTree" finished-at="2025-08-31T23:48:06 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.navigateToTryEditorInTree" duration-ms="6343" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Applications of Binary trees]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AlphaNumeric]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateOutputForInputInTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:48:06 EDT" name="tearDown" finished-at="2025-08-31T23:48:07 EDT" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:48:07 EDT" name="launchBrowser" finished-at="2025-08-31T23:48:07 EDT" duration-ms="820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:48:07 EDT" name="setupPagesTree" finished-at="2025-08-31T23:48:07 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:48:07 EDT" name="logTestStart" finished-at="2025-08-31T23:48:07 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.generateOutputForInputInTree(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method signature="generateOutputForInputInTree(java.lang.String,java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:48:07 EDT" name="generateOutputForInputInTree" data-provider="inputCodeForTopicsInTree" finished-at="2025-08-31T23:48:19 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.navigateToTryEditorInTree" duration-ms="11674" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Binary Search Trees]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Numeric]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateOutputForInputInTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:48:19 EDT" name="tearDown" finished-at="2025-08-31T23:48:19 EDT" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:48:19 EDT" name="launchBrowser" finished-at="2025-08-31T23:48:20 EDT" duration-ms="866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:48:20 EDT" name="logTestStart" finished-at="2025-08-31T23:48:20 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.generateOutputForInputInTree(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:48:20 EDT" name="setupPagesTree" finished-at="2025-08-31T23:48:20 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method signature="generateOutputForInputInTree(java.lang.String,java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:48:20 EDT" name="generateOutputForInputInTree" data-provider="inputCodeForTopicsInTree" finished-at="2025-08-31T23:48:31 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.navigateToTryEditorInTree" duration-ms="10674" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Implementation Of BST]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ValidCode]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateOutputForInputInTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:48:31 EDT" name="tearDown" finished-at="2025-08-31T23:48:31 EDT" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:48:31 EDT" name="launchBrowser" finished-at="2025-08-31T23:48:32 EDT" duration-ms="818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="validateBrokenLinkEmptyPageInTree(java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:48:32 EDT" name="validateBrokenLinkEmptyPageInTree" data-provider="topicsTree" finished-at="2025-08-31T23:48:37 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.treePageLanding" duration-ms="4794" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Overview of Trees]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBrokenLinkEmptyPageInTree -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:48:32 EDT" name="setupPagesTree" finished-at="2025-08-31T23:48:32 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:48:32 EDT" name="logTestStart" finished-at="2025-08-31T23:48:32 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.validateBrokenLinkEmptyPageInTree(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:48:37 EDT" name="tearDown" finished-at="2025-08-31T23:48:37 EDT" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:48:37 EDT" name="launchBrowser" finished-at="2025-08-31T23:48:38 EDT" duration-ms="733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:48:38 EDT" name="logTestStart" finished-at="2025-08-31T23:48:38 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.validateBrokenLinkEmptyPageInTree(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method signature="validateBrokenLinkEmptyPageInTree(java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:48:38 EDT" name="validateBrokenLinkEmptyPageInTree" data-provider="topicsTree" finished-at="2025-08-31T23:48:43 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.treePageLanding" duration-ms="5755" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Terminologies]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBrokenLinkEmptyPageInTree -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:48:38 EDT" name="setupPagesTree" finished-at="2025-08-31T23:48:38 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:48:43 EDT" name="tearDown" finished-at="2025-08-31T23:48:43 EDT" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:48:43 EDT" name="launchBrowser" finished-at="2025-08-31T23:48:44 EDT" duration-ms="783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:48:44 EDT" name="logTestStart" finished-at="2025-08-31T23:48:44 EDT" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.validateBrokenLinkEmptyPageInTree(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:48:44 EDT" name="setupPagesTree" finished-at="2025-08-31T23:48:44 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method signature="validateBrokenLinkEmptyPageInTree(java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:48:44 EDT" name="validateBrokenLinkEmptyPageInTree" data-provider="topicsTree" finished-at="2025-08-31T23:48:50 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.treePageLanding" duration-ms="5651" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Types of Trees]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBrokenLinkEmptyPageInTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:48:50 EDT" name="tearDown" finished-at="2025-08-31T23:48:50 EDT" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:48:50 EDT" name="launchBrowser" finished-at="2025-08-31T23:48:51 EDT" duration-ms="851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:48:51 EDT" name="logTestStart" finished-at="2025-08-31T23:48:51 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.validateBrokenLinkEmptyPageInTree(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:48:51 EDT" name="setupPagesTree" finished-at="2025-08-31T23:48:51 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method signature="validateBrokenLinkEmptyPageInTree(java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:48:51 EDT" name="validateBrokenLinkEmptyPageInTree" data-provider="topicsTree" finished-at="2025-08-31T23:48:57 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.treePageLanding" duration-ms="5621" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tree Traversals]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBrokenLinkEmptyPageInTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:48:57 EDT" name="tearDown" finished-at="2025-08-31T23:48:57 EDT" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:48:57 EDT" name="launchBrowser" finished-at="2025-08-31T23:48:58 EDT" duration-ms="801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:48:58 EDT" name="setupPagesTree" finished-at="2025-08-31T23:48:58 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:48:58 EDT" name="logTestStart" finished-at="2025-08-31T23:48:58 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.validateBrokenLinkEmptyPageInTree(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method signature="validateBrokenLinkEmptyPageInTree(java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:48:58 EDT" name="validateBrokenLinkEmptyPageInTree" data-provider="topicsTree" finished-at="2025-08-31T23:49:02 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.treePageLanding" duration-ms="4918" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Traversals-Illustration]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBrokenLinkEmptyPageInTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:49:03 EDT" name="tearDown" finished-at="2025-08-31T23:49:03 EDT" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:49:03 EDT" name="launchBrowser" finished-at="2025-08-31T23:49:04 EDT" duration-ms="862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:49:04 EDT" name="logTestStart" finished-at="2025-08-31T23:49:04 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.validateBrokenLinkEmptyPageInTree(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:49:04 EDT" name="setupPagesTree" finished-at="2025-08-31T23:49:04 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method signature="validateBrokenLinkEmptyPageInTree(java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:49:04 EDT" name="validateBrokenLinkEmptyPageInTree" data-provider="topicsTree" finished-at="2025-08-31T23:49:09 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.treePageLanding" duration-ms="5694" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Binary Trees]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBrokenLinkEmptyPageInTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:49:09 EDT" name="tearDown" finished-at="2025-08-31T23:49:09 EDT" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:49:09 EDT" name="launchBrowser" finished-at="2025-08-31T23:49:10 EDT" duration-ms="792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:49:10 EDT" name="logTestStart" finished-at="2025-08-31T23:49:10 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.validateBrokenLinkEmptyPageInTree(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method signature="validateBrokenLinkEmptyPageInTree(java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:49:10 EDT" name="validateBrokenLinkEmptyPageInTree" data-provider="topicsTree" finished-at="2025-08-31T23:49:15 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.treePageLanding" duration-ms="5026" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Types of Binary Trees]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBrokenLinkEmptyPageInTree -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:49:10 EDT" name="setupPagesTree" finished-at="2025-08-31T23:49:10 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:49:15 EDT" name="tearDown" finished-at="2025-08-31T23:49:15 EDT" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:49:15 EDT" name="launchBrowser" finished-at="2025-08-31T23:49:16 EDT" duration-ms="707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:49:16 EDT" name="logTestStart" finished-at="2025-08-31T23:49:16 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.validateBrokenLinkEmptyPageInTree(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:49:16 EDT" name="setupPagesTree" finished-at="2025-08-31T23:49:16 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method signature="validateBrokenLinkEmptyPageInTree(java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:49:16 EDT" name="validateBrokenLinkEmptyPageInTree" data-provider="topicsTree" finished-at="2025-08-31T23:49:21 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.treePageLanding" duration-ms="4963" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Implementation in Python]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBrokenLinkEmptyPageInTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:49:21 EDT" name="tearDown" finished-at="2025-08-31T23:49:21 EDT" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:49:21 EDT" name="launchBrowser" finished-at="2025-08-31T23:49:22 EDT" duration-ms="771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:49:22 EDT" name="logTestStart" finished-at="2025-08-31T23:49:22 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.validateBrokenLinkEmptyPageInTree(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:49:22 EDT" name="setupPagesTree" finished-at="2025-08-31T23:49:22 EDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method signature="validateBrokenLinkEmptyPageInTree(java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:49:22 EDT" name="validateBrokenLinkEmptyPageInTree" data-provider="topicsTree" finished-at="2025-08-31T23:49:28 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.treePageLanding" duration-ms="5537" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Binary Tree Traversals]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBrokenLinkEmptyPageInTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:49:28 EDT" name="tearDown" finished-at="2025-08-31T23:49:28 EDT" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:49:28 EDT" name="launchBrowser" finished-at="2025-08-31T23:49:29 EDT" duration-ms="761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="validateBrokenLinkEmptyPageInTree(java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:49:29 EDT" name="validateBrokenLinkEmptyPageInTree" data-provider="topicsTree" finished-at="2025-08-31T23:49:34 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.treePageLanding" duration-ms="4925" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Implementation of Binary Trees]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBrokenLinkEmptyPageInTree -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:49:29 EDT" name="logTestStart" finished-at="2025-08-31T23:49:29 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.validateBrokenLinkEmptyPageInTree(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:49:29 EDT" name="setupPagesTree" finished-at="2025-08-31T23:49:29 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:49:34 EDT" name="tearDown" finished-at="2025-08-31T23:49:34 EDT" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:49:34 EDT" name="launchBrowser" finished-at="2025-08-31T23:49:35 EDT" duration-ms="794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:49:35 EDT" name="logTestStart" finished-at="2025-08-31T23:49:35 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.validateBrokenLinkEmptyPageInTree(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:49:35 EDT" name="setupPagesTree" finished-at="2025-08-31T23:49:35 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method signature="validateBrokenLinkEmptyPageInTree(java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:49:35 EDT" name="validateBrokenLinkEmptyPageInTree" data-provider="topicsTree" finished-at="2025-08-31T23:49:40 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.treePageLanding" duration-ms="5566" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Applications of Binary trees]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBrokenLinkEmptyPageInTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:49:40 EDT" name="tearDown" finished-at="2025-08-31T23:49:40 EDT" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:49:40 EDT" name="launchBrowser" finished-at="2025-08-31T23:49:41 EDT" duration-ms="902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:49:41 EDT" name="logTestStart" finished-at="2025-08-31T23:49:41 EDT" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.validateBrokenLinkEmptyPageInTree(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:49:41 EDT" name="setupPagesTree" finished-at="2025-08-31T23:49:41 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method signature="validateBrokenLinkEmptyPageInTree(java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:49:41 EDT" name="validateBrokenLinkEmptyPageInTree" data-provider="topicsTree" finished-at="2025-08-31T23:49:47 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.treePageLanding" duration-ms="5350" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Binary Search Trees]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBrokenLinkEmptyPageInTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:49:47 EDT" name="tearDown" finished-at="2025-08-31T23:49:47 EDT" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:49:47 EDT" name="launchBrowser" finished-at="2025-08-31T23:49:48 EDT" duration-ms="792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:49:48 EDT" name="logTestStart" finished-at="2025-08-31T23:49:48 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nn.dsalgo.tests.TreeTest.validateBrokenLinkEmptyPageInTree(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method signature="validateBrokenLinkEmptyPageInTree(java.lang.String)[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:49:48 EDT" name="validateBrokenLinkEmptyPageInTree" data-provider="topicsTree" finished-at="2025-08-31T23:49:53 EDT" depends-on-methods="nn.dsalgo.tests.TreeTest.treePageLanding" duration-ms="5053" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Implementation Of BST]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBrokenLinkEmptyPageInTree -->
+        <test-method is-config="true" signature="setupPagesTree()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:49:48 EDT" name="setupPagesTree" finished-at="2025-08-31T23:49:48 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPagesTree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nn.dsalgo.tests.TreeTest@60f7cc1d]" started-at="2025-08-31T23:49:53 EDT" name="tearDown" finished-at="2025-08-31T23:49:53 EDT" duration-ms="170" status="PASS">
+>>>>>>> b71f7dc661e07d945363af1049782ab6bebb9671
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

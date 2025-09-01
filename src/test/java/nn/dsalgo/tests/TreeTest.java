@@ -3,15 +3,12 @@ package nn.dsalgo.tests;
 import nn.dsalgo.dataprovider.TestdataProvider;
 import nn.dsalgo.factory.DriverFactory;
 import nn.dsalgo.hooks.TestNGHooks;
-import nn.dsalgo.listeners.TestListeners;
 import nn.dsalgo.helperclass.HelperClass;
 import nn.dsalgo.pages.TreePage;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-@Listeners({TestListeners.class})
 public class TreeTest extends TestNGHooks {
     private HelperClass helperClass;
     private TreePage treePage;
@@ -23,20 +20,20 @@ public class TreeTest extends TestNGHooks {
         log.info("Entered the Tree testcases");
     }
 
-    @Test
+    @Test(groups = {"TR"})
     public void treePageLanding()
     {
         helperClass.treePageLanding();
         Assert.assertEquals(treePage.getTitleforTree(),"Tree");
     }
-    @Test(dataProvider = "topicsTree",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"treePageLanding"})
+    @Test(dataProvider = "topicsTree",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"treePageLanding"},groups = {"TR"})
     public void navigateToTopicsInTree(String topic)
     {
         helperClass.treePageLanding();
         treePage.clickTopicLink(topic);
         Assert.assertTrue(treePage.validateTitleforTopics(topic));
     }
-    @Test(dataProvider = "topicsTree",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"navigateToTopicsInTree"})
+    @Test(dataProvider = "topicsTree",dataProviderClass = TestdataProvider.class,priority = 1,groups = {"TR"})
     public void navigateToTryEditorInTree(String topic)
     {
         helperClass.treePageLanding();
@@ -45,7 +42,7 @@ public class TreeTest extends TestNGHooks {
         Assert.assertTrue(treePage.tryEditorPageWithRunBtn());
 
     }
-    @Test(dataProvider = "inputCodeForTopicsInTree",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"navigateToTryEditorInTree"})
+    @Test(dataProvider = "inputCodeForTopicsInTree",dataProviderClass = TestdataProvider.class,priority = 2, groups = {"TR"})
     public void generateOutputForInputInTree(String topic, String input)
     {
         helperClass.treePageLanding();

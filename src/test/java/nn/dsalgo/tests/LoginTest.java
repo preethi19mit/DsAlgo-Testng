@@ -11,8 +11,7 @@ import nn.dsalgo.pages.LoginPage;
 
 
 public class LoginTest extends TestNGHooks {
-	
-	
+
 	private LoginPage loginpage;
 	
 	@BeforeMethod(alwaysRun = true)
