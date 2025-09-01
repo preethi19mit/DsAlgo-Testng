@@ -4,15 +4,25 @@ import org.testng.annotations.DataProvider;
 
 public class TestdataProvider {
 	
-    @DataProvider(name="Loginscenario")
-    public Object[][] loginscenario()
+    @DataProvider(name="MissingUsernameandpassword")
+    public Object[][] Missinglogin()
     {
     	return new Object[][]
     			{
-    		{"Missing username"},
-    		{"Missing password"},
-    		{"Invalid username"},
-    		{"Invalid password"},
+    		{"Missing username","Please fill out this field."},
+    		{"Missing password","Please fill out this field."},
+    		
+    			};
+    }
+    
+    @DataProvider(name="InvalidUsernameandpassword")
+    public Object[][] Invalidlogin()
+    {
+    	return new Object[][]
+    			{
+    		
+    		{"Invalid username","Invalid Username and Password"},
+    		{"Invalid password","Invalid Username and Password"},
     			};
     }
     
@@ -91,21 +101,43 @@ public class TestdataProvider {
     		{"Queue operations"}
     			};
     }
-
-    @DataProvider(name = "RegisterTestData")
-    public Object[][] RegisterTestInputValues() {
-    	 return new Object[][] {
-    		 {"EmptyValues", "Please fill out this field."},
-             {"UsernameValues", "Please fill out this field."},
-             {"PasswordValues", "Please fill out this field."},
-             {"NoPasswordConfirmation", "Please fill out this field."},
-             {"MismatchPassword", "password_mismatch:The two password fields didn’t match."},
-             {"ValidCredentials", "New Account Created."},
-             {"InvalidUsername", "Username is not valid"},
-             {"PwdNumericValue", "Your password can’t be entirely numeric."}
-    	 };
+    
+    @DataProvider(name="RegisterMissingFieldsValidation")
+    public Object[] RegisterMissingfieldvalidate()
+    {
+    	return new Object[][]{
+    			{"EmptyValues", "Please fill out this field."},
+    	             {"UsernameValues", "Please fill out this field."},
+    	             {"PasswordValues", "Please fill out this field."},
+    	             {"NoPasswordConfirmation", "Please fill out this field."},                		
+               };
     }
     
+    @DataProvider(name="RegisterInvalidCredentials")
+    public Object[] RegisterInvalidCredentials()
+    {
+    	return new Object[][] {
+    		{"InvalidUsername", "Username is not valid"},
+            {"PwdNumericValue", "Your password can’t be entirely numeric."}
+    	};
+    }
+    
+    @DataProvider(name="RegisterValidcredentials")
+    public Object[] RegisterValidCredentials()
+    {
+    	return new Object[][] {
+    		{"ValidCredentials", "New Account Created."},
+    	};
+    }
+    
+    @DataProvider(name="RegisterMismatchPassword")
+    public Object[] RegisterMismatchPassword()
+    {
+    	return new Object[][] {
+    		{"MismatchPassword", "password_mismatch:The two password fields didn’t match."},
+    	};
+    }
+      
     @DataProvider(name = "OptionsLinkedList")
     public Object[][] OptionsProviderLinkedList() {
         return new Object[][] {

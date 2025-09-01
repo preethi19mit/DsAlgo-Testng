@@ -36,7 +36,7 @@ public class DatastructureTest extends TestNGHooks {
         dsp.clickTopicLink(topic);
         Assert.assertEquals(dsp.validateTitle(topic),"Time Complexity");
     }
-    @Test(dataProvider = "topicsDS",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"navigateToTopicsInDS"})
+    @Test(dataProvider = "topicsDS",dataProviderClass = TestdataProvider.class,priority = 1, groups = {"DS"})
     public void navigateToTryEditorInDS(String topic)
     {
         helperClass.dsPageLanding();
@@ -44,7 +44,7 @@ public class DatastructureTest extends TestNGHooks {
         dsp.clickTryHereBtn();
         Assert.assertTrue(dsp.tryEditorVisible(),"Try Editor not available");
     }
-    @Test(dataProvider = "inputCodeForTopicsInDS",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"navigateToTryEditorInDS"})
+    @Test(dataProvider = "inputCodeForTopicsInDS",dataProviderClass = TestdataProvider.class,priority = 2, groups = {"DS"})
     public void generateOutputForInputInDS(String topic, String input)
     {
         helperClass.dsPageLanding();
@@ -65,7 +65,7 @@ public class DatastructureTest extends TestNGHooks {
             log.warn("Test failed due to invalid input, alert was handled.");
         }
     }
-    @Test(dataProvider = "topicsDS",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"dsPageLanding"})
+    @Test(dataProvider = "topicsDS",dataProviderClass = TestdataProvider.class)
     public void validateBrokenLinkEmptyPageInDS(String topic)
     {
         helperClass.dsPageLanding();
@@ -73,7 +73,7 @@ public class DatastructureTest extends TestNGHooks {
         dsp.clickOnPQLink();
         Assert.assertTrue(dsp.emptyPage());
     }
-    @Test
+    @Test()
     public void getTotalTopicsCountInDS()
     {
         helperClass.dsPageLanding();

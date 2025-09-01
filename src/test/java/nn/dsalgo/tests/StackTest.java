@@ -2,17 +2,15 @@ package nn.dsalgo.tests;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Listeners;
+
 import org.testng.annotations.Test;
 
 import nn.dsalgo.dataprovider.TestdataProvider;
 import nn.dsalgo.factory.DriverFactory;
 import nn.dsalgo.helperclass.HelperClass;
 import nn.dsalgo.hooks.TestNGHooks;
-import nn.dsalgo.listeners.TestListeners;
-import nn.dsalgo.pages.Stackpage;
 
-@Listeners({TestListeners.class})
+import nn.dsalgo.pages.Stackpage;
 
 public class StackTest extends TestNGHooks{
 	private HelperClass helperclass;
@@ -24,7 +22,7 @@ public class StackTest extends TestNGHooks{
 		 stackpage = new Stackpage(DriverFactory.getDriver());
 	    }
 
-	  @Test()
+	  @Test(priority=1,groups= {"smoke"})
 	    public void getStackpage()
 	    {
 	     helperclass.StackpageLanding();   
@@ -32,7 +30,7 @@ public class StackTest extends TestNGHooks{
 	     log.info("The User landed in : " + stackpage.getStackpagetitle());
         }
 	    
-	    @Test(dataProvider = "StackTopics",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"getStackpage"})
+	    @Test(priority=2,dataProvider = "StackTopics",dataProviderClass = TestdataProvider.class,groups={"regression"})
 	    public void NavigatetoStackTopics(String Expectedpagetitle)
 	    {
 	    	helperclass.StackpageLanding();
@@ -40,7 +38,7 @@ public class StackTest extends TestNGHooks{
 	       	Assert.assertEquals(Actualpagetitle, Expectedpagetitle);
 		}
 	    
-	    @Test(dataProvider = "StackTopics",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"NavigatetoStackTopics"})
+	    @Test(priority=3,dataProvider = "StackTopics",dataProviderClass = TestdataProvider.class,groups={"regression"})
 	    public void NavigatetoTryEditor(String topic)
 	    {
 	    	helperclass.StackpageLanding();
@@ -52,7 +50,7 @@ public class StackTest extends TestNGHooks{
 	        
 	    }
 	    
-	    @Test(dataProvider = "StackTopics",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"NavigatetoTryEditor"})
+	    @Test(priority=4,dataProvider = "StackTopics",dataProviderClass = TestdataProvider.class,groups={"regression"})
 	    public void getValidPythonCode(String topic)
 	    {
 	      helperclass.StackpageLanding();
@@ -68,7 +66,7 @@ public class StackTest extends TestNGHooks{
 	      Assert.assertEquals(ActualOutput, ExpectedOutput);      
 	        }
 	    
-	    @Test(dataProvider = "StackTopics",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"NavigatetoTryEditor"})
+	    @Test(priority=5,dataProvider = "StackTopics",dataProviderClass = TestdataProvider.class,groups={"regression"})
 	    public void getInValidPythonCode(String topic)
 	    {
 	      helperclass.StackpageLanding();
@@ -79,25 +77,24 @@ public class StackTest extends TestNGHooks{
 	      stackpage.enterPythonCode(code);
 	      log.info("Entered Code is : " +code);
 	      stackpage.ClickRun();
-	      Assert.assertTrue(stackpage.Alertmessage());
-	             
+	      Assert.assertTrue(stackpage.Alertmessage());             
 	    }
 	      
-	@Test(dataProvider = "StackTopics",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"getStackpage"})
-	public void NavigatePracticeQuestion(String topic)
-	{
+	   @Test(priority=6,dataProvider = "StackTopics",dataProviderClass = TestdataProvider.class,groups={"smoke"})
+	   public void NavigatePracticeQuestion(String topic)
+	   {
 		helperclass.StackpageLanding();
 		stackpage.clickTopicLink(topic);
 		stackpage.ClickPracticeQuestionsLink();
 		Assert.assertTrue(stackpage.isPracticePageDisplayed());
-	}
+	   }
 	
-	@Test(dataProvider = "StackTopics",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"getStackpage"})
-	public void PracticeQuestionBrokenLink(String topic)
-	{
+	  @Test(priority=7,dataProvider = "StackTopics",dataProviderClass = TestdataProvider.class,groups= {"smoke"})
+	  public void PracticeQuestionBrokenLink(String topic)
+	  {
 		helperclass.StackpageLanding();
 		stackpage.clickTopicLink(topic);
 		stackpage.PracticeQuestionLink();
 		Assert.assertTrue(stackpage.emptyPage());
-	}
+	   }
 }

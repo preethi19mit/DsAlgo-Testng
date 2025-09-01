@@ -14,7 +14,6 @@ import nn.dsalgo.listeners.TestListeners;
 import nn.dsalgo.pages.HomePage;
 
 
-@Listeners({TestListeners.class})
 public class HomeTest extends TestNGHooks {
 	
 	private HelperClass helperClass;
