@@ -24,15 +24,14 @@ public class ArrayTest extends TestNGHooks {
         log.info("Entered the Array testcases");
     }
 
-    @Test()
+    @Test(priority=1,groups= {"AP"})
     public void arrayLandingPage()
     {
         helperClass.arrayPageLanding();
         Assert.assertEquals(arrayPage.getTitleforArrayPage(),"Array");
     }
 
-    //@Test(dataProvider = "arrayTopics",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"arrayLandingPage"})
-    @Test(dataProvider = "arrayTopics",dataProviderClass = TestdataProvider.class)
+    @Test(priority=2,dataProvider = "arrayTopics",dataProviderClass = TestdataProvider.class,groups= {"AP"})
     public void arrayTopicPage(String arrayTopics)
     {
         helperClass.arrayPageLanding();
@@ -41,8 +40,7 @@ public class ArrayTest extends TestNGHooks {
         log.info("Landed in " + arrayTopics + " page");
     }
 
-    //@Test(dataProvider = "arrayTopics",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"arrayTopicPage"})
-    @Test(dataProvider = "arrayTopics",dataProviderClass = TestdataProvider.class)
+    @Test(priority=3,dataProvider = "arrayTopics",dataProviderClass = TestdataProvider.class,groups= {"AP"})
     public void arrayTryEditorPage(String arrayTopics)
     {
         helperClass.arrayPageLanding();
@@ -51,8 +49,7 @@ public class ArrayTest extends TestNGHooks {
         Assert.assertTrue(arrayPage.runBtnVisible(),"Run button not visible");
     }
 
-    //@Test(dataProvider = "arrayTopics",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"arrayTryEditorPage"})
-    @Test(dataProvider = "arrayTopics",dataProviderClass = TestdataProvider.class)
+    @Test(priority=4,dataProvider = "arrayTopics",dataProviderClass = TestdataProvider.class,groups= {"AP"})
     public void arrayValidCode(String arrayTopics)
     {
         helperClass.arrayPageLanding();
@@ -69,8 +66,7 @@ public class ArrayTest extends TestNGHooks {
         log.info("Actual Output matched with the Expected Output");
     }
 
-    //@Test(dataProvider = "arrayTopics",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"arrayTryEditorPage"})
-    @Test(dataProvider = "arrayTopics",dataProviderClass = TestdataProvider.class)
+    @Test(priority=5,dataProvider = "arrayTopics",dataProviderClass = TestdataProvider.class,groups= {"AP"})
     public void arrayInvalidCode(String arrayTopics)
     {
         helperClass.arrayPageLanding();
@@ -83,8 +79,7 @@ public class ArrayTest extends TestNGHooks {
         Assert.assertEquals(arrayPage.getAlertPopup(),arrayPage.getInvalidCodeOutput());
     }
 
-    //@Test(dataProvider = "arrayTopics",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"arrayTopicPage"})
-    @Test(dataProvider = "arrayTopics",dataProviderClass = TestdataProvider.class)
+    @Test(priority=6,dataProvider = "arrayTopics",dataProviderClass = TestdataProvider.class,groups= {"AP"})
     public void arrayPracticeQuestionsPage(String arrayTopics)
     {
         helperClass.arrayPageLanding();
@@ -95,8 +90,7 @@ public class ArrayTest extends TestNGHooks {
         Assert.assertEquals(arrayPage.practiceQuestionsPageVisibility(),"Search the array");
     }
 
-    //@Test(dataProvider = "arrayPracticeQuestions",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"arrayPracticeQuestionsPage"})
-    @Test(dataProvider = "arrayPracticeQuestions",dataProviderClass = TestdataProvider.class)
+    @Test(priority=7,dataProvider = "arrayPracticeQuestions",dataProviderClass = TestdataProvider.class,groups= {"AP"})
     public void arrayPracticeQuestionsPageOptions(String arrayTopics,String practiceQuestionsTopic)
     {
         helperClass.arrayPageLanding();
@@ -109,8 +103,7 @@ public class ArrayTest extends TestNGHooks {
         Assert.assertTrue(arrayPage.runBtnVisible(),"Run button not visible");
     }
 
-    //@Test(dataProvider = "arrayPracticeQuestions",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"arrayPracticeQuestionsPageOptions"})
-    @Test(dataProvider = "arrayPracticeQuestions",dataProviderClass = TestdataProvider.class)
+    @Test(priority=8,dataProvider = "arrayPracticeQuestions",dataProviderClass = TestdataProvider.class,groups= {"AP"})
     public void arrayPracticeQuestionsValidCode(String arrayTopics,String practiceQuestionsTopic)
     {
         helperClass.arrayPageLanding();
@@ -131,8 +124,7 @@ public class ArrayTest extends TestNGHooks {
         log.info("Actual Output matched with the Expected Output");
     }
 
-    //@Test(dataProvider = "arrayPracticeQuestions",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"arrayPracticeQuestionsPageOptions"})
-    @Test(dataProvider = "arrayPracticeQuestions",dataProviderClass = TestdataProvider.class)
+    @Test(priority=9,dataProvider = "arrayPracticeQuestions",dataProviderClass = TestdataProvider.class,groups= {"AP"})
     public void arrayPracticeQuestionsInvalidCode(String arrayTopics,String practiceQuestionsTopic)
     {
         helperClass.arrayPageLanding();
