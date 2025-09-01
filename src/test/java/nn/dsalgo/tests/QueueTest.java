@@ -18,14 +18,12 @@ import nn.dsalgo.pages.QueuePage;
 import nn.dsalgo.helperclass.HelperClass;
 
 
-@Listeners({TestListeners.class})
 
 public class QueueTest extends TestNGHooks {
 	
 	private HelperClass helperClass;
 	private QueuePage queue;
 
-	
 	@BeforeMethod(alwaysRun = true)
 	public void setuppage()
 	{

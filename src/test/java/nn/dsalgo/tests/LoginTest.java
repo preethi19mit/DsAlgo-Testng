@@ -12,10 +12,9 @@ import nn.dsalgo.listeners.RetryAnalyzer;
 import nn.dsalgo.listeners.TestListeners;
 import nn.dsalgo.pages.LoginPage;
 
-@Listeners({TestListeners.class})
+
 public class LoginTest extends TestNGHooks {
-	
-	
+
 	private LoginPage loginpage;
 	
 	@BeforeMethod(alwaysRun = true)

@@ -3,15 +3,12 @@ package nn.dsalgo.tests;
 import nn.dsalgo.dataprovider.TestdataProvider;
 import nn.dsalgo.factory.DriverFactory;
 import nn.dsalgo.hooks.TestNGHooks;
-import nn.dsalgo.listeners.TestListeners;
 import nn.dsalgo.helperclass.HelperClass;
 import nn.dsalgo.pages.TreePage;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-@Listeners({TestListeners.class})
 public class TreeTest extends TestNGHooks {
     private HelperClass helperClass;
     private TreePage treePage;
