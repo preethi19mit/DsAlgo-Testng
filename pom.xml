@@ -16,13 +16,6 @@
     <maven.compiler.release>17</maven.compiler.release>
   </properties>
 
-<<<<<<< HEAD
-  <dependencyManagement>
-    
-  </dependencyManagement>
-
-=======
->>>>>>> 1a0cb3354d3745e0ee14568e01e292baf8305f21
   <dependencies>
    <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
     <dependency>
