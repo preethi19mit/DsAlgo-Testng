@@ -24,14 +24,14 @@ public class GraphTest extends TestNGHooks {
         log.info("Entered the Graph testcases");
     }
 
-    @Test()
+    @Test(priority=1,groups= {"GP"})
     public void graphLandingPage()
     {
         helperClass.graphPageLanding();
         Assert.assertEquals(graphPage.getTitleforGraphPage(),"Graph");
     }
 
-    @Test(dataProvider = "graphTopics",dataProviderClass = TestdataProvider.class)
+    @Test(priority=2,dataProvider = "graphTopics",dataProviderClass = TestdataProvider.class,groups= {"GP"})
     public void graphValidCode(String graphTopics)
     {
         helperClass.graphPageLanding();
@@ -44,7 +44,7 @@ public class GraphTest extends TestNGHooks {
         log.info("<----Testing Info---->");
     }
 
-    @Test(dataProvider = "graphTopics",dataProviderClass = TestdataProvider.class)
+    @Test(priority=3,dataProvider = "graphTopics",dataProviderClass = TestdataProvider.class,groups= {"GP"})
     public void graphInvalidCode(String graphTopics)
     {
         helperClass.graphPageLanding();
