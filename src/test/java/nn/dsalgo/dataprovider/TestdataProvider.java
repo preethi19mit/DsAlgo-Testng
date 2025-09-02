@@ -103,7 +103,7 @@ public class TestdataProvider {
     }
     
     @DataProvider(name="RegisterMissingFieldsValidation")
-    public Object[] RegisterMissingfieldvalidate()
+    public Object[][] RegisterMissingfieldvalidate()
     {
     	return new Object[][]{
     			{"EmptyValues", "Please fill out this field."},
@@ -114,7 +114,7 @@ public class TestdataProvider {
     }
     
     @DataProvider(name="RegisterInvalidCredentials")
-    public Object[] RegisterInvalidCredentials()
+    public Object[][] RegisterInvalidCredentials()
     {
     	return new Object[][] {
     		{"InvalidUsername", "Username is not valid"},
@@ -123,7 +123,7 @@ public class TestdataProvider {
     }
     
     @DataProvider(name="RegisterValidcredentials")
-    public Object[] RegisterValidCredentials()
+    public Object[][] RegisterValidCredentials()
     {
     	return new Object[][] {
     		{"ValidCredentials", "New Account Created."},
@@ -131,7 +131,7 @@ public class TestdataProvider {
     }
     
     @DataProvider(name="RegisterMismatchPassword")
-    public Object[] RegisterMismatchPassword()
+    public Object[][] RegisterMismatchPassword()
     {
     	return new Object[][] {
     		{"MismatchPassword", "password_mismatch:The two password fields didn’t match."},
