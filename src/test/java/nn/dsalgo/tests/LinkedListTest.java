@@ -2,13 +2,12 @@ package nn.dsalgo.tests;
 import nn.dsalgo.dataprovider.TestdataProvider;
 import nn.dsalgo.factory.DriverFactory;
 import nn.dsalgo.hooks.TestNGHooks;
-import nn.dsalgo.listeners.TestListeners;
+
 import nn.dsalgo.helperclass.HelperClass;
 import nn.dsalgo.pages.LinkedListPage;
-import nn.dsalgo.pages.TreePage;
+
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 public class LinkedListTest extends TestNGHooks {
@@ -22,14 +21,14 @@ public class LinkedListTest extends TestNGHooks {
         log.info("Entered the Linked List testcases");
     }
 
-    @Test
+    @Test(priority=1, groups= {"smoke"})
     public void LinkedListPageLanding()
     {
         helperClass.LinkedListPageLanding();
         Assert.assertEquals(linkedListPage.getTitleforLinkedList(),"Linked List");
     }
     
-    @Test(dataProvider = "OptionsLinkedList",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"LinkedListPageLanding"})
+    @Test(priority=2, dataProvider = "OptionsLinkedList",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"LinkedListPageLanding"}, groups= {"sanity"})
     public void navigateToLinksInLinkedList(String option)
     {
         helperClass.LinkedListPageLanding();
@@ -40,7 +39,7 @@ public class LinkedListTest extends TestNGHooks {
         
     }
 	
-	  @Test(dataProvider = "OptionsLinkedList",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"navigateToLinksInLinkedList"}) 
+	  @Test(priority=3,dataProvider = "OptionsLinkedList",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"navigateToLinksInLinkedList"},groups={"regression"}) 
 	  public void navigateToTryEditorInLinkedList(String option) {
 		  helperClass.LinkedListPageLanding();
 		  linkedListPage.clickLinkFromLL(option);		  
@@ -49,7 +48,7 @@ public class LinkedListTest extends TestNGHooks {
 	  
 	  }
 	  
-	  @Test(dataProvider = "OptionsLinkedList",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"navigateToTryEditorInLinkedList"})
+	  @Test(priority=4, dataProvider = "OptionsLinkedList",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"navigateToTryEditorInLinkedList"}, groups= {"regression"})
 	  public void generateOutputForInputInLinkedList(String option) {
 		  helperClass.LinkedListPageLanding();
 		  linkedListPage.clickLinkFromLL(option);		  
@@ -64,7 +63,7 @@ public class LinkedListTest extends TestNGHooks {
 	      Assert.assertEquals(ActualOutput, ExpectedOutput);
 	  } 
 	  
-	  @Test(dataProvider = "OptionsLinkedList",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"navigateToTryEditorInLinkedList"})
+	  @Test(priority=5, dataProvider = "OptionsLinkedList",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"navigateToTryEditorInLinkedList"},groups= {"sanity,regression"})
 	    public void getInValidPythonCode(String option)
 	    {
 		  helperClass.LinkedListPageLanding();
@@ -83,7 +82,7 @@ public class LinkedListTest extends TestNGHooks {
 	    }
 	  
 	  
-	  @Test(dataProvider = "OptionsLinkedList",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"LinkedListPageLanding"}) 
+	  @Test(priority=6, dataProvider = "OptionsLinkedList",dataProviderClass = TestdataProvider.class,dependsOnMethods = {"LinkedListPageLanding"},groups= {"smoke,sanity"}) 
 	  public void validateBrokenLinkEmptyPageInTree(String option) {
 	  helperClass.LinkedListPageLanding();
 	  linkedListPage.clickIntrolink();
