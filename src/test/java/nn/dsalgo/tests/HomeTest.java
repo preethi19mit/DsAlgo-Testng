@@ -2,19 +2,16 @@ package nn.dsalgo.tests;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Listeners;
+
 import org.testng.annotations.Test;
 
 import nn.dsalgo.dataprovider.TestdataProvider;
 import nn.dsalgo.factory.DriverFactory;
 import nn.dsalgo.helperclass.HelperClass;
 import nn.dsalgo.hooks.TestNGHooks;
-import nn.dsalgo.listeners.RetryAnalyzer;
-import nn.dsalgo.listeners.TestListeners;
 import nn.dsalgo.pages.HomePage;
 
 
-@Listeners({TestListeners.class})
 public class HomeTest extends TestNGHooks {
 	
 	private HelperClass helperClass;
@@ -29,7 +26,7 @@ public class HomeTest extends TestNGHooks {
 		
 	}
 
-	@Test
+	@Test(priority = 1,groups= {"smoke"})
 	public void HomePageVerifyTitle ()
 	{
 		helperClass.HomePageLanding();
@@ -38,13 +35,13 @@ public class HomeTest extends TestNGHooks {
 		Assert.assertEquals(expectedTitle, "NumpyNinja");
 	
 	}
-	@Test
+	@Test(priority = 2,groups= {"smoke"})
 	public void VerifyRegisterButton()
 	{
 		helperClass.RegisterpageLanding();
 		homePage.isRegisterElementDisplayed();
 	}
-	@Test
+	@Test(priority = 3,groups= {"smoke"})
 	public void VerifySignInButton()
 	{
 		helperClass.HomePageLanding();
@@ -52,7 +49,7 @@ public class HomeTest extends TestNGHooks {
 		homePage.isSignInElementDisplayed();
 	}
 	
-	 @Test(dataProvider = "OptionsHomePage",dataProviderClass = TestdataProvider.class)
+	 @Test(priority=4, dataProvider = "OptionsHomePage",dataProviderClass = TestdataProvider.class, groups= {"smoke"})
 	 
 	 public void ClickGetStartedModulesWithoutSignIn(String option)
 	 {
@@ -60,61 +57,86 @@ public class HomeTest extends TestNGHooks {
 		 switch(option) {
 			case "Datastructures" :
 				homePage.clickGetStartedForDS();
+				String expectedtxtInDSI= homePage.getErrorMessageText();
+				Assert.assertEquals(expectedtxtInDSI, "You are not logged in");
 				break;
 			case "Array" :
-				homePage.clickGetStartedForArray(); 
+				homePage.clickGetStartedForArray();
+				String expectedtxtInArray= homePage.getErrorMessageText();
+				Assert.assertEquals(expectedtxtInArray, "You are not logged in");
 				break;
 			case "Linkedlist" :
 				homePage.clickGetStartedForLinkedList(); 
+				String expectedtxtInLL= homePage.getErrorMessageText();
+				Assert.assertEquals(expectedtxtInLL, "You are not logged in");
 				break;
 			case "Stack" :
 				homePage.clickGetStartedForStack();
+				String expectedtxtInStack= homePage.getErrorMessageText();
+				Assert.assertEquals(expectedtxtInStack, "You are not logged in");
 				break;
 			case "Queue" :
 				homePage.clickGetStartedForQueue();
+				String expectedtxtInQueue= homePage.getErrorMessageText();
+				Assert.assertEquals(expectedtxtInQueue, "You are not logged in");
 				break;
 			case "Tree" :
 				homePage.clickGetStartedForTree();
+				String expectedtxtInTree= homePage.getErrorMessageText();
+				Assert.assertEquals(expectedtxtInTree, "You are not logged in");
 				break;
 			case "Graph" :
-				homePage.clickGetStartedForGraph(); 
+				homePage.clickGetStartedForGraph();
+				String expectedtxtInGraph= homePage.getErrorMessageText();
+				Assert.assertEquals(expectedtxtInGraph, "You are not logged in");
 				break;
 			}
-		 homePage.getErrorMessageText();
+		 
 	 }
 	 
- @Test(dataProvider = "OptionsHomeScenario",dataProviderClass = TestdataProvider.class)
+ @Test(priority=5, dataProvider = "OptionsHomeScenario",dataProviderClass = TestdataProvider.class, groups= {"smoke"})
 	 
 	 public void ClickGetStartedModulesFromDrpdownWithoutSignIn(String option) 
 	 {
 	 helperClass.HomePageLanding();
 	 homePage.clickDrpdown();
 
-		switch(option) {
+	 switch(option) {
 		case "Array" :
 			homePage.clickArraysDrpdown();
+			String expectedtxtInArray= homePage.getErrorMessageText();
+			Assert.assertEquals(expectedtxtInArray, "You are not logged in");
 			break;
 		case "Linkedlist" :
 			homePage.clickLinkedListDrpdown();
+			String expectedtxtInLL= homePage.getErrorMessageText();
+			Assert.assertEquals(expectedtxtInLL, "You are not logged in");
 			break;
 		case "Stack" :
 			homePage.clickStackDrpdown();
+			String expectedtxtInStack= homePage.getErrorMessageText();
+			Assert.assertEquals(expectedtxtInStack, "You are not logged in");
 			break;
 		case "Queue" :
-			homePage.clickQueueDrpdown(); 
+			homePage.clickQueueDrpdown();
+			String expectedtxtInQueue= homePage.getErrorMessageText();
+			Assert.assertEquals(expectedtxtInQueue, "You are not logged in");
 			break;
 		case "Tree" :
 			homePage.clickTreeDrpdown();
+			String expectedtxtInTree= homePage.getErrorMessageText();
+			Assert.assertEquals(expectedtxtInTree, "You are not logged in");
 			break;
 		case "Graph" :
 			homePage.clickGraphDrpdown();
+			String expectedtxtInGraph= homePage.getErrorMessageText();
+			Assert.assertEquals(expectedtxtInGraph, "You are not logged in");
 			break;
 		}
-		homePage.getErrorMessageText();
 	    
 	 }
  
- @Test(dataProvider = "OptionsHomePage",dataProviderClass = TestdataProvider.class)
+ @Test(priority=6, dataProvider = "OptionsHomePage",dataProviderClass = TestdataProvider.class, groups= {"sanity"})
   public void ClickGetStartedModulesAfterSignIn(String option)
  {
 	 helperClass.SuccessfulLogin();
@@ -159,7 +181,7 @@ public class HomeTest extends TestNGHooks {
 				
 	}
  
- @Test(dataProvider = "OptionsHomeScenario",dataProviderClass = TestdataProvider.class)
+ @Test(priority=7, dataProvider = "OptionsHomeScenario",dataProviderClass = TestdataProvider.class,groups={"sanity"})
  
  public void ClickGetStartedModulesFromDrpdownAfterSignIn(String option) 
  {
@@ -200,7 +222,7 @@ public class HomeTest extends TestNGHooks {
 		}
 
  }
- @Test
+ @Test(priority=8, groups= {"smoke"})
  public void SuccesfulSignout()
  {
 	 helperClass.SuccessfulLogin();
@@ -210,7 +232,7 @@ public class HomeTest extends TestNGHooks {
 		
  }
 		
-	@Test
+	@Test(priority=9, groups={"sanity"})
 	public void VerifyIncorrectPageTitle()
 	{
 		helperClass.HomePageLanding();

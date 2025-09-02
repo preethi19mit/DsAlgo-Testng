@@ -17,7 +17,8 @@ public class GraphPage extends BaseLogger {
 	
 	    private WebDriver driver;
 	    private ElementsUtil elementsutil;
-	    
+
+	private By getTitle_Graph=By.cssSelector("h4[class='bg-secondary text-white']");
 	    private By Tryhere = By.xpath("//a[text()='Try here>>>']");
 	    private By Run = By.xpath("//button[@type='button']");
 	    private By tryEditor_text = By.cssSelector(".CodeMirror div.CodeMirror-code");
@@ -45,7 +46,10 @@ public class GraphPage extends BaseLogger {
 	                throw new IllegalArgumentException("Invalid option: " + option);
 	        }
 	    }
-	    
+	public String getTitleforGraphPage() {
+		log.info("Getting the title of Graph Page");
+		return driver.findElement(getTitle_Graph).getText();
+	}
 	        
 	    
 	    public void Tryhere()
