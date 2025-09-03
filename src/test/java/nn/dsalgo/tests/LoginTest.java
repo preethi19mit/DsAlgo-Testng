@@ -1,5 +1,7 @@
 package nn.dsalgo.tests;
 
+import java.util.Map;
+
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -32,53 +34,66 @@ public class LoginTest extends TestNGHooks {
 	}
 	
 		
-	@Test(priority =2,dataProvider = "MissingUsernameandpassword",dataProviderClass = TestdataProvider.class,groups= {"sanity"})
-	public void Missinglogin(String option,String expectedMessage)
+	@Test(priority =2,dataProvider = "MissingUsername",dataProviderClass = TestdataProvider.class,groups= {"sanity"})
+	public void MissingUsername(String testcaseid)
 	{
-		loginpage.navigatetologin();
-		String actualMessage = "";
-		switch(option) {
-		case "Missing username" :
-			loginpage.Missingusername();
+		    loginpage.navigatetologin();
+		    String actualMessage = "";
+		    Map<String,String>result = loginpage.UsernamePwdScenario(testcaseid);
 			actualMessage = loginpage.Usernamealert();
+			String expectedMessage = result.get("message");
+			log.error("<----Testing Error---->");
 			Assert.assertEquals(actualMessage,expectedMessage);
-			break;
-		case "Missing password" :
-			loginpage.Missingpassword();
-			actualMessage = loginpage.Passwordalert(); 
+	}
+	
+	@Test(priority =3,dataProvider = "Missingpassword",dataProviderClass = TestdataProvider.class,groups= {"sanity"})
+	public void MissingPassword(String testcaseid)
+	{
+		    loginpage.navigatetologin();
+		    String actualMessage = "";
+		    Map<String,String>result = loginpage.UsernamePwdScenario(testcaseid);
+			actualMessage = loginpage.Passwordalert();
+			String expectedMessage = result.get("message");
+			log.error("<----Testing Error---->");
 			Assert.assertEquals(actualMessage,expectedMessage);
-			break;
 		
 		}
-        log.error("<----Testing Error---->");
+        
 	    
-	    }
+	    
 	
 	
-	@Test(priority = 3,dataProvider = "InvalidUsernameandpassword",dataProviderClass = TestdataProvider.class,groups= {"sanity"})
-	public void InvalidLogin(String option,String expectedMessage)
+	@Test(priority = 4,dataProvider = "InvalidUsername",dataProviderClass = TestdataProvider.class,groups= {"sanity"})
+	public void InvalidUsername(String testcaseid)
 	{
-		loginpage.navigatetologin();
-		String actualMessage= "";
-		switch(option) {
-	case "Invalid username" :
-		loginpage.Invalidusername();
-		actualMessage = loginpage.getErrorMessage(); 
-	    Assert.assertEquals(actualMessage,expectedMessage );
-		break;
-	case "Invalid password" :
-		loginpage.Invalidpassword();
-		actualMessage = loginpage.getErrorMessage(); 
-	    Assert.assertEquals(actualMessage, expectedMessage);
-		break;
-	    }
-		log.error("<----Testing Error---->");
+		    loginpage.navigatetologin();
+		    String actualMessage = "";
+		    Map<String,String>result = loginpage.UsernamePwdScenario(testcaseid);
+			actualMessage = loginpage.getErrorMessage();
+			String expectedmsg = result.get("message");
+			log.error("<----Testing Error---->");
+			Assert.assertEquals(actualMessage,expectedmsg);
+		
+	     
+    }
+	
+	@Test(priority = 4,dataProvider = "Invalidpassword",dataProviderClass = TestdataProvider.class,groups= {"sanity"})
+	public void Invalidpassword(String testcaseid)
+	{
+		    loginpage.navigatetologin();
+		    String actualMessage = "";
+		    Map<String,String>result = loginpage.UsernamePwdScenario(testcaseid);
+			actualMessage = loginpage.getErrorMessage();
+			String expectedmsg = result.get("message");
+			log.error("<----Testing Error---->");
+			Assert.assertEquals(actualMessage,expectedmsg);
+		
 	     
     }
 	
 	
 	
-	@Test(priority = 4,groups= {"smoke","sanity"})
+	@Test(priority = 5,groups= {"smoke","sanity"})
 	public void successfullogin()
 	{
 		loginpage.Login();

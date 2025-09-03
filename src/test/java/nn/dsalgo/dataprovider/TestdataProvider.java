@@ -4,25 +4,41 @@ import org.testng.annotations.DataProvider;
 
 public class TestdataProvider {
 	
-    @DataProvider(name="MissingUsernameandpassword")
-    public Object[][] Missinglogin()
+    @DataProvider(name="MissingUsername")
+    public Object[][] Missingusrnme()
     {
     	return new Object[][]
     			{
-    		{"Missing username","Please fill out this field."},
-    		{"Missing password","Please fill out this field."},
+    		{"Missing username"}
+    		
+    			};
+    }
+    @DataProvider(name="Missingpassword")
+    public Object[][] Missingpwd()
+    {
+    	return new Object[][]
+    			{
+    		{"Missing password"}
     		
     			};
     }
     
-    @DataProvider(name="InvalidUsernameandpassword")
+    @DataProvider(name="InvalidUsername")
     public Object[][] Invalidlogin()
     {
     	return new Object[][]
     			{
     		
-    		{"Invalid username","Invalid Username and Password"},
-    		{"Invalid password","Invalid Username and Password"},
+    		{"Invalid username"}
+    			};
+    }
+    @DataProvider(name="Invalidpassword")
+    public Object[][] Missinglogin()
+    {
+    	return new Object[][]
+    			{
+    		{"Invalid password"}
+    		
     			};
     }
     

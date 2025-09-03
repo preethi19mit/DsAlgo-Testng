@@ -6,12 +6,12 @@
       <class name="nn.dsalgo.tests.LoginTest">
         <methods>
           <include name="setBrowser"/>
-          <include name="Missinglogin" invocation-numbers="0"/>
           <include name="tearDown"/>
+          <include name="Invalidpassword"/>
           <include name="launchBrowser"/>
           <include name="getProperty"/>
-          <include name="setuppage"/>
           <include name="logTestStart"/>
+          <include name="setuppage"/>
         </methods>
       </class> <!-- nn.dsalgo.tests.LoginTest -->
     </classes>

@@ -11,6 +11,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
+import java.util.List;
 import java.util.Map;
 
 public class LoginPage extends BaseLogger {
@@ -95,24 +96,7 @@ public class LoginPage extends BaseLogger {
         log.info("Clicked Login button");
     }
 
-   public String Missingusername()
-   {
-    	Map<String, String> loginData = ExcelReader.getRowByTestCaseId("Login","Missing username");
-    	
-       String Excelusername = loginData.get("username");
-       String Excelpassword = loginData.get("password");
-       String Errormsg = loginData.get("message");
-       
-       if (Excelusername != null && !Excelusername.trim().isEmpty()) {
-           driver.findElement(Username).sendKeys(Excelusername);
-       }
-
-       driver.findElement(Password).sendKeys(Excelpassword);
-       
-    	driver.findElement(LoginBtn).click();
-    	return Errormsg;
-    	
-   }
+  
       
     public String Usernamealert()
     {
@@ -130,24 +114,7 @@ public class LoginPage extends BaseLogger {
     	
     }
     
-    public String Missingpassword()
-    {
-     	Map<String, String> loginData = ExcelReader.getRowByTestCaseId("Login","Missing password");
-     	
-        String Excelusername = loginData.get("username");
-        String Excelpassword = loginData.get("password");
-        String Errormsg = loginData.get("message");
-        
-        driver.findElement(Username).sendKeys(Excelusername);
-        
-        if (Excelpassword != null && !Excelpassword.trim().isEmpty()) {
-            driver.findElement(Password).sendKeys(Excelpassword);
-        }
-        
-     	driver.findElement(LoginBtn).click();
-     	return Errormsg;
-     	
-    }
+    
     
     
     public String Passwordalert()
@@ -162,44 +129,30 @@ public class LoginPage extends BaseLogger {
         return validationMessage1;
     }
     
-    public String Invalidusername()
-    {
-    	    	
-        Map<String, String> loginData = ExcelReader.getRowByTestCaseId("Login","Invalid username");
-     	
-        String Excelusername = loginData.get("username");
-        String Excelpassword = loginData.get("password");
-        String Errormsg = loginData.get("message");
-        
-        driver.findElement(Username).sendKeys(Excelusername);
-       
-        driver.findElement(Password).sendKeys(Excelpassword);
-        
-     	driver.findElement(LoginBtn).click();
-     	
-     	return elementsUtil.doGetText(Alertmsg);
-     
-     	
-    }
+   
     
-    public String Invalidpassword()
+    public Map<String,String> UsernamePwdScenario(String TestCaseId)
     {
-    	    	
-        Map<String, String> loginData = ExcelReader.getRowByTestCaseId("Login","Invalid password");
-     	
-        String Excelusername = loginData.get("username");
+    	Map<String, String> loginData = ExcelReader.getRowByTestCaseId("Login",TestCaseId);
+    	String Excelusername = loginData.get("username");
         String Excelpassword = loginData.get("password");
-        String Errormsg = loginData.get("message");
         
-        driver.findElement(Username).sendKeys(Excelusername);
-       
-        driver.findElement(Password).sendKeys(Excelpassword);
+        if (Excelusername != null && !Excelusername.trim().isEmpty()) {
+            driver.findElement(Username).sendKeys(Excelusername);
+        }
+
+        if (Excelpassword != null && !Excelpassword.trim().isEmpty()) {
+            driver.findElement(Password).sendKeys(Excelpassword);
+        }
+        
         
      	driver.findElement(LoginBtn).click();
      	
-     	elementsUtil.doGetText(Alertmsg);
-     	return Errormsg;
      	
+     	return loginData;
+     	
+    	
+    	
     }
 
 }

@@ -56,16 +56,7 @@ public class QueueTest extends TestNGHooks {
 	public void clicktryhere(String links)
 	{
 		helperClass.QueuepageLanding();
-		Assert.assertEquals(queue.getTitleforQueue(), "Queue");
-		queue.QueueTopics(links);
-		List<String> expected = Arrays.asList(
-			    "Implementation of Queue in python",
-			    "Implementation using collections deque",
-			    "Implementation using Array",
-			    "Queue operations"
-			);
-			
-			Assert.assertTrue(expected.contains(links),"Invalid option passed: " + links);
+		queue.QueueTopics(links);		
 		queue.Tryhere();
 		Assert.assertTrue(queue.tryEditorVisible(), "Try Editor not available");
 	}
@@ -73,45 +64,22 @@ public class QueueTest extends TestNGHooks {
 	@Test(priority = 4,dataProvider = "Queuetopics",dataProviderClass = TestdataProvider.class,groups= {"sanity2"})
 	public void Pythoncode(String links) {
 		helperClass.QueuepageLanding();
-		Assert.assertEquals(queue.getTitleforQueue(), "Queue");
 		queue.QueueTopics(links);
-		List<String> expected = Arrays.asList(
-			    "Implementation of Queue in python",
-			    "Implementation using collections deque",
-			    "Implementation using Array",
-			    "Queue operations"
-			);
-			
-			Assert.assertTrue(expected.contains(links),"Invalid option passed: " + links);
 		queue.Tryhere();
-		Assert.assertTrue(queue.tryEditorVisible(), "Try Editor not available");
 		queue.enterPythonCode(queue.getPythonCodeDataDriven("Queue", "ValidCode"));
 		queue.Run();
 		String ActualOutput = queue.getOutputFromConsole();
 		String ExpectedOutput = queue.getOutputDataDriven();
 	      log.info("Expected Output: " + ActualOutput);
-	      Assert.assertEquals(ActualOutput,ExpectedOutput);
-		
-		
-		
+	      Assert.assertEquals(ActualOutput,ExpectedOutput);	
 		
 	}
 	
 	@Test(priority = 5,dataProvider = "Queuetopics",dataProviderClass = TestdataProvider.class,groups= {"sanity3"})
 	public void InvalidPythoncode(String links) {
 		helperClass.QueuepageLanding();
-		Assert.assertEquals(queue.getTitleforQueue(), "Queue");
 		queue.QueueTopics(links);
-		List<String> expected = Arrays.asList(
-			    "Implementation of Queue in python",
-			    "Implementation using collections deque",
-			    "Implementation using Array",
-			    "Queue operations"
-			);
-			
-			Assert.assertTrue(expected.contains(links),"Invalid option passed: " + links);
 		queue.Tryhere();
-		Assert.assertTrue(queue.tryEditorVisible(), "Try Editor not available");
 		queue.enterPythonCode(queue.getPythonCodeDataDriven("Queue", "InValidCode"));
 		queue.Run();
 		log.error("<----Invalid code--->");

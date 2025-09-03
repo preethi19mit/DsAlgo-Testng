@@ -1147,3 +1147,538 @@ java.nio.file.FileAlreadyExistsException: target\screenshots\Missinglogin.png
 2025-08-31 23:49:53 WARN  TreePage:184 - ?? The container is empty ? no practice content found
 2025-08-31 23:49:53 INFO  TreeTest:50 - >>> After all tests - quitting driver
 >>>>>>> b71f7dc661e07d945363af1049782ab6bebb9671
+2025-09-02 20:09:17 INFO  LoginTest:29 - Running tests on: chrome | Thread ID: 1
+2025-09-02 20:11:33 INFO  LoginTest:29 - Running tests on: chrome | Thread ID: 1
+2025-09-02 20:51:27 INFO  LoginTest:29 - Running tests on: chrome | Thread ID: 1
+2025-09-02 20:51:31 INFO  LoginTest:40 - Browser launched: chrome | Thread: 1
+2025-09-02 20:51:32 INFO  LoginTest:45 - Starting test: MissingUsername
+2025-09-02 20:51:32 INFO  LoginTest:23 - Entered the testcase
+2025-09-02 20:51:35 INFO  LoginTest:50 - >>> After all tests - quitting driver
+2025-09-02 20:51:37 INFO  LoginTest:40 - Browser launched: chrome | Thread: 1
+2025-09-02 20:51:37 INFO  LoginTest:45 - Starting test: MissingUsername
+2025-09-02 20:51:37 INFO  LoginTest:23 - Entered the testcase
+2025-09-02 20:51:38 INFO  LoginTest:50 - >>> After all tests - quitting driver
+2025-09-02 20:58:41 INFO  LoginTest:29 - Running tests on: chrome | Thread ID: 1
+2025-09-02 20:58:44 INFO  LoginTest:40 - Browser launched: chrome | Thread: 1
+2025-09-02 20:58:44 INFO  LoginTest:45 - Starting test: MissingPassword
+2025-09-02 20:58:44 INFO  LoginTest:23 - Entered the testcase
+2025-09-02 20:58:47 INFO  LoginTest:50 - >>> After all tests - quitting driver
+2025-09-02 20:58:49 INFO  LoginTest:40 - Browser launched: chrome | Thread: 1
+2025-09-02 20:58:49 INFO  LoginTest:45 - Starting test: MissingPassword
+2025-09-02 20:58:49 INFO  LoginTest:23 - Entered the testcase
+2025-09-02 20:58:50 INFO  LoginTest:50 - >>> After all tests - quitting driver
+2025-09-02 20:59:55 INFO  LoginTest:29 - Running tests on: chrome | Thread ID: 1
+2025-09-02 20:59:57 INFO  LoginTest:40 - Browser launched: chrome | Thread: 1
+2025-09-02 20:59:58 INFO  LoginTest:45 - Starting test: MissingPassword
+2025-09-02 20:59:58 INFO  LoginTest:23 - Entered the testcase
+2025-09-02 21:00:00 ERROR LoginTest:61 - <----Testing Error---->
+2025-09-02 21:00:00 INFO  LoginTest:50 - >>> After all tests - quitting driver
+2025-09-02 21:00:02 INFO  LoginTest:40 - Browser launched: chrome | Thread: 1
+2025-09-02 21:00:02 INFO  LoginTest:45 - Starting test: MissingPassword
+2025-09-02 21:00:02 INFO  LoginTest:23 - Entered the testcase
+2025-09-02 21:00:04 ERROR LoginTest:61 - <----Testing Error---->
+2025-09-02 21:00:04 INFO  LoginTest:50 - >>> After all tests - quitting driver
+2025-09-02 21:10:16 INFO  LoginTest:29 - Running tests on: chrome | Thread ID: 1
+2025-09-02 21:10:19 INFO  LoginTest:40 - Browser launched: chrome | Thread: 1
+2025-09-02 21:10:19 INFO  LoginTest:45 - Starting test: InvalidLogin
+2025-09-02 21:10:19 INFO  LoginTest:23 - Entered the testcase
+2025-09-02 21:10:22 ERROR LoginTest:80 - <----Testing Error---->
+2025-09-02 21:10:22 INFO  LoginTest:50 - >>> After all tests - quitting driver
+2025-09-02 21:10:24 INFO  LoginTest:40 - Browser launched: chrome | Thread: 1
+2025-09-02 21:10:24 INFO  LoginTest:45 - Starting test: InvalidLogin
+2025-09-02 21:10:24 INFO  LoginTest:23 - Entered the testcase
+2025-09-02 21:10:26 ERROR LoginTest:80 - <----Testing Error---->
+2025-09-02 21:10:26 INFO  LoginTest:50 - >>> After all tests - quitting driver
+2025-09-02 21:11:01 INFO  LoginTest:29 - Running tests on: chrome | Thread ID: 1
+2025-09-02 21:11:03 INFO  LoginTest:40 - Browser launched: chrome | Thread: 1
+2025-09-02 21:11:03 INFO  LoginTest:45 - Starting test: InvalidLogin
+2025-09-02 21:11:03 INFO  LoginTest:23 - Entered the testcase
+2025-09-02 21:11:06 ERROR LoginTest:80 - <----Testing Error---->
+2025-09-02 21:11:06 INFO  LoginTest:50 - >>> After all tests - quitting driver
+2025-09-02 21:11:07 INFO  LoginTest:40 - Browser launched: chrome | Thread: 1
+2025-09-02 21:11:07 INFO  LoginTest:45 - Starting test: InvalidLogin
+2025-09-02 21:11:07 INFO  LoginTest:23 - Entered the testcase
+2025-09-02 21:11:09 ERROR LoginTest:80 - <----Testing Error---->
+2025-09-02 21:11:09 INFO  LoginTest:50 - >>> After all tests - quitting driver
+2025-09-02 21:16:20 INFO  LoginTest:29 - Running tests on: chrome | Thread ID: 1
+2025-09-02 21:16:23 INFO  LoginTest:40 - Browser launched: chrome | Thread: 1
+2025-09-02 21:16:23 INFO  LoginTest:45 - Starting test: MissingUsername
+2025-09-02 21:16:23 INFO  LoginTest:23 - Entered the testcase
+2025-09-02 21:16:25 ERROR LoginTest:47 - <----Testing Error---->
+2025-09-02 21:16:26 INFO  LoginTest:50 - >>> After all tests - quitting driver
+2025-09-02 21:16:35 INFO  LoginTest:29 - Running tests on: chrome | Thread ID: 1
+2025-09-02 21:16:37 INFO  LoginTest:40 - Browser launched: chrome | Thread: 1
+2025-09-02 21:16:37 INFO  LoginTest:45 - Starting test: MissingPassword
+2025-09-02 21:16:37 INFO  LoginTest:23 - Entered the testcase
+2025-09-02 21:16:40 ERROR LoginTest:61 - <----Testing Error---->
+2025-09-02 21:16:40 INFO  LoginTest:50 - >>> After all tests - quitting driver
+2025-09-02 21:16:52 INFO  LoginTest:29 - Running tests on: chrome | Thread ID: 1
+2025-09-02 21:16:54 INFO  LoginTest:40 - Browser launched: chrome | Thread: 1
+2025-09-02 21:16:54 INFO  LoginTest:45 - Starting test: InvalidUsername
+2025-09-02 21:16:54 INFO  LoginTest:23 - Entered the testcase
+2025-09-02 21:16:57 ERROR LoginTest:80 - <----Testing Error---->
+2025-09-02 21:16:57 INFO  LoginTest:50 - >>> After all tests - quitting driver
+2025-09-02 22:12:22 INFO  LoginTest:29 - Running tests on: chrome | Thread ID: 1
+2025-09-02 22:12:26 INFO  LoginTest:40 - Browser launched: chrome | Thread: 1
+2025-09-02 22:12:26 INFO  LoginTest:45 - Starting test: InvalidUsername
+2025-09-02 22:12:26 INFO  LoginTest:23 - Entered the testcase
+2025-09-02 22:12:30 ERROR LoginTest:80 - <----Testing Error---->
+2025-09-02 22:12:30 ERROR LoginTest:82 - <----Testing Error---->
+2025-09-02 22:12:30 INFO  LoginTest:50 - >>> After all tests - quitting driver
+2025-09-02 22:14:13 INFO  LoginTest:29 - Running tests on: chrome | Thread ID: 1
+2025-09-02 22:14:29 INFO  LoginTest:29 - Running tests on: chrome | Thread ID: 1
+2025-09-02 22:14:31 INFO  LoginTest:40 - Browser launched: chrome | Thread: 1
+2025-09-02 22:14:32 INFO  LoginTest:45 - Starting test: Invalidpassword
+2025-09-02 22:14:32 INFO  LoginTest:23 - Entered the testcase
+2025-09-02 22:14:35 ERROR LoginTest:94 - <----Testing Error---->
+2025-09-02 22:14:35 ERROR LoginTest:96 - <----Testing Error---->
+2025-09-02 22:14:35 INFO  LoginTest:50 - >>> After all tests - quitting driver
+2025-09-02 22:23:40 INFO  QueueTest:29 - Running tests on: chrome | Thread ID: 1
+2025-09-02 22:23:42 INFO  QueueTest:40 - Browser launched: chrome | Thread: 1
+2025-09-02 22:23:42 INFO  QueueTest:45 - Starting test: Pythoncode
+2025-09-02 22:23:42 INFO  QueueTest:27 - Entered the testcase
+2025-09-02 22:23:42 INFO  LandingPage:34 - Getting the URL of DSALGO
+2025-09-02 22:23:43 INFO  LandingPage:23 - Clicking the Get Started Button of Landing page
+2025-09-02 22:23:43 INFO  HomePage:227 - Clicking Sign In button from Home Page
+2025-09-02 22:23:43 INFO  LoginPage:87 - Performing Login with TestData from Excel
+2025-09-02 22:23:45 INFO  LoginPage:91 - Entering the Username : Prasanna
+2025-09-02 22:23:45 INFO  LoginPage:93 - Entering the Password : Welcome@01
+2025-09-02 22:23:46 INFO  LoginPage:96 - Clicked Login button
+2025-09-02 22:23:46 INFO  HomePage:66 - successful login
+2025-09-02 22:23:46 INFO  HomePage:109 - Clicking on the Get Started Button of Queue from HomePage
+2025-09-02 22:23:46 INFO  HelperClass:42 - Queue page Loaded
+2025-09-02 22:23:47 INFO  QueuePage:134 - The code to input is print("hello"); for the scenario ValidCode
+2025-09-02 22:23:49 INFO  QueueTest:90 - Expected Output: hello
+2025-09-02 22:23:49 INFO  QueueTest:50 - >>> After all tests - quitting driver
+2025-09-02 22:23:50 INFO  QueueTest:40 - Browser launched: chrome | Thread: 1
+2025-09-02 22:23:50 INFO  QueueTest:45 - Starting test: Pythoncode
+2025-09-02 22:23:50 INFO  QueueTest:27 - Entered the testcase
+2025-09-02 22:23:50 INFO  LandingPage:34 - Getting the URL of DSALGO
+2025-09-02 22:23:50 INFO  LandingPage:23 - Clicking the Get Started Button of Landing page
+2025-09-02 22:23:51 INFO  HomePage:227 - Clicking Sign In button from Home Page
+2025-09-02 22:23:51 INFO  LoginPage:87 - Performing Login with TestData from Excel
+2025-09-02 22:23:51 INFO  LoginPage:91 - Entering the Username : Prasanna
+2025-09-02 22:23:52 INFO  LoginPage:93 - Entering the Password : Welcome@01
+2025-09-02 22:23:52 INFO  LoginPage:96 - Clicked Login button
+2025-09-02 22:23:52 INFO  HomePage:66 - successful login
+2025-09-02 22:23:52 INFO  HomePage:109 - Clicking on the Get Started Button of Queue from HomePage
+2025-09-02 22:23:53 INFO  HelperClass:42 - Queue page Loaded
+2025-09-02 22:23:54 INFO  QueuePage:134 - The code to input is print("hello"); for the scenario ValidCode
+2025-09-02 22:23:55 INFO  QueueTest:90 - Expected Output: hello
+2025-09-02 22:23:55 INFO  QueueTest:50 - >>> After all tests - quitting driver
+2025-09-02 22:23:56 INFO  QueueTest:40 - Browser launched: chrome | Thread: 1
+2025-09-02 22:23:56 INFO  QueueTest:45 - Starting test: Pythoncode
+2025-09-02 22:23:56 INFO  QueueTest:27 - Entered the testcase
+2025-09-02 22:23:56 INFO  LandingPage:34 - Getting the URL of DSALGO
+2025-09-02 22:23:57 INFO  LandingPage:23 - Clicking the Get Started Button of Landing page
+2025-09-02 22:23:57 INFO  HomePage:227 - Clicking Sign In button from Home Page
+2025-09-02 22:23:57 INFO  LoginPage:87 - Performing Login with TestData from Excel
+2025-09-02 22:23:57 INFO  LoginPage:91 - Entering the Username : Prasanna
+2025-09-02 22:23:57 INFO  LoginPage:93 - Entering the Password : Welcome@01
+2025-09-02 22:23:58 INFO  LoginPage:96 - Clicked Login button
+2025-09-02 22:23:58 INFO  HomePage:66 - successful login
+2025-09-02 22:23:58 INFO  HomePage:109 - Clicking on the Get Started Button of Queue from HomePage
+2025-09-02 22:23:59 INFO  HelperClass:42 - Queue page Loaded
+2025-09-02 22:24:00 INFO  QueuePage:134 - The code to input is print("hello"); for the scenario ValidCode
+2025-09-02 22:24:01 INFO  QueueTest:90 - Expected Output: hello
+2025-09-02 22:24:01 INFO  QueueTest:50 - >>> After all tests - quitting driver
+2025-09-02 22:24:02 INFO  QueueTest:40 - Browser launched: chrome | Thread: 1
+2025-09-02 22:24:02 INFO  QueueTest:45 - Starting test: Pythoncode
+2025-09-02 22:24:02 INFO  QueueTest:27 - Entered the testcase
+2025-09-02 22:24:02 INFO  LandingPage:34 - Getting the URL of DSALGO
+2025-09-02 22:24:03 INFO  LandingPage:23 - Clicking the Get Started Button of Landing page
+2025-09-02 22:24:03 INFO  HomePage:227 - Clicking Sign In button from Home Page
+2025-09-02 22:24:03 INFO  LoginPage:87 - Performing Login with TestData from Excel
+2025-09-02 22:24:03 INFO  LoginPage:91 - Entering the Username : Prasanna
+2025-09-02 22:24:03 INFO  LoginPage:93 - Entering the Password : Welcome@01
+2025-09-02 22:24:04 INFO  LoginPage:96 - Clicked Login button
+2025-09-02 22:24:04 INFO  HomePage:66 - successful login
+2025-09-02 22:24:04 INFO  HomePage:109 - Clicking on the Get Started Button of Queue from HomePage
+2025-09-02 22:24:05 INFO  HelperClass:42 - Queue page Loaded
+2025-09-02 22:24:06 INFO  QueuePage:134 - The code to input is print("hello"); for the scenario ValidCode
+2025-09-02 22:24:07 INFO  QueueTest:90 - Expected Output: hello
+2025-09-02 22:24:07 INFO  QueueTest:50 - >>> After all tests - quitting driver
+2025-09-03 12:27:39 INFO  LoginTest:29 - Running tests on: chrome | Thread ID: 1
+2025-09-03 12:27:42 INFO  LoginTest:40 - Browser launched: chrome | Thread: 1
+2025-09-03 12:27:42 INFO  LoginTest:45 - Starting test: InvalidUsername
+2025-09-03 12:27:42 INFO  LoginTest:23 - Entered the testcase
+2025-09-03 12:27:44 ERROR LoginTest:80 - <----Testing Error---->
+2025-09-03 12:27:44 INFO  LoginTest:50 - >>> After all tests - quitting driver
+2025-09-03 12:29:46 INFO  LoginTest:29 - Running tests on: chrome | Thread ID: 1
+2025-09-03 12:29:47 INFO  LoginTest:40 - Browser launched: chrome | Thread: 1
+2025-09-03 12:29:47 INFO  LoginTest:45 - Starting test: MissingUsername
+2025-09-03 12:29:47 INFO  LoginTest:23 - Entered the testcase
+2025-09-03 12:29:49 ERROR LoginTest:47 - <----Testing Error---->
+2025-09-03 12:29:49 INFO  LoginTest:50 - >>> After all tests - quitting driver
+2025-09-03 12:29:56 INFO  LoginTest:29 - Running tests on: chrome | Thread ID: 1
+2025-09-03 12:29:57 INFO  LoginTest:40 - Browser launched: chrome | Thread: 1
+2025-09-03 12:29:57 INFO  LoginTest:45 - Starting test: MissingPassword
+2025-09-03 12:29:57 INFO  LoginTest:23 - Entered the testcase
+2025-09-03 12:29:59 ERROR LoginTest:61 - <----Testing Error---->
+2025-09-03 12:29:59 INFO  LoginTest:50 - >>> After all tests - quitting driver
+2025-09-03 12:30:05 INFO  LoginTest:29 - Running tests on: chrome | Thread ID: 1
+2025-09-03 12:30:07 INFO  LoginTest:40 - Browser launched: chrome | Thread: 1
+2025-09-03 12:30:07 INFO  LoginTest:45 - Starting test: InvalidUsername
+2025-09-03 12:30:07 INFO  LoginTest:23 - Entered the testcase
+2025-09-03 12:30:09 ERROR LoginTest:80 - <----Testing Error---->
+2025-09-03 12:30:09 INFO  LoginTest:50 - >>> After all tests - quitting driver
+2025-09-03 12:30:16 INFO  LoginTest:29 - Running tests on: chrome | Thread ID: 1
+2025-09-03 12:30:17 INFO  LoginTest:40 - Browser launched: chrome | Thread: 1
+2025-09-03 12:30:17 INFO  LoginTest:45 - Starting test: Invalidpassword
+2025-09-03 12:30:17 INFO  LoginTest:23 - Entered the testcase
+2025-09-03 12:30:20 ERROR LoginTest:96 - <----Testing Error---->
+2025-09-03 12:30:20 INFO  LoginTest:50 - >>> After all tests - quitting driver
+2025-09-03 12:32:24 INFO  QueueTest:29 - Running tests on: chrome | Thread ID: 1
+2025-09-03 12:32:25 INFO  QueueTest:40 - Browser launched: chrome | Thread: 1
+2025-09-03 12:32:25 INFO  QueueTest:45 - Starting test: queuelandingpage
+2025-09-03 12:32:25 INFO  QueueTest:27 - Entered the testcase
+2025-09-03 12:32:25 INFO  LandingPage:34 - Getting the URL of DSALGO
+2025-09-03 12:32:25 INFO  LandingPage:23 - Clicking the Get Started Button of Landing page
+2025-09-03 12:32:26 INFO  HomePage:227 - Clicking Sign In button from Home Page
+2025-09-03 12:32:26 INFO  LoginPage:87 - Performing Login with TestData from Excel
+2025-09-03 12:32:27 INFO  LoginPage:91 - Entering the Username : Prasanna
+2025-09-03 12:32:27 INFO  LoginPage:93 - Entering the Password : Welcome@01
+2025-09-03 12:32:27 INFO  LoginPage:96 - Clicked Login button
+2025-09-03 12:32:27 INFO  HomePage:66 - successful login
+2025-09-03 12:32:27 INFO  HomePage:109 - Clicking on the Get Started Button of Queue from HomePage
+2025-09-03 12:32:28 INFO  HelperClass:42 - Queue page Loaded
+2025-09-03 12:32:28 INFO  QueueTest:50 - >>> After all tests - quitting driver
+2025-09-03 12:32:29 INFO  QueueTest:40 - Browser launched: chrome | Thread: 1
+2025-09-03 12:32:29 INFO  QueueTest:45 - Starting test: navigatetoQueuetopics
+2025-09-03 12:32:29 INFO  QueueTest:27 - Entered the testcase
+2025-09-03 12:32:29 INFO  LandingPage:34 - Getting the URL of DSALGO
+2025-09-03 12:32:29 INFO  LandingPage:23 - Clicking the Get Started Button of Landing page
+2025-09-03 12:32:30 INFO  HomePage:227 - Clicking Sign In button from Home Page
+2025-09-03 12:32:30 INFO  LoginPage:87 - Performing Login with TestData from Excel
+2025-09-03 12:32:30 INFO  LoginPage:91 - Entering the Username : Prasanna
+2025-09-03 12:32:30 INFO  LoginPage:93 - Entering the Password : Welcome@01
+2025-09-03 12:32:30 INFO  LoginPage:96 - Clicked Login button
+2025-09-03 12:32:32 INFO  HomePage:66 - successful login
+2025-09-03 12:32:32 INFO  HomePage:109 - Clicking on the Get Started Button of Queue from HomePage
+2025-09-03 12:32:32 INFO  HelperClass:42 - Queue page Loaded
+2025-09-03 12:32:32 INFO  QueueTest:50 - >>> After all tests - quitting driver
+2025-09-03 12:32:33 INFO  QueueTest:40 - Browser launched: chrome | Thread: 1
+2025-09-03 12:32:33 INFO  QueueTest:45 - Starting test: navigatetoQueuetopics
+2025-09-03 12:32:33 INFO  QueueTest:27 - Entered the testcase
+2025-09-03 12:32:33 INFO  LandingPage:34 - Getting the URL of DSALGO
+2025-09-03 12:32:34 INFO  LandingPage:23 - Clicking the Get Started Button of Landing page
+2025-09-03 12:32:34 INFO  HomePage:227 - Clicking Sign In button from Home Page
+2025-09-03 12:32:34 INFO  LoginPage:87 - Performing Login with TestData from Excel
+2025-09-03 12:32:34 INFO  LoginPage:91 - Entering the Username : Prasanna
+2025-09-03 12:32:34 INFO  LoginPage:93 - Entering the Password : Welcome@01
+2025-09-03 12:32:35 INFO  LoginPage:96 - Clicked Login button
+2025-09-03 12:32:35 INFO  HomePage:66 - successful login
+2025-09-03 12:32:35 INFO  HomePage:109 - Clicking on the Get Started Button of Queue from HomePage
+2025-09-03 12:32:35 INFO  HelperClass:42 - Queue page Loaded
+2025-09-03 12:32:36 INFO  QueueTest:50 - >>> After all tests - quitting driver
+2025-09-03 12:32:37 INFO  QueueTest:40 - Browser launched: chrome | Thread: 1
+2025-09-03 12:32:37 INFO  QueueTest:45 - Starting test: navigatetoQueuetopics
+2025-09-03 12:32:37 INFO  QueueTest:27 - Entered the testcase
+2025-09-03 12:32:37 INFO  LandingPage:34 - Getting the URL of DSALGO
+2025-09-03 12:32:37 INFO  LandingPage:23 - Clicking the Get Started Button of Landing page
+2025-09-03 12:32:38 INFO  HomePage:227 - Clicking Sign In button from Home Page
+2025-09-03 12:32:38 INFO  LoginPage:87 - Performing Login with TestData from Excel
+2025-09-03 12:32:38 INFO  LoginPage:91 - Entering the Username : Prasanna
+2025-09-03 12:32:38 INFO  LoginPage:93 - Entering the Password : Welcome@01
+2025-09-03 12:32:39 INFO  LoginPage:96 - Clicked Login button
+2025-09-03 12:32:39 INFO  HomePage:66 - successful login
+2025-09-03 12:32:39 INFO  HomePage:109 - Clicking on the Get Started Button of Queue from HomePage
+2025-09-03 12:32:39 INFO  HelperClass:42 - Queue page Loaded
+2025-09-03 12:32:40 INFO  QueueTest:50 - >>> After all tests - quitting driver
+2025-09-03 12:32:41 INFO  QueueTest:40 - Browser launched: chrome | Thread: 1
+2025-09-03 12:32:41 INFO  QueueTest:45 - Starting test: navigatetoQueuetopics
+2025-09-03 12:32:41 INFO  QueueTest:27 - Entered the testcase
+2025-09-03 12:32:41 INFO  LandingPage:34 - Getting the URL of DSALGO
+2025-09-03 12:32:41 INFO  LandingPage:23 - Clicking the Get Started Button of Landing page
+2025-09-03 12:32:41 INFO  HomePage:227 - Clicking Sign In button from Home Page
+2025-09-03 12:32:42 INFO  LoginPage:87 - Performing Login with TestData from Excel
+2025-09-03 12:32:42 INFO  LoginPage:91 - Entering the Username : Prasanna
+2025-09-03 12:32:42 INFO  LoginPage:93 - Entering the Password : Welcome@01
+2025-09-03 12:32:42 INFO  LoginPage:96 - Clicked Login button
+2025-09-03 12:32:43 INFO  HomePage:66 - successful login
+2025-09-03 12:32:43 INFO  HomePage:109 - Clicking on the Get Started Button of Queue from HomePage
+2025-09-03 12:32:43 INFO  HelperClass:42 - Queue page Loaded
+2025-09-03 12:32:44 INFO  QueueTest:50 - >>> After all tests - quitting driver
+2025-09-03 12:32:45 INFO  QueueTest:40 - Browser launched: chrome | Thread: 1
+2025-09-03 12:32:45 INFO  QueueTest:45 - Starting test: clicktryhere
+2025-09-03 12:32:45 INFO  QueueTest:27 - Entered the testcase
+2025-09-03 12:32:45 INFO  LandingPage:34 - Getting the URL of DSALGO
+2025-09-03 12:32:45 INFO  LandingPage:23 - Clicking the Get Started Button of Landing page
+2025-09-03 12:32:45 INFO  HomePage:227 - Clicking Sign In button from Home Page
+2025-09-03 12:32:46 INFO  LoginPage:87 - Performing Login with TestData from Excel
+2025-09-03 12:32:46 INFO  LoginPage:91 - Entering the Username : Prasanna
+2025-09-03 12:32:46 INFO  LoginPage:93 - Entering the Password : Welcome@01
+2025-09-03 12:32:46 INFO  LoginPage:96 - Clicked Login button
+2025-09-03 12:32:47 INFO  HomePage:66 - successful login
+2025-09-03 12:32:47 INFO  HomePage:109 - Clicking on the Get Started Button of Queue from HomePage
+2025-09-03 12:32:47 INFO  HelperClass:42 - Queue page Loaded
+2025-09-03 12:32:48 INFO  QueueTest:50 - >>> After all tests - quitting driver
+2025-09-03 12:32:49 INFO  QueueTest:40 - Browser launched: chrome | Thread: 1
+2025-09-03 12:32:49 INFO  QueueTest:45 - Starting test: clicktryhere
+2025-09-03 12:32:49 INFO  QueueTest:27 - Entered the testcase
+2025-09-03 12:32:49 INFO  LandingPage:34 - Getting the URL of DSALGO
+2025-09-03 12:32:49 INFO  LandingPage:23 - Clicking the Get Started Button of Landing page
+2025-09-03 12:32:50 INFO  HomePage:227 - Clicking Sign In button from Home Page
+2025-09-03 12:32:50 INFO  LoginPage:87 - Performing Login with TestData from Excel
+2025-09-03 12:32:50 INFO  LoginPage:91 - Entering the Username : Prasanna
+2025-09-03 12:32:50 INFO  LoginPage:93 - Entering the Password : Welcome@01
+2025-09-03 12:32:50 INFO  LoginPage:96 - Clicked Login button
+2025-09-03 12:32:51 INFO  HomePage:66 - successful login
+2025-09-03 12:32:51 INFO  HomePage:109 - Clicking on the Get Started Button of Queue from HomePage
+2025-09-03 12:32:52 INFO  HelperClass:42 - Queue page Loaded
+2025-09-03 12:32:52 INFO  QueueTest:50 - >>> After all tests - quitting driver
+2025-09-03 12:32:53 INFO  QueueTest:40 - Browser launched: chrome | Thread: 1
+2025-09-03 12:32:53 INFO  QueueTest:45 - Starting test: clicktryhere
+2025-09-03 12:32:53 INFO  QueueTest:27 - Entered the testcase
+2025-09-03 12:32:53 INFO  LandingPage:34 - Getting the URL of DSALGO
+2025-09-03 12:32:54 INFO  LandingPage:23 - Clicking the Get Started Button of Landing page
+2025-09-03 12:32:54 INFO  HomePage:227 - Clicking Sign In button from Home Page
+2025-09-03 12:32:54 INFO  LoginPage:87 - Performing Login with TestData from Excel
+2025-09-03 12:32:54 INFO  LoginPage:91 - Entering the Username : Prasanna
+2025-09-03 12:32:55 INFO  LoginPage:93 - Entering the Password : Welcome@01
+2025-09-03 12:32:55 INFO  LoginPage:96 - Clicked Login button
+2025-09-03 12:32:55 INFO  HomePage:66 - successful login
+2025-09-03 12:32:55 INFO  HomePage:109 - Clicking on the Get Started Button of Queue from HomePage
+2025-09-03 12:32:56 INFO  HelperClass:42 - Queue page Loaded
+2025-09-03 12:32:57 INFO  QueueTest:50 - >>> After all tests - quitting driver
+2025-09-03 12:32:58 INFO  QueueTest:40 - Browser launched: chrome | Thread: 1
+2025-09-03 12:32:58 INFO  QueueTest:45 - Starting test: clicktryhere
+2025-09-03 12:32:58 INFO  QueueTest:27 - Entered the testcase
+2025-09-03 12:32:58 INFO  LandingPage:34 - Getting the URL of DSALGO
+2025-09-03 12:32:58 INFO  LandingPage:23 - Clicking the Get Started Button of Landing page
+2025-09-03 12:32:58 INFO  HomePage:227 - Clicking Sign In button from Home Page
+2025-09-03 12:32:58 INFO  LoginPage:87 - Performing Login with TestData from Excel
+2025-09-03 12:32:59 INFO  LoginPage:91 - Entering the Username : Prasanna
+2025-09-03 12:32:59 INFO  LoginPage:93 - Entering the Password : Welcome@01
+2025-09-03 12:32:59 INFO  LoginPage:96 - Clicked Login button
+2025-09-03 12:32:59 INFO  HomePage:66 - successful login
+2025-09-03 12:32:59 INFO  HomePage:109 - Clicking on the Get Started Button of Queue from HomePage
+2025-09-03 12:33:00 INFO  HelperClass:42 - Queue page Loaded
+2025-09-03 12:33:01 INFO  QueueTest:50 - >>> After all tests - quitting driver
+2025-09-03 12:33:02 INFO  QueueTest:40 - Browser launched: chrome | Thread: 1
+2025-09-03 12:33:02 INFO  QueueTest:45 - Starting test: Pythoncode
+2025-09-03 12:33:02 INFO  QueueTest:27 - Entered the testcase
+2025-09-03 12:33:02 INFO  LandingPage:34 - Getting the URL of DSALGO
+2025-09-03 12:33:02 INFO  LandingPage:23 - Clicking the Get Started Button of Landing page
+2025-09-03 12:33:02 INFO  HomePage:227 - Clicking Sign In button from Home Page
+2025-09-03 12:33:03 INFO  LoginPage:87 - Performing Login with TestData from Excel
+2025-09-03 12:33:03 INFO  LoginPage:91 - Entering the Username : Prasanna
+2025-09-03 12:33:03 INFO  LoginPage:93 - Entering the Password : Welcome@01
+2025-09-03 12:33:03 INFO  LoginPage:96 - Clicked Login button
+2025-09-03 12:33:03 INFO  HomePage:66 - successful login
+2025-09-03 12:33:03 INFO  HomePage:109 - Clicking on the Get Started Button of Queue from HomePage
+2025-09-03 12:33:04 INFO  HelperClass:42 - Queue page Loaded
+2025-09-03 12:33:05 INFO  QueuePage:134 - The code to input is print("hello"); for the scenario ValidCode
+2025-09-03 12:33:06 INFO  QueueTest:73 - Expected Output: hello
+2025-09-03 12:33:06 INFO  QueueTest:50 - >>> After all tests - quitting driver
+2025-09-03 12:33:07 INFO  QueueTest:40 - Browser launched: chrome | Thread: 1
+2025-09-03 12:33:07 INFO  QueueTest:45 - Starting test: Pythoncode
+2025-09-03 12:33:07 INFO  QueueTest:27 - Entered the testcase
+2025-09-03 12:33:07 INFO  LandingPage:34 - Getting the URL of DSALGO
+2025-09-03 12:33:07 INFO  LandingPage:23 - Clicking the Get Started Button of Landing page
+2025-09-03 12:33:07 INFO  HomePage:227 - Clicking Sign In button from Home Page
+2025-09-03 12:33:07 INFO  LoginPage:87 - Performing Login with TestData from Excel
+2025-09-03 12:33:07 INFO  LoginPage:91 - Entering the Username : Prasanna
+2025-09-03 12:33:08 INFO  LoginPage:93 - Entering the Password : Welcome@01
+2025-09-03 12:33:08 INFO  LoginPage:96 - Clicked Login button
+2025-09-03 12:33:08 INFO  HomePage:66 - successful login
+2025-09-03 12:33:08 INFO  HomePage:109 - Clicking on the Get Started Button of Queue from HomePage
+2025-09-03 12:33:09 INFO  HelperClass:42 - Queue page Loaded
+2025-09-03 12:33:10 INFO  QueuePage:134 - The code to input is print("hello"); for the scenario ValidCode
+2025-09-03 12:33:10 INFO  QueueTest:73 - Expected Output: hello
+2025-09-03 12:33:10 INFO  QueueTest:50 - >>> After all tests - quitting driver
+2025-09-03 12:33:12 INFO  QueueTest:40 - Browser launched: chrome | Thread: 1
+2025-09-03 12:33:12 INFO  QueueTest:45 - Starting test: Pythoncode
+2025-09-03 12:33:12 INFO  QueueTest:27 - Entered the testcase
+2025-09-03 12:33:12 INFO  LandingPage:34 - Getting the URL of DSALGO
+2025-09-03 12:33:12 INFO  LandingPage:23 - Clicking the Get Started Button of Landing page
+2025-09-03 12:33:12 INFO  HomePage:227 - Clicking Sign In button from Home Page
+2025-09-03 12:33:12 INFO  LoginPage:87 - Performing Login with TestData from Excel
+2025-09-03 12:33:13 INFO  LoginPage:91 - Entering the Username : Prasanna
+2025-09-03 12:33:13 INFO  LoginPage:93 - Entering the Password : Welcome@01
+2025-09-03 12:33:13 INFO  LoginPage:96 - Clicked Login button
+2025-09-03 12:33:13 INFO  HomePage:66 - successful login
+2025-09-03 12:33:13 INFO  HomePage:109 - Clicking on the Get Started Button of Queue from HomePage
+2025-09-03 12:33:14 INFO  HelperClass:42 - Queue page Loaded
+2025-09-03 12:33:14 INFO  QueuePage:134 - The code to input is print("hello"); for the scenario ValidCode
+2025-09-03 12:33:15 INFO  QueueTest:73 - Expected Output: hello
+2025-09-03 12:33:15 INFO  QueueTest:50 - >>> After all tests - quitting driver
+2025-09-03 12:33:16 INFO  QueueTest:40 - Browser launched: chrome | Thread: 1
+2025-09-03 12:33:16 INFO  QueueTest:45 - Starting test: Pythoncode
+2025-09-03 12:33:16 INFO  QueueTest:27 - Entered the testcase
+2025-09-03 12:33:16 INFO  LandingPage:34 - Getting the URL of DSALGO
+2025-09-03 12:33:16 INFO  LandingPage:23 - Clicking the Get Started Button of Landing page
+2025-09-03 12:33:17 INFO  HomePage:227 - Clicking Sign In button from Home Page
+2025-09-03 12:33:17 INFO  LoginPage:87 - Performing Login with TestData from Excel
+2025-09-03 12:33:17 INFO  LoginPage:91 - Entering the Username : Prasanna
+2025-09-03 12:33:17 INFO  LoginPage:93 - Entering the Password : Welcome@01
+2025-09-03 12:33:18 INFO  LoginPage:96 - Clicked Login button
+2025-09-03 12:33:18 INFO  HomePage:66 - successful login
+2025-09-03 12:33:18 INFO  HomePage:109 - Clicking on the Get Started Button of Queue from HomePage
+2025-09-03 12:33:18 INFO  HelperClass:42 - Queue page Loaded
+2025-09-03 12:33:19 INFO  QueuePage:134 - The code to input is print("hello"); for the scenario ValidCode
+2025-09-03 12:33:20 INFO  QueueTest:73 - Expected Output: hello
+2025-09-03 12:33:20 INFO  QueueTest:50 - >>> After all tests - quitting driver
+2025-09-03 12:33:21 INFO  QueueTest:40 - Browser launched: chrome | Thread: 1
+2025-09-03 12:33:21 INFO  QueueTest:45 - Starting test: InvalidPythoncode
+2025-09-03 12:33:21 INFO  QueueTest:27 - Entered the testcase
+2025-09-03 12:33:21 INFO  LandingPage:34 - Getting the URL of DSALGO
+2025-09-03 12:33:21 INFO  LandingPage:23 - Clicking the Get Started Button of Landing page
+2025-09-03 12:33:21 INFO  HomePage:227 - Clicking Sign In button from Home Page
+2025-09-03 12:33:22 INFO  LoginPage:87 - Performing Login with TestData from Excel
+2025-09-03 12:33:22 INFO  LoginPage:91 - Entering the Username : Prasanna
+2025-09-03 12:33:22 INFO  LoginPage:93 - Entering the Password : Welcome@01
+2025-09-03 12:33:22 INFO  LoginPage:96 - Clicked Login button
+2025-09-03 12:33:22 INFO  HomePage:66 - successful login
+2025-09-03 12:33:22 INFO  HomePage:109 - Clicking on the Get Started Button of Queue from HomePage
+2025-09-03 12:33:23 INFO  HelperClass:42 - Queue page Loaded
+2025-09-03 12:33:24 INFO  QueuePage:134 - The code to input is xyz for the scenario InValidCode
+2025-09-03 12:33:24 ERROR QueueTest:88 - <----Invalid code--->
+2025-09-03 12:33:24 INFO  QueueTest:50 - >>> After all tests - quitting driver
+2025-09-03 12:33:25 INFO  QueueTest:40 - Browser launched: chrome | Thread: 1
+2025-09-03 12:33:25 INFO  QueueTest:45 - Starting test: InvalidPythoncode
+2025-09-03 12:33:25 INFO  QueueTest:27 - Entered the testcase
+2025-09-03 12:33:25 INFO  LandingPage:34 - Getting the URL of DSALGO
+2025-09-03 12:33:25 INFO  LandingPage:23 - Clicking the Get Started Button of Landing page
+2025-09-03 12:33:26 INFO  HomePage:227 - Clicking Sign In button from Home Page
+2025-09-03 12:33:26 INFO  LoginPage:87 - Performing Login with TestData from Excel
+2025-09-03 12:33:26 INFO  LoginPage:91 - Entering the Username : Prasanna
+2025-09-03 12:33:26 INFO  LoginPage:93 - Entering the Password : Welcome@01
+2025-09-03 12:33:27 INFO  LoginPage:96 - Clicked Login button
+2025-09-03 12:33:27 INFO  HomePage:66 - successful login
+2025-09-03 12:33:27 INFO  HomePage:109 - Clicking on the Get Started Button of Queue from HomePage
+2025-09-03 12:33:27 INFO  HelperClass:42 - Queue page Loaded
+2025-09-03 12:33:28 INFO  QueuePage:134 - The code to input is xyz for the scenario InValidCode
+2025-09-03 12:33:29 ERROR QueueTest:88 - <----Invalid code--->
+2025-09-03 12:33:29 INFO  QueueTest:50 - >>> After all tests - quitting driver
+2025-09-03 12:33:30 INFO  QueueTest:40 - Browser launched: chrome | Thread: 1
+2025-09-03 12:33:30 INFO  QueueTest:45 - Starting test: InvalidPythoncode
+2025-09-03 12:33:30 INFO  QueueTest:27 - Entered the testcase
+2025-09-03 12:33:30 INFO  LandingPage:34 - Getting the URL of DSALGO
+2025-09-03 12:33:30 INFO  LandingPage:23 - Clicking the Get Started Button of Landing page
+2025-09-03 12:33:30 INFO  HomePage:227 - Clicking Sign In button from Home Page
+2025-09-03 12:33:31 INFO  LoginPage:87 - Performing Login with TestData from Excel
+2025-09-03 12:33:31 INFO  LoginPage:91 - Entering the Username : Prasanna
+2025-09-03 12:33:31 INFO  LoginPage:93 - Entering the Password : Welcome@01
+2025-09-03 12:33:31 INFO  LoginPage:96 - Clicked Login button
+2025-09-03 12:33:31 INFO  HomePage:66 - successful login
+2025-09-03 12:33:31 INFO  HomePage:109 - Clicking on the Get Started Button of Queue from HomePage
+2025-09-03 12:33:32 INFO  HelperClass:42 - Queue page Loaded
+2025-09-03 12:33:33 INFO  QueuePage:134 - The code to input is xyz for the scenario InValidCode
+2025-09-03 12:33:33 ERROR QueueTest:88 - <----Invalid code--->
+2025-09-03 12:33:33 INFO  QueueTest:50 - >>> After all tests - quitting driver
+2025-09-03 12:33:34 INFO  QueueTest:40 - Browser launched: chrome | Thread: 1
+2025-09-03 12:33:34 INFO  QueueTest:45 - Starting test: InvalidPythoncode
+2025-09-03 12:33:34 INFO  QueueTest:27 - Entered the testcase
+2025-09-03 12:33:34 INFO  LandingPage:34 - Getting the URL of DSALGO
+2025-09-03 12:33:35 INFO  LandingPage:23 - Clicking the Get Started Button of Landing page
+2025-09-03 12:33:35 INFO  HomePage:227 - Clicking Sign In button from Home Page
+2025-09-03 12:33:35 INFO  LoginPage:87 - Performing Login with TestData from Excel
+2025-09-03 12:33:35 INFO  LoginPage:91 - Entering the Username : Prasanna
+2025-09-03 12:33:35 INFO  LoginPage:93 - Entering the Password : Welcome@01
+2025-09-03 12:33:36 INFO  LoginPage:96 - Clicked Login button
+2025-09-03 12:33:36 INFO  HomePage:66 - successful login
+2025-09-03 12:33:36 INFO  HomePage:109 - Clicking on the Get Started Button of Queue from HomePage
+2025-09-03 12:33:36 INFO  HelperClass:42 - Queue page Loaded
+2025-09-03 12:33:37 INFO  QueuePage:134 - The code to input is xyz for the scenario InValidCode
+2025-09-03 12:33:38 ERROR QueueTest:88 - <----Invalid code--->
+2025-09-03 12:33:38 INFO  QueueTest:50 - >>> After all tests - quitting driver
+2025-09-03 12:33:39 INFO  QueueTest:40 - Browser launched: chrome | Thread: 1
+2025-09-03 12:33:39 INFO  QueueTest:45 - Starting test: PracticeQuestionBrokenLink
+2025-09-03 12:33:39 INFO  QueueTest:27 - Entered the testcase
+2025-09-03 12:33:39 INFO  LandingPage:34 - Getting the URL of DSALGO
+2025-09-03 12:33:39 INFO  LandingPage:23 - Clicking the Get Started Button of Landing page
+2025-09-03 12:33:40 INFO  HomePage:227 - Clicking Sign In button from Home Page
+2025-09-03 12:33:40 INFO  LoginPage:87 - Performing Login with TestData from Excel
+2025-09-03 12:33:40 INFO  LoginPage:91 - Entering the Username : Prasanna
+2025-09-03 12:33:40 INFO  LoginPage:93 - Entering the Password : Welcome@01
+2025-09-03 12:33:40 INFO  LoginPage:96 - Clicked Login button
+2025-09-03 12:33:41 INFO  HomePage:66 - successful login
+2025-09-03 12:33:41 INFO  HomePage:109 - Clicking on the Get Started Button of Queue from HomePage
+2025-09-03 12:33:41 INFO  HelperClass:42 - Queue page Loaded
+2025-09-03 12:33:42 INFO  QueuePage:146 - ✅ Practice Questions Link Working Fine
+2025-09-03 12:33:42 WARN  QueuePage:153 - ⚠️ The container is empty → no practice content found
+2025-09-03 12:33:42 INFO  QueueTest:50 - >>> After all tests - quitting driver
+2025-09-03 12:33:43 INFO  QueueTest:40 - Browser launched: chrome | Thread: 1
+2025-09-03 12:33:43 INFO  QueueTest:45 - Starting test: PracticeQuestionBrokenLink
+2025-09-03 12:33:43 INFO  QueueTest:27 - Entered the testcase
+2025-09-03 12:33:43 INFO  LandingPage:34 - Getting the URL of DSALGO
+2025-09-03 12:33:43 INFO  LandingPage:23 - Clicking the Get Started Button of Landing page
+2025-09-03 12:33:43 INFO  HomePage:227 - Clicking Sign In button from Home Page
+2025-09-03 12:33:44 INFO  LoginPage:87 - Performing Login with TestData from Excel
+2025-09-03 12:33:44 INFO  LoginPage:91 - Entering the Username : Prasanna
+2025-09-03 12:33:44 INFO  LoginPage:93 - Entering the Password : Welcome@01
+2025-09-03 12:33:44 INFO  LoginPage:96 - Clicked Login button
+2025-09-03 12:33:44 INFO  HomePage:66 - successful login
+2025-09-03 12:33:44 INFO  HomePage:109 - Clicking on the Get Started Button of Queue from HomePage
+2025-09-03 12:33:45 INFO  HelperClass:42 - Queue page Loaded
+2025-09-03 12:33:45 INFO  QueuePage:146 - ✅ Practice Questions Link Working Fine
+2025-09-03 12:33:45 WARN  QueuePage:153 - ⚠️ The container is empty → no practice content found
+2025-09-03 12:33:45 INFO  QueueTest:50 - >>> After all tests - quitting driver
+2025-09-03 12:33:46 INFO  QueueTest:40 - Browser launched: chrome | Thread: 1
+2025-09-03 12:33:46 INFO  QueueTest:45 - Starting test: PracticeQuestionBrokenLink
+2025-09-03 12:33:46 INFO  QueueTest:27 - Entered the testcase
+2025-09-03 12:33:46 INFO  LandingPage:34 - Getting the URL of DSALGO
+2025-09-03 12:33:47 INFO  LandingPage:23 - Clicking the Get Started Button of Landing page
+2025-09-03 12:33:47 INFO  HomePage:227 - Clicking Sign In button from Home Page
+2025-09-03 12:33:47 INFO  LoginPage:87 - Performing Login with TestData from Excel
+2025-09-03 12:33:47 INFO  LoginPage:91 - Entering the Username : Prasanna
+2025-09-03 12:33:47 INFO  LoginPage:93 - Entering the Password : Welcome@01
+2025-09-03 12:33:48 INFO  LoginPage:96 - Clicked Login button
+2025-09-03 12:33:48 INFO  HomePage:66 - successful login
+2025-09-03 12:33:48 INFO  HomePage:109 - Clicking on the Get Started Button of Queue from HomePage
+2025-09-03 12:33:48 INFO  HelperClass:42 - Queue page Loaded
+2025-09-03 12:33:49 INFO  QueuePage:146 - ✅ Practice Questions Link Working Fine
+2025-09-03 12:33:49 WARN  QueuePage:153 - ⚠️ The container is empty → no practice content found
+2025-09-03 12:33:49 INFO  QueueTest:50 - >>> After all tests - quitting driver
+2025-09-03 12:33:50 INFO  QueueTest:40 - Browser launched: chrome | Thread: 1
+2025-09-03 12:33:50 INFO  QueueTest:45 - Starting test: PracticeQuestionBrokenLink
+2025-09-03 12:33:50 INFO  QueueTest:27 - Entered the testcase
+2025-09-03 12:33:50 INFO  LandingPage:34 - Getting the URL of DSALGO
+2025-09-03 12:33:51 INFO  LandingPage:23 - Clicking the Get Started Button of Landing page
+2025-09-03 12:33:51 INFO  HomePage:227 - Clicking Sign In button from Home Page
+2025-09-03 12:33:51 INFO  LoginPage:87 - Performing Login with TestData from Excel
+2025-09-03 12:33:51 INFO  LoginPage:91 - Entering the Username : Prasanna
+2025-09-03 12:33:51 INFO  LoginPage:93 - Entering the Password : Welcome@01
+2025-09-03 12:33:52 INFO  LoginPage:96 - Clicked Login button
+2025-09-03 12:33:52 INFO  HomePage:66 - successful login
+2025-09-03 12:33:52 INFO  HomePage:109 - Clicking on the Get Started Button of Queue from HomePage
+2025-09-03 12:33:52 INFO  HelperClass:42 - Queue page Loaded
+2025-09-03 12:33:53 INFO  QueuePage:146 - ✅ Practice Questions Link Working Fine
+2025-09-03 12:33:53 WARN  QueuePage:153 - ⚠️ The container is empty → no practice content found
+2025-09-03 12:33:53 INFO  QueueTest:50 - >>> After all tests - quitting driver
+2025-09-03 12:57:50 INFO  LoginTest:29 - Running tests on: chrome | Thread ID: 1
+2025-09-03 12:57:52 INFO  LoginTest:40 - Browser launched: chrome | Thread: 1
+2025-09-03 12:57:52 INFO  LoginTest:45 - Starting test: loginlandingpage
+2025-09-03 12:57:52 INFO  LoginTest:23 - Entered the testcase
+2025-09-03 12:57:53 INFO  LoginTest:31 - <---Testing info---->
+2025-09-03 12:57:53 INFO  LoginTest:50 - >>> After all tests - quitting driver
+2025-09-03 12:57:55 INFO  LoginTest:40 - Browser launched: chrome | Thread: 1
+2025-09-03 12:57:55 INFO  LoginTest:45 - Starting test: MissingUsername
+2025-09-03 12:57:55 INFO  LoginTest:23 - Entered the testcase
+2025-09-03 12:57:56 ERROR LoginTest:45 - <----Testing Error---->
+2025-09-03 12:57:56 INFO  LoginTest:50 - >>> After all tests - quitting driver
+2025-09-03 12:57:58 INFO  LoginTest:40 - Browser launched: chrome | Thread: 1
+2025-09-03 12:57:58 INFO  LoginTest:45 - Starting test: MissingPassword
+2025-09-03 12:57:58 INFO  LoginTest:23 - Entered the testcase
+2025-09-03 12:57:59 ERROR LoginTest:57 - <----Testing Error---->
+2025-09-03 12:57:59 INFO  LoginTest:50 - >>> After all tests - quitting driver
+2025-09-03 12:58:00 INFO  LoginTest:40 - Browser launched: chrome | Thread: 1
+2025-09-03 12:58:00 INFO  LoginTest:45 - Starting test: InvalidUsername
+2025-09-03 12:58:00 INFO  LoginTest:23 - Entered the testcase
+2025-09-03 12:58:01 ERROR LoginTest:74 - <----Testing Error---->
+2025-09-03 12:58:01 INFO  LoginTest:50 - >>> After all tests - quitting driver
+2025-09-03 12:58:02 INFO  LoginTest:40 - Browser launched: chrome | Thread: 1
+2025-09-03 12:58:02 INFO  LoginTest:45 - Starting test: Invalidpassword
+2025-09-03 12:58:02 INFO  LoginTest:23 - Entered the testcase
+2025-09-03 12:58:04 ERROR LoginTest:88 - <----Testing Error---->
+2025-09-03 12:58:04 INFO  LoginTest:50 - >>> After all tests - quitting driver
+2025-09-03 12:58:05 INFO  LoginTest:40 - Browser launched: chrome | Thread: 1
+2025-09-03 12:58:05 INFO  LoginTest:45 - Starting test: successfullogin
+2025-09-03 12:58:05 INFO  LoginTest:23 - Entered the testcase
+2025-09-03 12:58:06 INFO  LoginPage:87 - Performing Login with TestData from Excel
+2025-09-03 12:58:06 INFO  LoginPage:91 - Entering the Username : Prasanna
+2025-09-03 12:58:06 INFO  LoginPage:93 - Entering the Password : Welcome@01
+2025-09-03 12:58:06 INFO  LoginPage:96 - Clicked Login button
+2025-09-03 12:58:06 INFO  LoginTest:100 - <-----Testing info----->
+2025-09-03 12:58:06 INFO  LoginTest:50 - >>> After all tests - quitting driver
